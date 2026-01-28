@@ -38,4 +38,4 @@ This is the nitty gritty of what I am doing.
 Define the strategies as paramterized objects (like a Grid Search), first do visualizations per model (seaborn pairplot, etc.)
 
 ### Dashboard
-Each track (dropdown)will be visualized in streamlit and the strategy inputs will be something like radio buttons. 
+Each track (dropdown) will be visualized in streamlit and the strategy inputs will be something like radio buttons. 
