@@ -5,6 +5,7 @@ Description: Methods for Data Table building.
 import fastf1
 import pandas as pd
 
+## DATA INGESTION
 def initialize_data(year: int) -> pd.DataFrame:
     """
     Pulls all race session information for a specific season.
@@ -57,7 +58,7 @@ def lap_times_data(laps: pd.DataFrame) -> pd.DataFrame:
     lap_times_df = lap_times_df.rename(columns={
         "Driver": "driver",
         "Team": "team",
-        "LapNumber": "lap_number",
+        "LapNumber": "race_lap",
         "Stint": "stint",
         "Compound": "compound",
         "TyreLife": "tire_age",
@@ -107,7 +108,7 @@ def race_data(laps: pd.DataFrame) -> pd.DataFrame:
 
 def stint_data(lap_times: pd.DataFrame) -> pd.DataFrame:
     stints_df = lap_times.groupby(
-        ["race_id", "driver", "stint", "compound"]).agg(
+        ["race_id", "driver", "stint", "compound", "track"]).agg(
             start_lap=("lap_number", "min"),
             end_lap=("lap_number", "max"),
             stint_length=("lap_number", "count"),
@@ -130,22 +131,28 @@ def driver_data(laps: pd.DataFrame) -> pd.DataFrame:
     return drivers_df
 
 
-def tire_compounds_data(laps: pd.DataFrame) -> pd.DataFrame:
+def tire_compounds_data() -> pd.DataFrame:
     """
     Returns tire compounds table (static).
     
     Args:
         laps: concatenated laps dataframe
     """
-    compounds = sorted(laps["Compound"].dropna().unique())
-    tire_df = pd.DataFrame({
-        "compound": compounds,
-        "base_grip": [1.0]*len(compounds),   # placeholder, tune later
-        "deg_rate": [0.01]*len(compounds),   # placeholder
-        "cliff_lap": [20]*len(compounds)     # placeholder
-    })
+    # compounds = sorted(laps["Compound"].dropna().unique())
+    # tire_df = pd.DataFrame({
+    #     "compound": compounds,
+    #     "base_grip": [1.0]*len(compounds),   # placeholder, tune later
+    #     "deg_rate": [0.01]*len(compounds),   # placeholder
+    #     "cliff_lap": [20]*len(compounds)     # placeholder
+    # })
 
-    return tire_df
+    # return tire_df
+    return pd.DataFrame({
+    "compound": ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET"],
+    "base_grip": [1.05, 1.00, 0.97, 0.95, 0.93],
+    "deg_rate": [0.025, 0.018, 0.012, 0.010, 0.008],
+    "cliff_lap": [15, 25, 35, 40, 45]
+    })
 
 
 def race_conditions_data(laps: pd.DataFrame) -> pd.DataFrame:
@@ -180,13 +187,14 @@ def track_data() -> pd.DataFrame:
     Manually created DataFrame for each circuit.
     Returns DataFrame object of the circuit information.
     """
-    # data pulled from https://motorsporttickets.com/blog/how-many-laps-does-each-formula-1-race-have/
+    # data pulled from https://motorsporttickets.com/blog/how-many-laps-does-each-formula-1-race-have/ and Formula1 website
+    # I have all tracks used from 2024-2026 seasons
     data = {
-        "track": ["Australian Grand Prix", "Chinese Grand Prix", "Japanese Grand Prix", "Bahrain Grand Prix", "Saudi Arabia Grand Prix", "Miami Grand Prix", "Canadian Grand Prix", "Monaco Grand Prix", "Barcelona Grand Prix", "Austrian Grand Prix", "British Grand Prix", "Belgian Grand Prix", "Hungarian Grand Prix", "Dutch Grand Prix", "Italian Grand Prix", "Spanish Grand Prix", "Azerbaijan Grand Prix", "Singapore Grand Prix", "United States Grand Prix", "Mexican Grand Prix", "Brazilian Grand Prix", "Las Vegas Grand Prix", "Qatar Grand Prix", "Abu Dhabi Grand Prix"],
-        "circuit": ["Melbourne Grand Prix Circuit", "Shanghai International Circuit", "Suzuka", "Bahrain International Circuit", "Jeddah Street Circuit", "Hard Rock Stadium Circuit", "Circuit Gilles Villeneuve", "Circuit de Monaco", "Circuit de Barcelona-Catalunya", "Red Bull Ring", "Silverstone Circuit", "Circuit de Spa-Francorchamps", "Hangaroring", "Zandvoort", "Autodromo Nazionale di Monza", "Madring Circuit", "Baku City Circuit", "Marina Bay Street Circuit", "Circuit of the Americas", "Autodromo Hermanos Rodriguez", "Autodromo Jose Carlos Pace", "Las Vegas Street Circuit", "Lusail Circuit", "Yas Marina Circuit"],
-        "circuit_length (km)": [5.303, 5.451, 5.807, 5.412, 6.175, 5.41, 4.361, 3.337, 4.655, 4.318, 5.891, 7.004, 4.381, 4.259, 5.793, 5.474, 6.003, 5.063, 5.513, 4.304, 4.309, 6.201, 5.419, 5.554],
-        "race_distance (km)": [307.574, 305.066, 307.471, 308.238, 308.750, 308.37, 305.270, 260.286, 307.104, 306.452, 306.198, 308.052, 306.630, 306.648, 306.720, 312.018, 306.049, 308.706, 308.405, 305.354, 305.879, 310.05, 308.826, 305.355],
-        "laps": [58, 56, 53, 57, 50, 57, 70, 78, 66, 71, 52, 44, 70, 72, 53, 57, 51, 61, 56, 71, 71, 50, 57, 55] 
+        "track": ["Australian Grand Prix", "Chinese Grand Prix", "Japanese Grand Prix", "Bahrain Grand Prix", "Saudi Arabian Grand Prix", "Miami Grand Prix", "Canadian Grand Prix", "Monaco Grand Prix", "Barcelona Grand Prix", "Austrian Grand Prix", "British Grand Prix", "Belgian Grand Prix", "Hungarian Grand Prix", "Dutch Grand Prix", "Italian Grand Prix", "Spanish Grand Prix", "Azerbaijan Grand Prix", "Singapore Grand Prix", "United States Grand Prix", "Mexico City Grand Prix", "São Paulo Grand Prix", "Las Vegas Grand Prix", "Qatar Grand Prix", "Abu Dhabi Grand Prix", "Emilia Romagna Grand Prix", "Spain Grand Prix"],
+        "circuit": ["Melbourne Grand Prix Circuit", "Shanghai International Circuit", "Suzuka", "Bahrain International Circuit", "Jeddah Street Circuit", "Hard Rock Stadium Circuit", "Circuit Gilles Villeneuve", "Circuit de Monaco", "Circuit de Barcelona-Catalunya", "Red Bull Ring", "Silverstone Circuit", "Circuit de Spa-Francorchamps", "Hangaroring", "Zandvoort", "Autodromo Nazionale di Monza", "Madring Circuit", "Baku City Circuit", "Marina Bay Street Circuit", "Circuit of the Americas", "Autodromo Hermanos Rodriguez", "Autodromo Jose Carlos Pace", "Las Vegas Street Circuit", "Lusail Circuit", "Yas Marina Circuit", "Autodromo Enzo e Dino Ferrari", "Circuit de Barcelona-Catalunya"],
+        "circuit_length(km)": [5.303, 5.451, 5.807, 5.412, 6.175, 5.41, 4.361, 3.337, 4.655, 4.318, 5.891, 7.004, 4.381, 4.259, 5.793, 5.474, 6.003, 5.063, 5.513, 4.304, 4.309, 6.201, 5.419, 5.554, 4.909, 4.657],
+        "race_distance(km)": [307.574, 305.066, 307.471, 308.238, 308.750, 308.37, 305.270, 260.286, 307.104, 306.452, 306.198, 308.052, 306.630, 306.648, 306.720, 312.018, 306.049, 308.706, 308.405, 305.354, 305.879, 310.05, 308.826, 305.355, 309.049, 307.236],
+        "laps": [58, 56, 53, 57, 50, 57, 70, 78, 66, 71, 52, 44, 70, 72, 53, 57, 51, 61, 56, 71, 71, 50, 57, 55, 63, 66] 
     }
 
     track_df = pd.DataFrame(data)
@@ -212,7 +220,7 @@ if __name__ == "__main__":
     stint_df = stint_data(lap_times_df)
 
     # create tire compounds data
-    tire_compounds_df = tire_compounds_data(laps)
+    tire_compounds_df = tire_compounds_data()
 
     # create drivers table
     driver_df = driver_data(laps)
@@ -227,6 +235,14 @@ if __name__ == "__main__":
     # assert lap_time_df["lap_time_sec"].min() > 60
     # assert lap_time_df["lap_time_sec"].max() < 200
 
+    ## TABLE COMBINATIONS ##
+    # combine the track information for each lap_time_df
+    lap_times_df = pd.merge(
+        track_df[["track", "circuit_length(km)"]],
+        on="track",
+        how="left"
+    )
+
     ## CSV CREATIONS ##
     laps.to_csv("../data/concatenated_laps_df.csv", index=False)
     lap_times_df.to_csv("../data/lap_time_df.csv", index=False)
@@ -234,11 +250,5 @@ if __name__ == "__main__":
     stint_df.to_csv("../data/stint_df.csv", index=False)
     tire_compounds_df.to_csv("../data/tire_compounds_df.csv", index=False)
     driver_df.to_csv("../data/drivers_df.csv", index=False)
-    race_conditions_df.to_csv("./data/race_conditions_df.csv", index=False)
+    race_conditions_df.to_csv("../data/race_conditions_df.csv", index=False)
     track_df.to_csv("../data/track_df.csv", index=False)
-
-
-
-
-
-

@@ -29,9 +29,13 @@
 The F1 data will come from the Python library `FastF1`.
 
 ### Different Models
-- Lap Time Model: XGBoost (inputs: track, compound, tire age, temp, etc) <- FIGURE OUT THE FEATURES (feature engineering)
-- Pit Stop Simulation: fixed pit loss (track-specific), when someone changes tires that resets the degradation
-- Safety Car Logic (OPTIONAL FOR NOW): see the affect of the XGBoost model when a saftey car is RANDOMLY deployed, a pit under SC = reduced pit loss
+- (1) Lap Time Model: XGBoost (inputs: track, compound, tire age, temp, etc) <- FIGURE OUT THE FEATURES (feature engineering)
+- (2) Pit Stop Simulation: fixed pit loss (track-specific), when someone changes tires that resets the degradation
+      - deterministic pit loos
+      - tire reset logic
+- (3) Safety Car Logic (OPTIONAL FOR NOW): see the affect of the XGBoost model when a saftey car is RANDOMLY deployed, a pit under SC = reduced pit loss
+      - stochastic
+      - pit advantage modeling
 
 ### Project Optimization (Bayesian Optimization)
 This is the nitty gritty of what I am doing.
