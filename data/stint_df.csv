@@ -1,0 +1,1199 @@
+race_id,driver,stint,compound,track,start_lap,end_lap,stint_length,avg_lap_time
+2024_01_Bahrain_Grand_Prix,ALB,1.0,SOFT,Bahrain Grand Prix,1.0,14.0,14,99.10935714285714
+2024_01_Bahrain_Grand_Prix,ALB,2.0,HARD,Bahrain Grand Prix,17.0,35.0,19,97.9561052631579
+2024_01_Bahrain_Grand_Prix,ALB,3.0,HARD,Bahrain Grand Prix,38.0,56.0,19,96.28705263157894
+2024_01_Bahrain_Grand_Prix,ALO,1.0,SOFT,Bahrain Grand Prix,1.0,14.0,14,98.74957142857143
+2024_01_Bahrain_Grand_Prix,ALO,2.0,HARD,Bahrain Grand Prix,17.0,40.0,24,97.29891666666667
+2024_01_Bahrain_Grand_Prix,ALO,3.0,HARD,Bahrain Grand Prix,43.0,57.0,15,94.9924
+2024_01_Bahrain_Grand_Prix,BOT,1.0,SOFT,Bahrain Grand Prix,1.0,11.0,11,99.90127272727273
+2024_01_Bahrain_Grand_Prix,BOT,2.0,HARD,Bahrain Grand Prix,14.0,29.0,16,97.96175
+2024_01_Bahrain_Grand_Prix,BOT,3.0,HARD,Bahrain Grand Prix,32.0,56.0,25,97.03703999999999
+2024_01_Bahrain_Grand_Prix,GAS,1.0,SOFT,Bahrain Grand Prix,1.0,11.0,11,99.70100000000001
+2024_01_Bahrain_Grand_Prix,GAS,2.0,HARD,Bahrain Grand Prix,14.0,30.0,17,98.08082352941176
+2024_01_Bahrain_Grand_Prix,GAS,3.0,HARD,Bahrain Grand Prix,33.0,42.0,10,96.5409
+2024_01_Bahrain_Grand_Prix,GAS,4.0,SOFT,Bahrain Grand Prix,45.0,56.0,12,95.47250000000001
+2024_01_Bahrain_Grand_Prix,HAM,1.0,SOFT,Bahrain Grand Prix,1.0,11.0,11,98.68145454545456
+2024_01_Bahrain_Grand_Prix,HAM,2.0,HARD,Bahrain Grand Prix,14.0,32.0,19,96.88600000000001
+2024_01_Bahrain_Grand_Prix,HAM,3.0,HARD,Bahrain Grand Prix,35.0,57.0,23,95.41443478260871
+2024_01_Bahrain_Grand_Prix,HUL,2.0,HARD,Bahrain Grand Prix,3.0,19.0,17,97.81641176470588
+2024_01_Bahrain_Grand_Prix,HUL,3.0,HARD,Bahrain Grand Prix,22.0,40.0,19,96.99742105263158
+2024_01_Bahrain_Grand_Prix,HUL,4.0,SOFT,Bahrain Grand Prix,43.0,56.0,14,95.49314285714286
+2024_01_Bahrain_Grand_Prix,LEC,1.0,SOFT,Bahrain Grand Prix,1.0,10.0,10,97.96809999999999
+2024_01_Bahrain_Grand_Prix,LEC,2.0,HARD,Bahrain Grand Prix,13.0,33.0,21,96.89785714285715
+2024_01_Bahrain_Grand_Prix,LEC,3.0,HARD,Bahrain Grand Prix,36.0,57.0,22,95.22213636363637
+2024_01_Bahrain_Grand_Prix,MAG,1.0,SOFT,Bahrain Grand Prix,1.0,10.0,10,99.40990000000001
+2024_01_Bahrain_Grand_Prix,MAG,2.0,HARD,Bahrain Grand Prix,13.0,31.0,19,97.97031578947369
+2024_01_Bahrain_Grand_Prix,MAG,3.0,HARD,Bahrain Grand Prix,34.0,56.0,23,96.5014347826087
+2024_01_Bahrain_Grand_Prix,NOR,1.0,SOFT,Bahrain Grand Prix,1.0,12.0,12,98.27941666666668
+2024_01_Bahrain_Grand_Prix,NOR,2.0,HARD,Bahrain Grand Prix,15.0,32.0,18,96.767
+2024_01_Bahrain_Grand_Prix,NOR,3.0,HARD,Bahrain Grand Prix,35.0,57.0,23,95.52660869565217
+2024_01_Bahrain_Grand_Prix,OCO,1.0,SOFT,Bahrain Grand Prix,1.0,9.0,9,99.83855555555556
+2024_01_Bahrain_Grand_Prix,OCO,2.0,HARD,Bahrain Grand Prix,12.0,29.0,18,98.29294444444446
+2024_01_Bahrain_Grand_Prix,OCO,3.0,HARD,Bahrain Grand Prix,32.0,56.0,25,97.08736
+2024_01_Bahrain_Grand_Prix,PER,1.0,SOFT,Bahrain Grand Prix,1.0,11.0,11,97.83645454545454
+2024_01_Bahrain_Grand_Prix,PER,2.0,HARD,Bahrain Grand Prix,14.0,35.0,22,96.28090909090908
+2024_01_Bahrain_Grand_Prix,PER,3.0,SOFT,Bahrain Grand Prix,38.0,57.0,20,94.9872
+2024_01_Bahrain_Grand_Prix,PIA,1.0,SOFT,Bahrain Grand Prix,1.0,11.0,11,98.48909090909092
+2024_01_Bahrain_Grand_Prix,PIA,2.0,HARD,Bahrain Grand Prix,14.0,33.0,20,96.89815
+2024_01_Bahrain_Grand_Prix,PIA,3.0,HARD,Bahrain Grand Prix,36.0,57.0,22,95.50631818181819
+2024_01_Bahrain_Grand_Prix,RIC,1.0,SOFT,Bahrain Grand Prix,1.0,12.0,12,99.55900000000001
+2024_01_Bahrain_Grand_Prix,RIC,2.0,HARD,Bahrain Grand Prix,15.0,34.0,20,97.84215
+2024_01_Bahrain_Grand_Prix,RIC,3.0,SOFT,Bahrain Grand Prix,37.0,56.0,20,96.1489
+2024_01_Bahrain_Grand_Prix,RUS,1.0,SOFT,Bahrain Grand Prix,1.0,10.0,10,97.7363
+2024_01_Bahrain_Grand_Prix,RUS,2.0,HARD,Bahrain Grand Prix,13.0,30.0,18,96.97327777777778
+2024_01_Bahrain_Grand_Prix,RUS,3.0,HARD,Bahrain Grand Prix,33.0,57.0,25,95.72004000000001
+2024_01_Bahrain_Grand_Prix,SAI,1.0,SOFT,Bahrain Grand Prix,1.0,13.0,13,97.89253846153846
+2024_01_Bahrain_Grand_Prix,SAI,2.0,HARD,Bahrain Grand Prix,16.0,34.0,19,96.27852631578946
+2024_01_Bahrain_Grand_Prix,SAI,3.0,HARD,Bahrain Grand Prix,37.0,57.0,21,95.05166666666666
+2024_01_Bahrain_Grand_Prix,SAR,1.0,SOFT,Bahrain Grand Prix,1.0,9.0,9,99.69422222222222
+2024_01_Bahrain_Grand_Prix,SAR,2.0,HARD,Bahrain Grand Prix,12.0,27.0,16,98.83425
+2024_01_Bahrain_Grand_Prix,SAR,3.0,HARD,Bahrain Grand Prix,30.0,39.0,10,96.67530000000001
+2024_01_Bahrain_Grand_Prix,SAR,4.0,SOFT,Bahrain Grand Prix,42.0,55.0,14,95.97678571428571
+2024_01_Bahrain_Grand_Prix,STR,1.0,SOFT,Bahrain Grand Prix,1.0,8.0,8,100.015
+2024_01_Bahrain_Grand_Prix,STR,2.0,HARD,Bahrain Grand Prix,11.0,26.0,16,97.7523125
+2024_01_Bahrain_Grand_Prix,STR,3.0,HARD,Bahrain Grand Prix,29.0,57.0,29,96.43186206896551
+2024_01_Bahrain_Grand_Prix,TSU,1.0,SOFT,Bahrain Grand Prix,1.0,13.0,13,98.95138461538461
+2024_01_Bahrain_Grand_Prix,TSU,2.0,HARD,Bahrain Grand Prix,16.0,33.0,18,97.7033888888889
+2024_01_Bahrain_Grand_Prix,TSU,3.0,HARD,Bahrain Grand Prix,36.0,56.0,21,96.677
+2024_01_Bahrain_Grand_Prix,VER,1.0,SOFT,Bahrain Grand Prix,1.0,16.0,16,96.9914375
+2024_01_Bahrain_Grand_Prix,VER,2.0,HARD,Bahrain Grand Prix,19.0,36.0,18,95.57994444444445
+2024_01_Bahrain_Grand_Prix,VER,3.0,SOFT,Bahrain Grand Prix,39.0,57.0,19,94.6847894736842
+2024_01_Bahrain_Grand_Prix,ZHO,1.0,SOFT,Bahrain Grand Prix,1.0,8.0,8,99.6475
+2024_01_Bahrain_Grand_Prix,ZHO,2.0,HARD,Bahrain Grand Prix,11.0,27.0,17,97.66335294117647
+2024_01_Bahrain_Grand_Prix,ZHO,3.0,HARD,Bahrain Grand Prix,30.0,56.0,27,96.85614814814815
+2024_02_Saudi_Arabian_Grand_Prix,ALB,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,97.38083333333333
+2024_02_Saudi_Arabian_Grand_Prix,ALB,2.0,HARD,Saudi Arabian Grand Prix,9.0,50.0,42,96.08919047619048
+2024_02_Saudi_Arabian_Grand_Prix,ALO,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,95.40133333333334
+2024_02_Saudi_Arabian_Grand_Prix,ALO,2.0,HARD,Saudi Arabian Grand Prix,10.0,50.0,41,93.64587804878049
+2024_02_Saudi_Arabian_Grand_Prix,BEA,1.0,SOFT,Saudi Arabian Grand Prix,1.0,6.0,6,97.15183333333334
+2024_02_Saudi_Arabian_Grand_Prix,BEA,2.0,HARD,Saudi Arabian Grand Prix,9.0,50.0,42,95.05440476190476
+2024_02_Saudi_Arabian_Grand_Prix,BOT,1.0,SOFT,Saudi Arabian Grand Prix,1.0,6.0,6,98.19716666666666
+2024_02_Saudi_Arabian_Grand_Prix,BOT,2.0,HARD,Saudi Arabian Grand Prix,9.0,34.0,26,97.81365384615385
+2024_02_Saudi_Arabian_Grand_Prix,BOT,3.0,SOFT,Saudi Arabian Grand Prix,37.0,49.0,13,93.15576923076924
+2024_02_Saudi_Arabian_Grand_Prix,HAM,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,35.0,33,95.51706060606061
+2024_02_Saudi_Arabian_Grand_Prix,HAM,2.0,SOFT,Saudi Arabian Grand Prix,38.0,50.0,13,92.33284615384615
+2024_02_Saudi_Arabian_Grand_Prix,HUL,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,32.0,30,96.78833333333334
+2024_02_Saudi_Arabian_Grand_Prix,HUL,2.0,HARD,Saudi Arabian Grand Prix,35.0,50.0,16,92.78675
+2024_02_Saudi_Arabian_Grand_Prix,LEC,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,94.87466666666667
+2024_02_Saudi_Arabian_Grand_Prix,LEC,2.0,HARD,Saudi Arabian Grand Prix,10.0,50.0,41,93.23851219512196
+2024_02_Saudi_Arabian_Grand_Prix,MAG,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,97.26816666666667
+2024_02_Saudi_Arabian_Grand_Prix,MAG,2.0,HARD,Saudi Arabian Grand Prix,9.0,50.0,42,96.04309523809523
+2024_02_Saudi_Arabian_Grand_Prix,NOR,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,36.0,34,95.24429411764706
+2024_02_Saudi_Arabian_Grand_Prix,NOR,2.0,SOFT,Saudi Arabian Grand Prix,39.0,50.0,12,92.27958333333333
+2024_02_Saudi_Arabian_Grand_Prix,OCO,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,98.142
+2024_02_Saudi_Arabian_Grand_Prix,OCO,2.0,HARD,Saudi Arabian Grand Prix,9.0,49.0,41,96.32565853658537
+2024_02_Saudi_Arabian_Grand_Prix,PER,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,94.6275
+2024_02_Saudi_Arabian_Grand_Prix,PER,2.0,HARD,Saudi Arabian Grand Prix,10.0,50.0,41,93.00660975609756
+2024_02_Saudi_Arabian_Grand_Prix,PIA,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,95.28683333333333
+2024_02_Saudi_Arabian_Grand_Prix,PIA,2.0,HARD,Saudi Arabian Grand Prix,10.0,50.0,41,93.56263414634147
+2024_02_Saudi_Arabian_Grand_Prix,RIC,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,97.8245
+2024_02_Saudi_Arabian_Grand_Prix,RIC,2.0,HARD,Saudi Arabian Grand Prix,9.0,49.0,41,96.36231707317073
+2024_02_Saudi_Arabian_Grand_Prix,RUS,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,96.01116666666667
+2024_02_Saudi_Arabian_Grand_Prix,RUS,2.0,HARD,Saudi Arabian Grand Prix,10.0,50.0,41,93.73780487804878
+2024_02_Saudi_Arabian_Grand_Prix,SAR,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,98.28333333333335
+2024_02_Saudi_Arabian_Grand_Prix,SAR,2.0,HARD,Saudi Arabian Grand Prix,9.0,49.0,41,96.31024390243903
+2024_02_Saudi_Arabian_Grand_Prix,STR,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,5.0,5,97.1216
+2024_02_Saudi_Arabian_Grand_Prix,TSU,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,97.05816666666668
+2024_02_Saudi_Arabian_Grand_Prix,TSU,2.0,HARD,Saudi Arabian Grand Prix,9.0,49.0,41,96.48734146341464
+2024_02_Saudi_Arabian_Grand_Prix,VER,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,6.0,6,94.18966666666667
+2024_02_Saudi_Arabian_Grand_Prix,VER,2.0,HARD,Saudi Arabian Grand Prix,10.0,50.0,41,92.80824390243902
+2024_02_Saudi_Arabian_Grand_Prix,ZHO,1.0,MEDIUM,Saudi Arabian Grand Prix,1.0,40.0,39,98.02133333333333
+2024_02_Saudi_Arabian_Grand_Prix,ZHO,2.0,SOFT,Saudi Arabian Grand Prix,43.0,49.0,7,92.81771428571427
+2024_03_Australian_Grand_Prix,ALB,1.0,MEDIUM,Australian Grand Prix,1.0,5.0,5,86.2496
+2024_03_Australian_Grand_Prix,ALB,2.0,HARD,Australian Grand Prix,8.0,26.0,19,84.418
+2024_03_Australian_Grand_Prix,ALB,3.0,HARD,Australian Grand Prix,29.0,57.0,29,83.57603448275862
+2024_03_Australian_Grand_Prix,ALO,1.0,HARD,Australian Grand Prix,1.0,16.0,16,83.8985
+2024_03_Australian_Grand_Prix,ALO,2.0,MEDIUM,Australian Grand Prix,19.0,40.0,22,82.76395454545455
+2024_03_Australian_Grand_Prix,ALO,3.0,HARD,Australian Grand Prix,43.0,58.0,16,84.93656250000001
+2024_03_Australian_Grand_Prix,BOT,1.0,MEDIUM,Australian Grand Prix,1.0,7.0,7,85.21485714285714
+2024_03_Australian_Grand_Prix,BOT,2.0,HARD,Australian Grand Prix,10.0,35.0,26,83.96773076923077
+2024_03_Australian_Grand_Prix,BOT,3.0,HARD,Australian Grand Prix,38.0,57.0,20,84.31315
+2024_03_Australian_Grand_Prix,GAS,1.0,MEDIUM,Australian Grand Prix,1.0,16.0,16,85.0370625
+2024_03_Australian_Grand_Prix,GAS,2.0,HARD,Australian Grand Prix,19.0,40.0,22,83.26286363636363
+2024_03_Australian_Grand_Prix,GAS,3.0,HARD,Australian Grand Prix,43.0,57.0,15,84.66526666666667
+2024_03_Australian_Grand_Prix,HAM,1.0,SOFT,Australian Grand Prix,1.0,6.0,6,85.16166666666668
+2024_03_Australian_Grand_Prix,HAM,2.0,HARD,Australian Grand Prix,9.0,15.0,7,83.20485714285714
+2024_03_Australian_Grand_Prix,HUL,1.0,HARD,Australian Grand Prix,1.0,16.0,16,84.9126875
+2024_03_Australian_Grand_Prix,HUL,2.0,MEDIUM,Australian Grand Prix,19.0,34.0,16,82.8869375
+2024_03_Australian_Grand_Prix,HUL,3.0,HARD,Australian Grand Prix,37.0,58.0,22,84.52436363636365
+2024_03_Australian_Grand_Prix,LEC,1.0,MEDIUM,Australian Grand Prix,1.0,8.0,8,83.725125
+2024_03_Australian_Grand_Prix,LEC,2.0,HARD,Australian Grand Prix,11.0,33.0,23,82.98543478260869
+2024_03_Australian_Grand_Prix,LEC,3.0,HARD,Australian Grand Prix,36.0,58.0,23,81.86665217391304
+2024_03_Australian_Grand_Prix,MAG,1.0,MEDIUM,Australian Grand Prix,1.0,6.0,6,85.78733333333332
+2024_03_Australian_Grand_Prix,MAG,2.0,HARD,Australian Grand Prix,9.0,32.0,24,84.24433333333333
+2024_03_Australian_Grand_Prix,MAG,3.0,HARD,Australian Grand Prix,35.0,57.0,23,83.48134782608695
+2024_03_Australian_Grand_Prix,NOR,1.0,MEDIUM,Australian Grand Prix,1.0,13.0,13,83.32676923076923
+2024_03_Australian_Grand_Prix,NOR,2.0,HARD,Australian Grand Prix,16.0,39.0,24,82.69191666666667
+2024_03_Australian_Grand_Prix,NOR,3.0,HARD,Australian Grand Prix,42.0,58.0,17,82.11705882352942
+2024_03_Australian_Grand_Prix,OCO,1.0,MEDIUM,Australian Grand Prix,1.0,8.0,8,85.239625
+2024_03_Australian_Grand_Prix,OCO,2.0,HARD,Australian Grand Prix,11.0,15.0,5,83.0774
+2024_03_Australian_Grand_Prix,OCO,3.0,HARD,Australian Grand Prix,18.0,41.0,24,83.12
+2024_03_Australian_Grand_Prix,OCO,4.0,HARD,Australian Grand Prix,44.0,57.0,14,85.50828571428572
+2024_03_Australian_Grand_Prix,PER,1.0,MEDIUM,Australian Grand Prix,1.0,13.0,13,83.88853846153846
+2024_03_Australian_Grand_Prix,PER,2.0,HARD,Australian Grand Prix,16.0,34.0,19,83.42936842105264
+2024_03_Australian_Grand_Prix,PER,3.0,HARD,Australian Grand Prix,37.0,58.0,22,83.35131818181819
+2024_03_Australian_Grand_Prix,PIA,1.0,MEDIUM,Australian Grand Prix,1.0,8.0,8,83.827875
+2024_03_Australian_Grand_Prix,PIA,2.0,HARD,Australian Grand Prix,11.0,38.0,28,83.04964285714286
+2024_03_Australian_Grand_Prix,PIA,3.0,HARD,Australian Grand Prix,41.0,58.0,18,83.25494444444445
+2024_03_Australian_Grand_Prix,RIC,1.0,SOFT,Australian Grand Prix,1.0,4.0,4,87.6015
+2024_03_Australian_Grand_Prix,RIC,2.0,HARD,Australian Grand Prix,7.0,28.0,22,84.35004545454545
+2024_03_Australian_Grand_Prix,RIC,3.0,HARD,Australian Grand Prix,31.0,57.0,27,83.51551851851852
+2024_03_Australian_Grand_Prix,RUS,1.0,MEDIUM,Australian Grand Prix,1.0,7.0,7,84.41714285714285
+2024_03_Australian_Grand_Prix,RUS,2.0,HARD,Australian Grand Prix,10.0,44.0,35,83.3938
+2024_03_Australian_Grand_Prix,RUS,3.0,HARD,Australian Grand Prix,47.0,56.0,10,80.7003
+2024_03_Australian_Grand_Prix,SAI,1.0,MEDIUM,Australian Grand Prix,1.0,15.0,15,82.76780000000001
+2024_03_Australian_Grand_Prix,SAI,2.0,HARD,Australian Grand Prix,18.0,40.0,23,81.90791304347826
+2024_03_Australian_Grand_Prix,SAI,3.0,HARD,Australian Grand Prix,43.0,58.0,16,82.41525
+2024_03_Australian_Grand_Prix,STR,1.0,MEDIUM,Australian Grand Prix,1.0,7.0,7,84.63128571428571
+2024_03_Australian_Grand_Prix,STR,2.0,HARD,Australian Grand Prix,10.0,36.0,27,84.0052962962963
+2024_03_Australian_Grand_Prix,STR,3.0,HARD,Australian Grand Prix,39.0,58.0,20,84.44115
+2024_03_Australian_Grand_Prix,TSU,1.0,MEDIUM,Australian Grand Prix,1.0,8.0,8,84.593625
+2024_03_Australian_Grand_Prix,TSU,2.0,HARD,Australian Grand Prix,11.0,35.0,25,84.01487999999999
+2024_03_Australian_Grand_Prix,TSU,3.0,HARD,Australian Grand Prix,38.0,58.0,21,84.32957142857143
+2024_03_Australian_Grand_Prix,VER,1.0,MEDIUM,Australian Grand Prix,1.0,3.0,3,84.89066666666666
+2024_03_Australian_Grand_Prix,ZHO,1.0,SOFT,Australian Grand Prix,2.0,5.0,4,84.1
+2024_03_Australian_Grand_Prix,ZHO,2.0,HARD,Australian Grand Prix,8.0,34.0,27,84.1372962962963
+2024_03_Australian_Grand_Prix,ZHO,3.0,HARD,Australian Grand Prix,37.0,57.0,21,84.24114285714286
+2024_04_Japanese_Grand_Prix,ALO,2.0,SOFT,Japanese Grand Prix,4.0,12.0,9,98.318
+2024_04_Japanese_Grand_Prix,ALO,3.0,MEDIUM,Japanese Grand Prix,15.0,32.0,18,97.40133333333333
+2024_04_Japanese_Grand_Prix,ALO,4.0,HARD,Japanese Grand Prix,35.0,53.0,19,95.77873684210526
+2024_04_Japanese_Grand_Prix,BOT,2.0,SOFT,Japanese Grand Prix,3.0,5.0,3,115.57733333333334
+2024_04_Japanese_Grand_Prix,BOT,3.0,HARD,Japanese Grand Prix,8.0,21.0,14,98.74914285714286
+2024_04_Japanese_Grand_Prix,BOT,4.0,HARD,Japanese Grand Prix,24.0,52.0,29,97.8355172413793
+2024_04_Japanese_Grand_Prix,GAS,2.0,HARD,Japanese Grand Prix,3.0,15.0,13,103.83753846153846
+2024_04_Japanese_Grand_Prix,GAS,3.0,MEDIUM,Japanese Grand Prix,18.0,31.0,14,98.8765
+2024_04_Japanese_Grand_Prix,GAS,4.0,HARD,Japanese Grand Prix,34.0,52.0,19,97.77657894736842
+2024_04_Japanese_Grand_Prix,HAM,2.0,HARD,Japanese Grand Prix,4.0,22.0,19,98.94752631578947
+2024_04_Japanese_Grand_Prix,HAM,3.0,HARD,Japanese Grand Prix,25.0,38.0,14,96.39835714285714
+2024_04_Japanese_Grand_Prix,HAM,4.0,MEDIUM,Japanese Grand Prix,41.0,53.0,13,94.82600000000001
+2024_04_Japanese_Grand_Prix,HUL,2.0,SOFT,Japanese Grand Prix,4.0,4.0,1,100.374
+2024_04_Japanese_Grand_Prix,HUL,3.0,HARD,Japanese Grand Prix,7.0,32.0,26,99.0201153846154
+2024_04_Japanese_Grand_Prix,HUL,4.0,HARD,Japanese Grand Prix,35.0,52.0,18,96.18472222222222
+2024_04_Japanese_Grand_Prix,LEC,2.0,MEDIUM,Japanese Grand Prix,4.0,25.0,22,98.13468181818183
+2024_04_Japanese_Grand_Prix,LEC,3.0,HARD,Japanese Grand Prix,28.0,53.0,26,95.88896153846153
+2024_04_Japanese_Grand_Prix,MAG,2.0,MEDIUM,Japanese Grand Prix,3.0,21.0,19,101.5811052631579
+2024_04_Japanese_Grand_Prix,MAG,3.0,HARD,Japanese Grand Prix,24.0,52.0,29,97.82658620689655
+2024_04_Japanese_Grand_Prix,NOR,2.0,MEDIUM,Japanese Grand Prix,4.0,10.0,7,97.61428571428571
+2024_04_Japanese_Grand_Prix,NOR,3.0,HARD,Japanese Grand Prix,13.0,25.0,13,97.29753846153845
+2024_04_Japanese_Grand_Prix,NOR,4.0,HARD,Japanese Grand Prix,28.0,53.0,26,95.9411923076923
+2024_04_Japanese_Grand_Prix,OCO,2.0,HARD,Japanese Grand Prix,3.0,18.0,16,102.9434375
+2024_04_Japanese_Grand_Prix,OCO,3.0,HARD,Japanese Grand Prix,21.0,32.0,12,98.59275000000001
+2024_04_Japanese_Grand_Prix,OCO,4.0,MEDIUM,Japanese Grand Prix,35.0,52.0,18,97.4156111111111
+2024_04_Japanese_Grand_Prix,PER,2.0,MEDIUM,Japanese Grand Prix,4.0,14.0,11,97.648
+2024_04_Japanese_Grand_Prix,PER,3.0,MEDIUM,Japanese Grand Prix,17.0,32.0,16,97.03925
+2024_04_Japanese_Grand_Prix,PER,4.0,HARD,Japanese Grand Prix,35.0,53.0,19,94.91994736842105
+2024_04_Japanese_Grand_Prix,PIA,2.0,MEDIUM,Japanese Grand Prix,4.0,11.0,8,98.334375
+2024_04_Japanese_Grand_Prix,PIA,3.0,HARD,Japanese Grand Prix,14.0,31.0,18,97.50605555555555
+2024_04_Japanese_Grand_Prix,PIA,4.0,HARD,Japanese Grand Prix,34.0,53.0,20,95.8026
+2024_04_Japanese_Grand_Prix,RUS,2.0,HARD,Japanese Grand Prix,4.0,21.0,18,98.71499999999999
+2024_04_Japanese_Grand_Prix,RUS,3.0,HARD,Japanese Grand Prix,24.0,36.0,13,96.47523076923076
+2024_04_Japanese_Grand_Prix,RUS,4.0,MEDIUM,Japanese Grand Prix,39.0,53.0,15,95.2058
+2024_04_Japanese_Grand_Prix,SAI,2.0,MEDIUM,Japanese Grand Prix,4.0,14.0,11,97.90918181818182
+2024_04_Japanese_Grand_Prix,SAI,3.0,MEDIUM,Japanese Grand Prix,17.0,35.0,19,97.03636842105263
+2024_04_Japanese_Grand_Prix,SAI,4.0,HARD,Japanese Grand Prix,38.0,53.0,16,94.726
+2024_04_Japanese_Grand_Prix,SAR,2.0,HARD,Japanese Grand Prix,3.0,21.0,19,101.5451052631579
+2024_04_Japanese_Grand_Prix,SAR,3.0,HARD,Japanese Grand Prix,24.0,33.0,10,97.764
+2024_04_Japanese_Grand_Prix,SAR,4.0,MEDIUM,Japanese Grand Prix,36.0,40.0,5,96.0562
+2024_04_Japanese_Grand_Prix,SAR,5.0,SOFT,Japanese Grand Prix,43.0,52.0,10,95.671
+2024_04_Japanese_Grand_Prix,STR,2.0,SOFT,Japanese Grand Prix,3.0,11.0,9,102.97533333333334
+2024_04_Japanese_Grand_Prix,STR,3.0,MEDIUM,Japanese Grand Prix,14.0,21.0,8,98.848875
+2024_04_Japanese_Grand_Prix,STR,4.0,HARD,Japanese Grand Prix,24.0,33.0,10,97.5929
+2024_04_Japanese_Grand_Prix,STR,5.0,SOFT,Japanese Grand Prix,36.0,52.0,17,96.6435294117647
+2024_04_Japanese_Grand_Prix,TSU,2.0,SOFT,Japanese Grand Prix,4.0,6.0,3,99.16766666666666
+2024_04_Japanese_Grand_Prix,TSU,3.0,HARD,Japanese Grand Prix,9.0,21.0,13,98.89715384615384
+2024_04_Japanese_Grand_Prix,TSU,4.0,HARD,Japanese Grand Prix,24.0,52.0,29,97.34634482758621
+2024_04_Japanese_Grand_Prix,VER,2.0,MEDIUM,Japanese Grand Prix,4.0,15.0,12,97.32074999999999
+2024_04_Japanese_Grand_Prix,VER,3.0,MEDIUM,Japanese Grand Prix,18.0,33.0,16,96.5231875
+2024_04_Japanese_Grand_Prix,VER,4.0,HARD,Japanese Grand Prix,36.0,53.0,18,94.72661111111111
+2024_04_Japanese_Grand_Prix,ZHO,2.0,SOFT,Japanese Grand Prix,3.0,6.0,4,107.27624999999999
+2024_04_Japanese_Grand_Prix,ZHO,3.0,HARD,Japanese Grand Prix,9.0,10.0,2,97.33
+2024_05_Chinese_Grand_Prix,ALB,1.0,MEDIUM,Chinese Grand Prix,1.0,8.0,8,104.075875
+2024_05_Chinese_Grand_Prix,ALB,2.0,MEDIUM,Chinese Grand Prix,11.0,22.0,12,106.95366666666666
+2024_05_Chinese_Grand_Prix,ALB,3.0,HARD,Chinese Grand Prix,25.0,56.0,32,108.92984375
+2024_05_Chinese_Grand_Prix,ALO,1.0,MEDIUM,Chinese Grand Prix,1.0,10.0,10,102.5269
+2024_05_Chinese_Grand_Prix,ALO,2.0,HARD,Chinese Grand Prix,13.0,22.0,10,105.58040000000001
+2024_05_Chinese_Grand_Prix,ALO,3.0,SOFT,Chinese Grand Prix,25.0,42.0,16,111.3260625
+2024_05_Chinese_Grand_Prix,ALO,4.0,MEDIUM,Chinese Grand Prix,45.0,56.0,12,99.57233333333333
+2024_05_Chinese_Grand_Prix,BOT,1.0,MEDIUM,Chinese Grand Prix,1.0,8.0,8,103.69024999999999
+2024_05_Chinese_Grand_Prix,BOT,2.0,HARD,Chinese Grand Prix,11.0,19.0,9,102.22277777777778
+2024_05_Chinese_Grand_Prix,GAS,1.0,MEDIUM,Chinese Grand Prix,1.0,10.0,10,104.03399999999999
+2024_05_Chinese_Grand_Prix,GAS,2.0,HARD,Chinese Grand Prix,13.0,22.0,10,107.22269999999999
+2024_05_Chinese_Grand_Prix,GAS,3.0,HARD,Chinese Grand Prix,25.0,37.0,13,118.69546153846153
+2024_05_Chinese_Grand_Prix,GAS,4.0,MEDIUM,Chinese Grand Prix,40.0,56.0,17,100.40152941176471
+2024_05_Chinese_Grand_Prix,HAM,1.0,SOFT,Chinese Grand Prix,1.0,8.0,8,104.543375
+2024_05_Chinese_Grand_Prix,HAM,2.0,MEDIUM,Chinese Grand Prix,11.0,20.0,10,102.2561
+2024_05_Chinese_Grand_Prix,HAM,3.0,HARD,Chinese Grand Prix,23.0,56.0,34,110.37073529411765
+2024_05_Chinese_Grand_Prix,HUL,1.0,MEDIUM,Chinese Grand Prix,1.0,7.0,7,103.81071428571428
+2024_05_Chinese_Grand_Prix,HUL,2.0,HARD,Chinese Grand Prix,10.0,22.0,13,105.67015384615385
+2024_05_Chinese_Grand_Prix,HUL,3.0,HARD,Chinese Grand Prix,25.0,56.0,32,109.2373125
+2024_05_Chinese_Grand_Prix,LEC,1.0,MEDIUM,Chinese Grand Prix,1.0,20.0,20,102.37965
+2024_05_Chinese_Grand_Prix,LEC,2.0,HARD,Chinese Grand Prix,23.0,56.0,32,108.11087500000001
+2024_05_Chinese_Grand_Prix,MAG,1.0,HARD,Chinese Grand Prix,1.0,16.0,16,104.2981875
+2024_05_Chinese_Grand_Prix,MAG,2.0,HARD,Chinese Grand Prix,19.0,26.0,8,123.385875
+2024_05_Chinese_Grand_Prix,MAG,3.0,MEDIUM,Chinese Grand Prix,29.0,56.0,28,105.19317857142858
+2024_05_Chinese_Grand_Prix,NOR,1.0,MEDIUM,Chinese Grand Prix,1.0,21.0,21,102.08138095238094
+2024_05_Chinese_Grand_Prix,NOR,2.0,HARD,Chinese Grand Prix,24.0,56.0,32,108.7005625
+2024_05_Chinese_Grand_Prix,OCO,1.0,MEDIUM,Chinese Grand Prix,1.0,8.0,8,103.954875
+2024_05_Chinese_Grand_Prix,OCO,2.0,HARD,Chinese Grand Prix,11.0,22.0,12,106.27108333333332
+2024_05_Chinese_Grand_Prix,OCO,3.0,HARD,Chinese Grand Prix,25.0,56.0,32,109.1645
+2024_05_Chinese_Grand_Prix,PER,1.0,MEDIUM,Chinese Grand Prix,1.0,12.0,12,101.80383333333333
+2024_05_Chinese_Grand_Prix,PER,2.0,HARD,Chinese Grand Prix,15.0,22.0,8,105.566375
+2024_05_Chinese_Grand_Prix,PER,3.0,HARD,Chinese Grand Prix,25.0,56.0,30,106.12946666666667
+2024_05_Chinese_Grand_Prix,PIA,1.0,MEDIUM,Chinese Grand Prix,1.0,15.0,15,102.75246666666666
+2024_05_Chinese_Grand_Prix,PIA,2.0,MEDIUM,Chinese Grand Prix,18.0,23.0,6,113.51966666666668
+2024_05_Chinese_Grand_Prix,PIA,3.0,HARD,Chinese Grand Prix,27.0,56.0,30,107.52326666666666
+2024_05_Chinese_Grand_Prix,RIC,1.0,MEDIUM,Chinese Grand Prix,1.0,13.0,13,103.92376923076924
+2024_05_Chinese_Grand_Prix,RIC,2.0,MEDIUM,Chinese Grand Prix,16.0,32.0,16,121.88918749999999
+2024_05_Chinese_Grand_Prix,RUS,1.0,MEDIUM,Chinese Grand Prix,1.0,10.0,10,102.93230000000001
+2024_05_Chinese_Grand_Prix,RUS,2.0,MEDIUM,Chinese Grand Prix,13.0,22.0,10,105.71600000000001
+2024_05_Chinese_Grand_Prix,RUS,3.0,HARD,Chinese Grand Prix,25.0,56.0,31,107.73829032258064
+2024_05_Chinese_Grand_Prix,SAI,1.0,MEDIUM,Chinese Grand Prix,1.0,16.0,16,102.9156875
+2024_05_Chinese_Grand_Prix,SAI,2.0,HARD,Chinese Grand Prix,19.0,56.0,36,108.59083333333334
+2024_05_Chinese_Grand_Prix,SAR,1.0,SOFT,Chinese Grand Prix,2.0,11.0,10,103.7992
+2024_05_Chinese_Grand_Prix,SAR,2.0,MEDIUM,Chinese Grand Prix,14.0,23.0,10,110.53020000000001
+2024_05_Chinese_Grand_Prix,SAR,3.0,HARD,Chinese Grand Prix,26.0,56.0,31,109.38190322580645
+2024_05_Chinese_Grand_Prix,STR,1.0,SOFT,Chinese Grand Prix,1.0,8.0,8,103.438375
+2024_05_Chinese_Grand_Prix,STR,2.0,MEDIUM,Chinese Grand Prix,11.0,20.0,10,101.8459
+2024_05_Chinese_Grand_Prix,STR,3.0,HARD,Chinese Grand Prix,23.0,25.0,3,130.83599999999998
+2024_05_Chinese_Grand_Prix,STR,4.0,MEDIUM,Chinese Grand Prix,28.0,34.0,7,110.96071428571427
+2024_05_Chinese_Grand_Prix,STR,5.0,HARD,Chinese Grand Prix,37.0,56.0,20,100.4851
+2024_05_Chinese_Grand_Prix,TSU,1.0,SOFT,Chinese Grand Prix,1.0,7.0,7,104.54385714285715
+2024_05_Chinese_Grand_Prix,TSU,2.0,MEDIUM,Chinese Grand Prix,10.0,22.0,13,106.30907692307693
+2024_05_Chinese_Grand_Prix,TSU,3.0,HARD,Chinese Grand Prix,25.0,26.0,2,128.99
+2024_05_Chinese_Grand_Prix,VER,1.0,MEDIUM,Chinese Grand Prix,1.0,12.0,12,101.02416666666666
+2024_05_Chinese_Grand_Prix,VER,2.0,HARD,Chinese Grand Prix,15.0,22.0,8,104.271375
+2024_05_Chinese_Grand_Prix,VER,3.0,HARD,Chinese Grand Prix,25.0,56.0,30,105.58266666666667
+2024_05_Chinese_Grand_Prix,ZHO,1.0,MEDIUM,Chinese Grand Prix,1.0,7.0,7,104.97814285714286
+2024_05_Chinese_Grand_Prix,ZHO,2.0,HARD,Chinese Grand Prix,10.0,22.0,13,106.50269230769231
+2024_05_Chinese_Grand_Prix,ZHO,3.0,HARD,Chinese Grand Prix,25.0,39.0,15,116.97886666666666
+2024_05_Chinese_Grand_Prix,ZHO,4.0,SOFT,Chinese Grand Prix,42.0,56.0,15,100.2868
+2024_06_Miami_Grand_Prix,ALB,1.0,MEDIUM,Miami Grand Prix,1.0,9.0,9,95.35777777777778
+2024_06_Miami_Grand_Prix,ALB,2.0,HARD,Miami Grand Prix,12.0,52.0,41,96.88912195121952
+2024_06_Miami_Grand_Prix,ALB,3.0,SOFT,Miami Grand Prix,55.0,57.0,3,91.39466666666668
+2024_06_Miami_Grand_Prix,ALO,1.0,HARD,Miami Grand Prix,1.0,21.0,21,94.80314285714286
+2024_06_Miami_Grand_Prix,ALO,2.0,MEDIUM,Miami Grand Prix,24.0,57.0,34,96.6000294117647
+2024_06_Miami_Grand_Prix,BOT,1.0,SOFT,Miami Grand Prix,1.0,10.0,10,95.7291
+2024_06_Miami_Grand_Prix,BOT,2.0,HARD,Miami Grand Prix,13.0,28.0,16,96.18425
+2024_06_Miami_Grand_Prix,BOT,3.0,MEDIUM,Miami Grand Prix,31.0,57.0,27,94.31951851851852
+2024_06_Miami_Grand_Prix,GAS,1.0,MEDIUM,Miami Grand Prix,1.0,11.0,11,95.0468181818182
+2024_06_Miami_Grand_Prix,GAS,2.0,HARD,Miami Grand Prix,14.0,57.0,44,96.41111363636364
+2024_06_Miami_Grand_Prix,HAM,1.0,HARD,Miami Grand Prix,1.0,25.0,25,94.64124
+2024_06_Miami_Grand_Prix,HAM,2.0,MEDIUM,Miami Grand Prix,28.0,57.0,30,96.51389999999999
+2024_06_Miami_Grand_Prix,HUL,1.0,MEDIUM,Miami Grand Prix,1.0,11.0,11,94.8249090909091
+2024_06_Miami_Grand_Prix,HUL,2.0,HARD,Miami Grand Prix,14.0,27.0,14,94.8075
+2024_06_Miami_Grand_Prix,HUL,3.0,MEDIUM,Miami Grand Prix,30.0,57.0,28,94.92346428571429
+2024_06_Miami_Grand_Prix,LEC,1.0,MEDIUM,Miami Grand Prix,1.0,18.0,18,93.337
+2024_06_Miami_Grand_Prix,LEC,2.0,HARD,Miami Grand Prix,21.0,57.0,36,95.08369444444445
+2024_06_Miami_Grand_Prix,MAG,1.0,HARD,Miami Grand Prix,1.0,21.0,21,95.06247619047619
+2024_06_Miami_Grand_Prix,MAG,2.0,MEDIUM,Miami Grand Prix,24.0,27.0,4,93.51975
+2024_06_Miami_Grand_Prix,MAG,3.0,MEDIUM,Miami Grand Prix,30.0,30.0,1,103.269
+2024_06_Miami_Grand_Prix,MAG,4.0,MEDIUM,Miami Grand Prix,33.0,57.0,25,92.43212
+2024_06_Miami_Grand_Prix,NOR,1.0,MEDIUM,Miami Grand Prix,1.0,28.0,28,93.72425
+2024_06_Miami_Grand_Prix,NOR,2.0,HARD,Miami Grand Prix,31.0,57.0,26,92.21453846153847
+2024_06_Miami_Grand_Prix,OCO,1.0,MEDIUM,Miami Grand Prix,1.0,21.0,21,94.64814285714286
+2024_06_Miami_Grand_Prix,OCO,2.0,HARD,Miami Grand Prix,24.0,57.0,34,96.69782352941176
+2024_06_Miami_Grand_Prix,PER,1.0,MEDIUM,Miami Grand Prix,1.0,16.0,16,93.7448125
+2024_06_Miami_Grand_Prix,PER,2.0,HARD,Miami Grand Prix,19.0,27.0,9,94.40488888888889
+2024_06_Miami_Grand_Prix,PER,3.0,MEDIUM,Miami Grand Prix,30.0,57.0,28,95.15446428571428
+2024_06_Miami_Grand_Prix,PIA,1.0,MEDIUM,Miami Grand Prix,1.0,26.0,26,93.6736923076923
+2024_06_Miami_Grand_Prix,PIA,2.0,HARD,Miami Grand Prix,29.0,39.0,10,101.6765
+2024_06_Miami_Grand_Prix,PIA,3.0,MEDIUM,Miami Grand Prix,42.0,57.0,16,91.8319375
+2024_06_Miami_Grand_Prix,RIC,1.0,HARD,Miami Grand Prix,1.0,27.0,27,95.33448148148148
+2024_06_Miami_Grand_Prix,RIC,2.0,MEDIUM,Miami Grand Prix,30.0,57.0,28,95.56457142857143
+2024_06_Miami_Grand_Prix,RUS,1.0,MEDIUM,Miami Grand Prix,1.0,23.0,23,94.89904347826086
+2024_06_Miami_Grand_Prix,RUS,2.0,HARD,Miami Grand Prix,26.0,57.0,32,96.76496875000001
+2024_06_Miami_Grand_Prix,SAI,1.0,MEDIUM,Miami Grand Prix,1.0,26.0,26,93.77773076923077
+2024_06_Miami_Grand_Prix,SAI,2.0,HARD,Miami Grand Prix,29.0,57.0,29,96.85858620689655
+2024_06_Miami_Grand_Prix,SAR,1.0,MEDIUM,Miami Grand Prix,1.0,10.0,10,95.4906
+2024_06_Miami_Grand_Prix,SAR,2.0,HARD,Miami Grand Prix,13.0,27.0,15,94.69293333333333
+2024_06_Miami_Grand_Prix,STR,1.0,MEDIUM,Miami Grand Prix,1.0,10.0,10,94.9683
+2024_06_Miami_Grand_Prix,STR,2.0,HARD,Miami Grand Prix,13.0,27.0,15,94.71193333333333
+2024_06_Miami_Grand_Prix,STR,3.0,MEDIUM,Miami Grand Prix,30.0,57.0,28,95.01714285714286
+2024_06_Miami_Grand_Prix,TSU,1.0,MEDIUM,Miami Grand Prix,1.0,27.0,27,94.74914814814814
+2024_06_Miami_Grand_Prix,TSU,2.0,HARD,Miami Grand Prix,30.0,57.0,28,95.42717857142858
+2024_06_Miami_Grand_Prix,VER,1.0,MEDIUM,Miami Grand Prix,1.0,22.0,22,93.05940909090909
+2024_06_Miami_Grand_Prix,VER,2.0,HARD,Miami Grand Prix,25.0,57.0,32,94.87884375
+2024_06_Miami_Grand_Prix,ZHO,1.0,MEDIUM,Miami Grand Prix,1.0,27.0,27,95.18085185185184
+2024_06_Miami_Grand_Prix,ZHO,2.0,SOFT,Miami Grand Prix,30.0,57.0,28,95.62564285714286
+2024_07_Emilia_Romagna_Grand_Prix,ALB,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,7.0,7,83.81157142857144
+2024_07_Emilia_Romagna_Grand_Prix,ALB,3.0,MEDIUM,Emilia Romagna Grand Prix,11.0,22.0,12,82.00741666666666
+2024_07_Emilia_Romagna_Grand_Prix,ALB,4.0,MEDIUM,Emilia Romagna Grand Prix,25.0,27.0,3,83.325
+2024_07_Emilia_Romagna_Grand_Prix,ALB,5.0,MEDIUM,Emilia Romagna Grand Prix,30.0,50.0,21,81.788
+2024_07_Emilia_Romagna_Grand_Prix,ALO,1.0,SOFT,Emilia Romagna Grand Prix,2.0,6.0,5,83.1452
+2024_07_Emilia_Romagna_Grand_Prix,ALO,2.0,HARD,Emilia Romagna Grand Prix,9.0,39.0,31,82.62635483870967
+2024_07_Emilia_Romagna_Grand_Prix,ALO,3.0,MEDIUM,Emilia Romagna Grand Prix,42.0,58.0,17,81.49235294117646
+2024_07_Emilia_Romagna_Grand_Prix,ALO,4.0,SOFT,Emilia Romagna Grand Prix,61.0,62.0,2,81.6965
+2024_07_Emilia_Romagna_Grand_Prix,BOT,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,7.0,7,84.17457142857143
+2024_07_Emilia_Romagna_Grand_Prix,BOT,2.0,HARD,Emilia Romagna Grand Prix,10.0,62.0,53,83.00513207547169
+2024_07_Emilia_Romagna_Grand_Prix,GAS,1.0,SOFT,Emilia Romagna Grand Prix,1.0,7.0,7,83.90885714285714
+2024_07_Emilia_Romagna_Grand_Prix,GAS,2.0,HARD,Emilia Romagna Grand Prix,10.0,29.0,20,82.33095
+2024_07_Emilia_Romagna_Grand_Prix,GAS,3.0,MEDIUM,Emilia Romagna Grand Prix,32.0,62.0,31,82.4550322580645
+2024_07_Emilia_Romagna_Grand_Prix,HAM,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,26.0,26,82.1548076923077
+2024_07_Emilia_Romagna_Grand_Prix,HAM,2.0,HARD,Emilia Romagna Grand Prix,29.0,63.0,35,80.99171428571428
+2024_07_Emilia_Romagna_Grand_Prix,HUL,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,12.0,12,82.71408333333333
+2024_07_Emilia_Romagna_Grand_Prix,HUL,2.0,HARD,Emilia Romagna Grand Prix,15.0,62.0,48,82.63802083333333
+2024_07_Emilia_Romagna_Grand_Prix,LEC,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,24.0,24,81.572625
+2024_07_Emilia_Romagna_Grand_Prix,LEC,2.0,HARD,Emilia Romagna Grand Prix,27.0,63.0,37,80.65935135135136
+2024_07_Emilia_Romagna_Grand_Prix,MAG,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,36.0,36,83.23788888888889
+2024_07_Emilia_Romagna_Grand_Prix,MAG,2.0,HARD,Emilia Romagna Grand Prix,39.0,62.0,24,81.72716666666666
+2024_07_Emilia_Romagna_Grand_Prix,NOR,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,21.0,21,81.46271428571428
+2024_07_Emilia_Romagna_Grand_Prix,NOR,2.0,HARD,Emilia Romagna Grand Prix,24.0,63.0,40,80.6115
+2024_07_Emilia_Romagna_Grand_Prix,OCO,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,24.0,24,83.20541666666666
+2024_07_Emilia_Romagna_Grand_Prix,OCO,2.0,HARD,Emilia Romagna Grand Prix,27.0,62.0,36,82.74508333333333
+2024_07_Emilia_Romagna_Grand_Prix,PER,1.0,HARD,Emilia Romagna Grand Prix,1.0,36.0,36,82.67816666666667
+2024_07_Emilia_Romagna_Grand_Prix,PER,2.0,MEDIUM,Emilia Romagna Grand Prix,39.0,63.0,25,80.48975999999999
+2024_07_Emilia_Romagna_Grand_Prix,PIA,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,22.0,22,81.79568181818182
+2024_07_Emilia_Romagna_Grand_Prix,PIA,2.0,HARD,Emilia Romagna Grand Prix,25.0,63.0,39,80.77935897435897
+2024_07_Emilia_Romagna_Grand_Prix,RIC,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,10.0,10,83.08279999999999
+2024_07_Emilia_Romagna_Grand_Prix,RIC,2.0,HARD,Emilia Romagna Grand Prix,13.0,62.0,50,82.60438
+2024_07_Emilia_Romagna_Grand_Prix,RUS,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,20.0,20,81.93225
+2024_07_Emilia_Romagna_Grand_Prix,RUS,2.0,HARD,Emilia Romagna Grand Prix,23.0,51.0,29,81.15562068965517
+2024_07_Emilia_Romagna_Grand_Prix,RUS,3.0,MEDIUM,Emilia Romagna Grand Prix,54.0,63.0,10,79.9343
+2024_07_Emilia_Romagna_Grand_Prix,SAI,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,26.0,26,81.74015384615385
+2024_07_Emilia_Romagna_Grand_Prix,SAI,2.0,HARD,Emilia Romagna Grand Prix,29.0,63.0,35,80.91014285714286
+2024_07_Emilia_Romagna_Grand_Prix,SAR,1.0,HARD,Emilia Romagna Grand Prix,1.0,30.0,30,83.61246666666666
+2024_07_Emilia_Romagna_Grand_Prix,SAR,2.0,MEDIUM,Emilia Romagna Grand Prix,33.0,62.0,30,82.3834
+2024_07_Emilia_Romagna_Grand_Prix,STR,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,36.0,36,82.86852777777777
+2024_07_Emilia_Romagna_Grand_Prix,STR,2.0,HARD,Emilia Romagna Grand Prix,39.0,63.0,25,81.23256
+2024_07_Emilia_Romagna_Grand_Prix,TSU,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,11.0,11,82.80390909090909
+2024_07_Emilia_Romagna_Grand_Prix,TSU,2.0,HARD,Emilia Romagna Grand Prix,14.0,62.0,49,82.48781632653062
+2024_07_Emilia_Romagna_Grand_Prix,VER,1.0,MEDIUM,Emilia Romagna Grand Prix,1.0,23.0,23,81.21586956521739
+2024_07_Emilia_Romagna_Grand_Prix,VER,2.0,HARD,Emilia Romagna Grand Prix,26.0,63.0,38,80.72297368421053
+2024_07_Emilia_Romagna_Grand_Prix,ZHO,1.0,HARD,Emilia Romagna Grand Prix,1.0,32.0,32,83.37396875
+2024_07_Emilia_Romagna_Grand_Prix,ZHO,2.0,MEDIUM,Emilia Romagna Grand Prix,35.0,62.0,28,82.41499999999999
+2024_08_Monaco_Grand_Prix,ALB,2.0,HARD,Monaco Grand Prix,3.0,77.0,75,80.16712
+2024_08_Monaco_Grand_Prix,ALO,2.0,MEDIUM,Monaco Grand Prix,3.0,76.0,74,80.56287837837839
+2024_08_Monaco_Grand_Prix,BOT,2.0,MEDIUM,Monaco Grand Prix,3.0,14.0,12,82.83433333333333
+2024_08_Monaco_Grand_Prix,BOT,3.0,HARD,Monaco Grand Prix,17.0,76.0,60,79.83355
+2024_08_Monaco_Grand_Prix,GAS,2.0,MEDIUM,Monaco Grand Prix,3.0,77.0,75,80.24642666666666
+2024_08_Monaco_Grand_Prix,HAM,2.0,MEDIUM,Monaco Grand Prix,3.0,50.0,48,79.8215
+2024_08_Monaco_Grand_Prix,HAM,3.0,HARD,Monaco Grand Prix,53.0,78.0,26,75.6731923076923
+2024_08_Monaco_Grand_Prix,LEC,2.0,HARD,Monaco Grand Prix,3.0,78.0,76,78.43903947368422
+2024_08_Monaco_Grand_Prix,NOR,2.0,HARD,Monaco Grand Prix,3.0,78.0,76,78.53284210526316
+2024_08_Monaco_Grand_Prix,PIA,2.0,HARD,Monaco Grand Prix,3.0,78.0,76,78.5241447368421
+2024_08_Monaco_Grand_Prix,RIC,2.0,HARD,Monaco Grand Prix,3.0,76.0,74,80.56895945945946
+2024_08_Monaco_Grand_Prix,RUS,2.0,MEDIUM,Monaco Grand Prix,3.0,78.0,76,78.5896447368421
+2024_08_Monaco_Grand_Prix,SAI,2.0,HARD,Monaco Grand Prix,3.0,78.0,76,78.52307894736842
+2024_08_Monaco_Grand_Prix,SAR,2.0,HARD,Monaco Grand Prix,3.0,56.0,54,81.49348148148148
+2024_08_Monaco_Grand_Prix,SAR,3.0,MEDIUM,Monaco Grand Prix,59.0,76.0,18,77.1268888888889
+2024_08_Monaco_Grand_Prix,STR,2.0,MEDIUM,Monaco Grand Prix,3.0,41.0,39,81.12571794871795
+2024_08_Monaco_Grand_Prix,STR,3.0,HARD,Monaco Grand Prix,44.0,47.0,4,78.42875000000001
+2024_08_Monaco_Grand_Prix,STR,4.0,SOFT,Monaco Grand Prix,50.0,76.0,27,78.45751851851853
+2024_08_Monaco_Grand_Prix,TSU,2.0,HARD,Monaco Grand Prix,3.0,77.0,75,79.9754
+2024_08_Monaco_Grand_Prix,VER,2.0,MEDIUM,Monaco Grand Prix,3.0,51.0,49,79.7624693877551
+2024_08_Monaco_Grand_Prix,VER,3.0,HARD,Monaco Grand Prix,54.0,78.0,25,75.6812
+2024_08_Monaco_Grand_Prix,ZHO,2.0,HARD,Monaco Grand Prix,3.0,69.0,67,81.165
+2024_08_Monaco_Grand_Prix,ZHO,3.0,SOFT,Monaco Grand Prix,72.0,76.0,5,77.63640000000001
+2024_09_Canadian_Grand_Prix,ALB,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,24.0,24,92.54170833333335
+2024_09_Canadian_Grand_Prix,ALB,2.0,INTERMEDIATE,Canadian Grand Prix,27.0,43.0,17,92.05288235294117
+2024_09_Canadian_Grand_Prix,ALB,3.0,MEDIUM,Canadian Grand Prix,46.0,52.0,7,81.5552857142857
+2024_09_Canadian_Grand_Prix,ALO,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,24.0,24,91.121625
+2024_09_Canadian_Grand_Prix,ALO,2.0,INTERMEDIATE,Canadian Grand Prix,27.0,43.0,17,93.48829411764706
+2024_09_Canadian_Grand_Prix,ALO,3.0,HARD,Canadian Grand Prix,46.0,70.0,25,86.2772
+2024_09_Canadian_Grand_Prix,BOT,1.0,INTERMEDIATE,Canadian Grand Prix,2.0,41.0,40,93.319425
+2024_09_Canadian_Grand_Prix,BOT,2.0,MEDIUM,Canadian Grand Prix,44.0,70.0,27,86.37859259259258
+2024_09_Canadian_Grand_Prix,GAS,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,24.0,24,92.8975
+2024_09_Canadian_Grand_Prix,GAS,2.0,INTERMEDIATE,Canadian Grand Prix,27.0,39.0,13,93.32076923076923
+2024_09_Canadian_Grand_Prix,GAS,3.0,HARD,Canadian Grand Prix,42.0,70.0,29,85.86720689655172
+2024_09_Canadian_Grand_Prix,HAM,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,24.0,24,91.13904166666667
+2024_09_Canadian_Grand_Prix,HAM,2.0,INTERMEDIATE,Canadian Grand Prix,27.0,42.0,16,93.590125
+2024_09_Canadian_Grand_Prix,HAM,3.0,MEDIUM,Canadian Grand Prix,45.0,53.0,9,80.74277777777777
+2024_09_Canadian_Grand_Prix,HAM,4.0,HARD,Canadian Grand Prix,56.0,70.0,15,85.70093333333332
+2024_09_Canadian_Grand_Prix,HUL,1.0,WET,Canadian Grand Prix,1.0,11.0,11,97.51809090909092
+2024_09_Canadian_Grand_Prix,HUL,2.0,INTERMEDIATE,Canadian Grand Prix,14.0,24.0,11,88.2069090909091
+2024_09_Canadian_Grand_Prix,HUL,3.0,INTERMEDIATE,Canadian Grand Prix,27.0,43.0,17,91.10876470588235
+2024_09_Canadian_Grand_Prix,HUL,4.0,MEDIUM,Canadian Grand Prix,46.0,70.0,25,86.10372
+2024_09_Canadian_Grand_Prix,LEC,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,24.0,24,92.698125
+2024_09_Canadian_Grand_Prix,LEC,2.0,INTERMEDIATE,Canadian Grand Prix,27.0,27.0,1,105.291
+2024_09_Canadian_Grand_Prix,LEC,3.0,HARD,Canadian Grand Prix,30.0,30.0,1,104.706
+2024_09_Canadian_Grand_Prix,LEC,4.0,INTERMEDIATE,Canadian Grand Prix,33.0,40.0,8,88.168125
+2024_09_Canadian_Grand_Prix,MAG,1.0,WET,Canadian Grand Prix,1.0,6.0,6,97.99149999999999
+2024_09_Canadian_Grand_Prix,MAG,2.0,INTERMEDIATE,Canadian Grand Prix,9.0,24.0,16,89.17925
+2024_09_Canadian_Grand_Prix,MAG,3.0,INTERMEDIATE,Canadian Grand Prix,27.0,40.0,14,93.0275
+2024_09_Canadian_Grand_Prix,MAG,4.0,MEDIUM,Canadian Grand Prix,43.0,53.0,11,84.11027272727273
+2024_09_Canadian_Grand_Prix,MAG,5.0,MEDIUM,Canadian Grand Prix,56.0,70.0,15,84.046
+2024_09_Canadian_Grand_Prix,NOR,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,25.0,25,90.12556000000001
+2024_09_Canadian_Grand_Prix,NOR,2.0,INTERMEDIATE,Canadian Grand Prix,28.0,46.0,19,90.7341052631579
+2024_09_Canadian_Grand_Prix,NOR,3.0,MEDIUM,Canadian Grand Prix,49.0,70.0,22,86.98031818181818
+2024_09_Canadian_Grand_Prix,OCO,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,43.0,43,93.54090697674418
+2024_09_Canadian_Grand_Prix,OCO,2.0,MEDIUM,Canadian Grand Prix,46.0,70.0,25,86.45084000000001
+2024_09_Canadian_Grand_Prix,PER,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,24.0,24,93.07095833333334
+2024_09_Canadian_Grand_Prix,PER,2.0,INTERMEDIATE,Canadian Grand Prix,27.0,42.0,16,91.2585
+2024_09_Canadian_Grand_Prix,PER,3.0,MEDIUM,Canadian Grand Prix,45.0,51.0,7,81.76428571428572
+2024_09_Canadian_Grand_Prix,PIA,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,24.0,24,90.466875
+2024_09_Canadian_Grand_Prix,PIA,2.0,INTERMEDIATE,Canadian Grand Prix,27.0,43.0,17,94.35882352941177
+2024_09_Canadian_Grand_Prix,PIA,3.0,MEDIUM,Canadian Grand Prix,46.0,70.0,25,86.6144
+2024_09_Canadian_Grand_Prix,RIC,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,25.0,25,92.85168
+2024_09_Canadian_Grand_Prix,RIC,2.0,INTERMEDIATE,Canadian Grand Prix,28.0,42.0,15,92.04453333333335
+2024_09_Canadian_Grand_Prix,RIC,3.0,MEDIUM,Canadian Grand Prix,45.0,70.0,26,86.22461538461539
+2024_09_Canadian_Grand_Prix,RUS,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,24.0,24,90.45054166666667
+2024_09_Canadian_Grand_Prix,RUS,2.0,INTERMEDIATE,Canadian Grand Prix,27.0,44.0,18,93.7636111111111
+2024_09_Canadian_Grand_Prix,RUS,3.0,HARD,Canadian Grand Prix,47.0,53.0,7,79.77357142857143
+2024_09_Canadian_Grand_Prix,RUS,4.0,MEDIUM,Canadian Grand Prix,56.0,70.0,15,85.9362
+2024_09_Canadian_Grand_Prix,SAI,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,24.0,24,92.70687500000001
+2024_09_Canadian_Grand_Prix,SAI,2.0,INTERMEDIATE,Canadian Grand Prix,27.0,42.0,16,92.158125
+2024_09_Canadian_Grand_Prix,SAI,3.0,MEDIUM,Canadian Grand Prix,45.0,52.0,8,81.444875
+2024_09_Canadian_Grand_Prix,SAR,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,23.0,23,94.10952173913043
+2024_09_Canadian_Grand_Prix,STR,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,24.0,24,92.30858333333333
+2024_09_Canadian_Grand_Prix,STR,2.0,INTERMEDIATE,Canadian Grand Prix,27.0,43.0,17,92.30194117647059
+2024_09_Canadian_Grand_Prix,STR,3.0,HARD,Canadian Grand Prix,46.0,70.0,25,86.26299999999999
+2024_09_Canadian_Grand_Prix,TSU,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,43.0,43,93.4139534883721
+2024_09_Canadian_Grand_Prix,TSU,2.0,MEDIUM,Canadian Grand Prix,46.0,70.0,25,87.54068
+2024_09_Canadian_Grand_Prix,VER,1.0,INTERMEDIATE,Canadian Grand Prix,1.0,24.0,24,90.39416666666666
+2024_09_Canadian_Grand_Prix,VER,2.0,INTERMEDIATE,Canadian Grand Prix,27.0,44.0,18,93.69161111111111
+2024_09_Canadian_Grand_Prix,VER,3.0,MEDIUM,Canadian Grand Prix,47.0,70.0,24,86.53491666666667
+2024_09_Canadian_Grand_Prix,ZHO,1.0,INTERMEDIATE,Canadian Grand Prix,2.0,23.0,22,92.72922727272727
+2024_09_Canadian_Grand_Prix,ZHO,2.0,INTERMEDIATE,Canadian Grand Prix,26.0,43.0,18,91.77466666666666
+2024_09_Canadian_Grand_Prix,ZHO,3.0,MEDIUM,Canadian Grand Prix,46.0,51.0,6,87.6155
+2024_09_Canadian_Grand_Prix,ZHO,4.0,MEDIUM,Canadian Grand Prix,54.0,69.0,16,83.8526875
+2024_10_Spanish_Grand_Prix,ALB,1.0,MEDIUM,Spanish Grand Prix,2.0,17.0,16,82.6918125
+2024_10_Spanish_Grand_Prix,ALB,2.0,SOFT,Spanish Grand Prix,20.0,42.0,23,81.40921739130435
+2024_10_Spanish_Grand_Prix,ALB,3.0,SOFT,Spanish Grand Prix,45.0,65.0,21,80.88438095238095
+2024_10_Spanish_Grand_Prix,ALO,1.0,SOFT,Spanish Grand Prix,1.0,18.0,18,82.70805555555556
+2024_10_Spanish_Grand_Prix,ALO,2.0,MEDIUM,Spanish Grand Prix,21.0,44.0,24,81.0835
+2024_10_Spanish_Grand_Prix,ALO,3.0,HARD,Spanish Grand Prix,47.0,65.0,19,79.40042105263157
+2024_10_Spanish_Grand_Prix,BOT,1.0,SOFT,Spanish Grand Prix,1.0,10.0,10,83.15270000000001
+2024_10_Spanish_Grand_Prix,BOT,2.0,SOFT,Spanish Grand Prix,13.0,27.0,15,81.67366666666666
+2024_10_Spanish_Grand_Prix,BOT,3.0,HARD,Spanish Grand Prix,30.0,65.0,36,81.30988888888889
+2024_10_Spanish_Grand_Prix,GAS,1.0,SOFT,Spanish Grand Prix,1.0,13.0,13,81.74838461538462
+2024_10_Spanish_Grand_Prix,GAS,2.0,MEDIUM,Spanish Grand Prix,16.0,37.0,22,80.83545454545455
+2024_10_Spanish_Grand_Prix,GAS,3.0,HARD,Spanish Grand Prix,40.0,66.0,27,79.62348148148148
+2024_10_Spanish_Grand_Prix,HAM,1.0,SOFT,Spanish Grand Prix,1.0,15.0,15,81.41833333333334
+2024_10_Spanish_Grand_Prix,HAM,2.0,MEDIUM,Spanish Grand Prix,18.0,42.0,25,80.05296
+2024_10_Spanish_Grand_Prix,HAM,3.0,SOFT,Spanish Grand Prix,45.0,66.0,22,78.71713636363637
+2024_10_Spanish_Grand_Prix,HUL,1.0,SOFT,Spanish Grand Prix,1.0,11.0,11,82.34572727272727
+2024_10_Spanish_Grand_Prix,HUL,2.0,MEDIUM,Spanish Grand Prix,14.0,37.0,24,81.17329166666666
+2024_10_Spanish_Grand_Prix,HUL,3.0,HARD,Spanish Grand Prix,40.0,66.0,27,79.57822222222222
+2024_10_Spanish_Grand_Prix,LEC,1.0,SOFT,Spanish Grand Prix,1.0,23.0,23,81.41213043478261
+2024_10_Spanish_Grand_Prix,LEC,2.0,MEDIUM,Spanish Grand Prix,26.0,46.0,21,79.66233333333334
+2024_10_Spanish_Grand_Prix,LEC,3.0,SOFT,Spanish Grand Prix,49.0,66.0,18,78.47066666666666
+2024_10_Spanish_Grand_Prix,MAG,1.0,SOFT,Spanish Grand Prix,1.0,9.0,9,83.39577777777778
+2024_10_Spanish_Grand_Prix,MAG,2.0,MEDIUM,Spanish Grand Prix,12.0,28.0,17,81.67623529411765
+2024_10_Spanish_Grand_Prix,MAG,3.0,HARD,Spanish Grand Prix,31.0,65.0,35,81.04211428571429
+2024_10_Spanish_Grand_Prix,NOR,1.0,SOFT,Spanish Grand Prix,1.0,22.0,22,81.12677272727272
+2024_10_Spanish_Grand_Prix,NOR,2.0,MEDIUM,Spanish Grand Prix,25.0,46.0,22,79.52481818181819
+2024_10_Spanish_Grand_Prix,NOR,3.0,SOFT,Spanish Grand Prix,49.0,66.0,18,78.0633888888889
+2024_10_Spanish_Grand_Prix,OCO,1.0,SOFT,Spanish Grand Prix,1.0,12.0,12,82.08916666666667
+2024_10_Spanish_Grand_Prix,OCO,2.0,MEDIUM,Spanish Grand Prix,15.0,36.0,22,81.21827272727272
+2024_10_Spanish_Grand_Prix,OCO,3.0,HARD,Spanish Grand Prix,39.0,66.0,28,79.71360714285716
+2024_10_Spanish_Grand_Prix,PER,1.0,SOFT,Spanish Grand Prix,1.0,12.0,12,82.36283333333334
+2024_10_Spanish_Grand_Prix,PER,2.0,SOFT,Spanish Grand Prix,15.0,30.0,16,80.8518125
+2024_10_Spanish_Grand_Prix,PER,3.0,MEDIUM,Spanish Grand Prix,33.0,48.0,16,79.34025
+2024_10_Spanish_Grand_Prix,PER,4.0,SOFT,Spanish Grand Prix,51.0,66.0,16,78.84162500000001
+2024_10_Spanish_Grand_Prix,PIA,1.0,SOFT,Spanish Grand Prix,1.0,20.0,20,81.82015
+2024_10_Spanish_Grand_Prix,PIA,2.0,MEDIUM,Spanish Grand Prix,23.0,45.0,23,79.9695652173913
+2024_10_Spanish_Grand_Prix,PIA,3.0,SOFT,Spanish Grand Prix,48.0,66.0,19,78.43268421052632
+2024_10_Spanish_Grand_Prix,RIC,1.0,SOFT,Spanish Grand Prix,1.0,15.0,15,83.09646666666667
+2024_10_Spanish_Grand_Prix,RIC,2.0,MEDIUM,Spanish Grand Prix,18.0,41.0,24,81.35820833333334
+2024_10_Spanish_Grand_Prix,RIC,3.0,HARD,Spanish Grand Prix,44.0,65.0,22,80.57745454545454
+2024_10_Spanish_Grand_Prix,RUS,1.0,SOFT,Spanish Grand Prix,1.0,14.0,14,81.20521428571429
+2024_10_Spanish_Grand_Prix,RUS,2.0,MEDIUM,Spanish Grand Prix,17.0,35.0,19,80.17494736842106
+2024_10_Spanish_Grand_Prix,RUS,3.0,HARD,Spanish Grand Prix,38.0,66.0,29,79.06975862068965
+2024_10_Spanish_Grand_Prix,SAI,1.0,SOFT,Spanish Grand Prix,1.0,14.0,14,81.43257142857144
+2024_10_Spanish_Grand_Prix,SAI,2.0,MEDIUM,Spanish Grand Prix,17.0,35.0,19,80.35321052631579
+2024_10_Spanish_Grand_Prix,SAI,3.0,HARD,Spanish Grand Prix,38.0,66.0,29,79.26455172413793
+2024_10_Spanish_Grand_Prix,SAR,1.0,SOFT,Spanish Grand Prix,1.0,13.0,13,83.63076923076923
+2024_10_Spanish_Grand_Prix,SAR,2.0,MEDIUM,Spanish Grand Prix,16.0,33.0,18,82.12233333333333
+2024_10_Spanish_Grand_Prix,SAR,3.0,HARD,Spanish Grand Prix,36.0,64.0,29,81.63010344827586
+2024_10_Spanish_Grand_Prix,STR,1.0,SOFT,Spanish Grand Prix,1.0,16.0,16,82.571875
+2024_10_Spanish_Grand_Prix,STR,2.0,MEDIUM,Spanish Grand Prix,19.0,36.0,18,81.27422222222222
+2024_10_Spanish_Grand_Prix,STR,3.0,HARD,Spanish Grand Prix,39.0,65.0,27,80.34133333333332
+2024_10_Spanish_Grand_Prix,TSU,1.0,SOFT,Spanish Grand Prix,1.0,8.0,8,83.90225
+2024_10_Spanish_Grand_Prix,TSU,2.0,MEDIUM,Spanish Grand Prix,11.0,26.0,16,81.97875
+2024_10_Spanish_Grand_Prix,TSU,3.0,HARD,Spanish Grand Prix,29.0,43.0,15,81.00053333333334
+2024_10_Spanish_Grand_Prix,TSU,4.0,SOFT,Spanish Grand Prix,46.0,65.0,20,80.42920000000001
+2024_10_Spanish_Grand_Prix,VER,1.0,SOFT,Spanish Grand Prix,1.0,16.0,16,80.9589375
+2024_10_Spanish_Grand_Prix,VER,2.0,MEDIUM,Spanish Grand Prix,19.0,43.0,25,79.87812
+2024_10_Spanish_Grand_Prix,VER,3.0,SOFT,Spanish Grand Prix,46.0,66.0,21,78.32942857142858
+2024_10_Spanish_Grand_Prix,ZHO,1.0,SOFT,Spanish Grand Prix,1.0,8.0,8,83.72
+2024_10_Spanish_Grand_Prix,ZHO,2.0,MEDIUM,Spanish Grand Prix,11.0,40.0,30,81.34349999999999
+2024_10_Spanish_Grand_Prix,ZHO,3.0,HARD,Spanish Grand Prix,43.0,65.0,23,79.73439130434782
+2024_11_Austrian_Grand_Prix,ALB,1.0,MEDIUM,Austrian Grand Prix,1.0,11.0,11,72.489
+2024_11_Austrian_Grand_Prix,ALB,2.0,HARD,Austrian Grand Prix,14.0,38.0,25,71.79440000000001
+2024_11_Austrian_Grand_Prix,ALB,3.0,HARD,Austrian Grand Prix,41.0,70.0,30,71.7548
+2024_11_Austrian_Grand_Prix,ALO,1.0,MEDIUM,Austrian Grand Prix,1.0,10.0,10,72.4735
+2024_11_Austrian_Grand_Prix,ALO,2.0,MEDIUM,Austrian Grand Prix,13.0,34.0,22,71.58195454545454
+2024_11_Austrian_Grand_Prix,ALO,3.0,HARD,Austrian Grand Prix,37.0,67.0,31,72.10025806451614
+2024_11_Austrian_Grand_Prix,ALO,4.0,SOFT,Austrian Grand Prix,70.0,70.0,1,67.694
+2024_11_Austrian_Grand_Prix,BOT,1.0,MEDIUM,Austrian Grand Prix,1.0,18.0,18,72.57522222222222
+2024_11_Austrian_Grand_Prix,BOT,2.0,HARD,Austrian Grand Prix,21.0,41.0,21,71.64785714285715
+2024_11_Austrian_Grand_Prix,BOT,3.0,HARD,Austrian Grand Prix,44.0,70.0,27,71.92581481481481
+2024_11_Austrian_Grand_Prix,GAS,1.0,MEDIUM,Austrian Grand Prix,1.0,19.0,19,72.15731578947369
+2024_11_Austrian_Grand_Prix,GAS,2.0,HARD,Austrian Grand Prix,22.0,41.0,20,71.57535
+2024_11_Austrian_Grand_Prix,GAS,3.0,MEDIUM,Austrian Grand Prix,44.0,71.0,28,71.27917857142857
+2024_11_Austrian_Grand_Prix,HAM,1.0,MEDIUM,Austrian Grand Prix,1.0,20.0,20,71.4625
+2024_11_Austrian_Grand_Prix,HAM,2.0,HARD,Austrian Grand Prix,23.0,52.0,30,70.68
+2024_11_Austrian_Grand_Prix,HAM,3.0,MEDIUM,Austrian Grand Prix,55.0,71.0,17,70.90917647058824
+2024_11_Austrian_Grand_Prix,HUL,1.0,MEDIUM,Austrian Grand Prix,1.0,10.0,10,71.90979999999999
+2024_11_Austrian_Grand_Prix,HUL,2.0,HARD,Austrian Grand Prix,13.0,38.0,26,71.49738461538462
+2024_11_Austrian_Grand_Prix,HUL,3.0,HARD,Austrian Grand Prix,41.0,71.0,31,71.34809677419355
+2024_11_Austrian_Grand_Prix,LEC,2.0,HARD,Austrian Grand Prix,3.0,15.0,13,71.076
+2024_11_Austrian_Grand_Prix,LEC,3.0,MEDIUM,Austrian Grand Prix,18.0,32.0,15,70.77946666666666
+2024_11_Austrian_Grand_Prix,LEC,4.0,MEDIUM,Austrian Grand Prix,35.0,50.0,16,70.454125
+2024_11_Austrian_Grand_Prix,LEC,5.0,MEDIUM,Austrian Grand Prix,53.0,71.0,19,71.00268421052631
+2024_11_Austrian_Grand_Prix,MAG,1.0,MEDIUM,Austrian Grand Prix,1.0,9.0,9,72.10633333333334
+2024_11_Austrian_Grand_Prix,MAG,2.0,HARD,Austrian Grand Prix,12.0,37.0,26,71.67265384615385
+2024_11_Austrian_Grand_Prix,MAG,3.0,HARD,Austrian Grand Prix,40.0,71.0,32,71.42196875
+2024_11_Austrian_Grand_Prix,NOR,1.0,MEDIUM,Austrian Grand Prix,1.0,22.0,22,71.01472727272727
+2024_11_Austrian_Grand_Prix,NOR,2.0,HARD,Austrian Grand Prix,25.0,50.0,26,70.10015384615384
+2024_11_Austrian_Grand_Prix,NOR,3.0,MEDIUM,Austrian Grand Prix,53.0,63.0,11,69.29427272727273
+2024_11_Austrian_Grand_Prix,OCO,1.0,MEDIUM,Austrian Grand Prix,1.0,18.0,18,72.05111111111111
+2024_11_Austrian_Grand_Prix,OCO,2.0,HARD,Austrian Grand Prix,21.0,42.0,22,71.68768181818182
+2024_11_Austrian_Grand_Prix,OCO,3.0,MEDIUM,Austrian Grand Prix,45.0,71.0,27,71.49603703703704
+2024_11_Austrian_Grand_Prix,PER,1.0,MEDIUM,Austrian Grand Prix,1.0,20.0,20,71.755
+2024_11_Austrian_Grand_Prix,PER,2.0,HARD,Austrian Grand Prix,23.0,50.0,28,71.05757142857144
+2024_11_Austrian_Grand_Prix,PER,3.0,MEDIUM,Austrian Grand Prix,53.0,71.0,19,71.49615789473684
+2024_11_Austrian_Grand_Prix,PIA,1.0,MEDIUM,Austrian Grand Prix,1.0,24.0,24,71.52275
+2024_11_Austrian_Grand_Prix,PIA,2.0,HARD,Austrian Grand Prix,27.0,50.0,24,70.429
+2024_11_Austrian_Grand_Prix,PIA,3.0,MEDIUM,Austrian Grand Prix,53.0,71.0,19,70.37810526315789
+2024_11_Austrian_Grand_Prix,RIC,1.0,MEDIUM,Austrian Grand Prix,1.0,9.0,9,72.26677777777778
+2024_11_Austrian_Grand_Prix,RIC,2.0,HARD,Austrian Grand Prix,12.0,36.0,25,71.67811999999999
+2024_11_Austrian_Grand_Prix,RIC,3.0,HARD,Austrian Grand Prix,39.0,71.0,33,71.39769696969697
+2024_11_Austrian_Grand_Prix,RUS,1.0,MEDIUM,Austrian Grand Prix,1.0,21.0,21,71.23190476190477
+2024_11_Austrian_Grand_Prix,RUS,2.0,MEDIUM,Austrian Grand Prix,24.0,45.0,22,70.43063636363637
+2024_11_Austrian_Grand_Prix,RUS,3.0,HARD,Austrian Grand Prix,48.0,71.0,24,70.57404166666667
+2024_11_Austrian_Grand_Prix,SAI,1.0,MEDIUM,Austrian Grand Prix,1.0,21.0,21,71.36966666666666
+2024_11_Austrian_Grand_Prix,SAI,2.0,HARD,Austrian Grand Prix,24.0,46.0,23,70.49786956521739
+2024_11_Austrian_Grand_Prix,SAI,3.0,MEDIUM,Austrian Grand Prix,49.0,71.0,23,70.62173913043478
+2024_11_Austrian_Grand_Prix,SAR,2.0,MEDIUM,Austrian Grand Prix,3.0,19.0,17,72.5085294117647
+2024_11_Austrian_Grand_Prix,SAR,3.0,HARD,Austrian Grand Prix,22.0,48.0,27,72.10351851851853
+2024_11_Austrian_Grand_Prix,SAR,4.0,MEDIUM,Austrian Grand Prix,51.0,69.0,19,72.32657894736842
+2024_11_Austrian_Grand_Prix,STR,1.0,MEDIUM,Austrian Grand Prix,1.0,19.0,19,72.47336842105263
+2024_11_Austrian_Grand_Prix,STR,2.0,MEDIUM,Austrian Grand Prix,22.0,42.0,21,71.60709523809524
+2024_11_Austrian_Grand_Prix,STR,3.0,HARD,Austrian Grand Prix,45.0,70.0,26,71.74869230769231
+2024_11_Austrian_Grand_Prix,TSU,1.0,MEDIUM,Austrian Grand Prix,1.0,20.0,20,72.3412
+2024_11_Austrian_Grand_Prix,TSU,2.0,HARD,Austrian Grand Prix,23.0,43.0,21,71.53357142857142
+2024_11_Austrian_Grand_Prix,TSU,3.0,HARD,Austrian Grand Prix,46.0,70.0,25,71.82832
+2024_11_Austrian_Grand_Prix,VER,1.0,MEDIUM,Austrian Grand Prix,1.0,22.0,22,70.75981818181818
+2024_11_Austrian_Grand_Prix,VER,2.0,HARD,Austrian Grand Prix,25.0,50.0,26,70.09746153846154
+2024_11_Austrian_Grand_Prix,VER,3.0,MEDIUM,Austrian Grand Prix,53.0,63.0,11,69.413
+2024_11_Austrian_Grand_Prix,VER,4.0,SOFT,Austrian Grand Prix,66.0,71.0,6,71.33999999999999
+2024_11_Austrian_Grand_Prix,ZHO,1.0,HARD,Austrian Grand Prix,2.0,27.0,26,72.68946153846153
+2024_11_Austrian_Grand_Prix,ZHO,2.0,MEDIUM,Austrian Grand Prix,30.0,50.0,21,71.79695238095238
+2024_11_Austrian_Grand_Prix,ZHO,3.0,HARD,Austrian Grand Prix,53.0,70.0,18,71.93266666666666
+2024_12_British_Grand_Prix,ALB,1.0,MEDIUM,British Grand Prix,1.0,26.0,26,94.59192307692307
+2024_12_British_Grand_Prix,ALB,2.0,INTERMEDIATE,British Grand Prix,29.0,37.0,9,103.45733333333334
+2024_12_British_Grand_Prix,ALB,3.0,MEDIUM,British Grand Prix,40.0,52.0,13,90.24661538461538
+2024_12_British_Grand_Prix,ALO,1.0,MEDIUM,British Grand Prix,1.0,26.0,26,94.48703846153846
+2024_12_British_Grand_Prix,ALO,2.0,INTERMEDIATE,British Grand Prix,29.0,37.0,9,103.14255555555556
+2024_12_British_Grand_Prix,ALO,3.0,MEDIUM,British Grand Prix,40.0,52.0,13,90.37169230769231
+2024_12_British_Grand_Prix,BOT,1.0,MEDIUM,British Grand Prix,1.0,25.0,25,95.4448
+2024_12_British_Grand_Prix,BOT,2.0,INTERMEDIATE,British Grand Prix,28.0,36.0,9,104.24888888888889
+2024_12_British_Grand_Prix,BOT,3.0,SOFT,British Grand Prix,39.0,51.0,13,92.53884615384617
+2024_12_British_Grand_Prix,HAM,1.0,MEDIUM,British Grand Prix,1.0,26.0,26,93.28561538461538
+2024_12_British_Grand_Prix,HAM,2.0,INTERMEDIATE,British Grand Prix,29.0,37.0,9,101.55533333333334
+2024_12_British_Grand_Prix,HAM,3.0,SOFT,British Grand Prix,40.0,52.0,13,89.76746153846155
+2024_12_British_Grand_Prix,HUL,1.0,MEDIUM,British Grand Prix,1.0,25.0,25,94.04492
+2024_12_British_Grand_Prix,HUL,2.0,INTERMEDIATE,British Grand Prix,28.0,38.0,11,102.6638181818182
+2024_12_British_Grand_Prix,HUL,3.0,SOFT,British Grand Prix,41.0,52.0,12,90.406
+2024_12_British_Grand_Prix,LEC,1.0,MEDIUM,British Grand Prix,1.0,18.0,18,93.29288888888888
+2024_12_British_Grand_Prix,LEC,2.0,INTERMEDIATE,British Grand Prix,21.0,26.0,6,106.74650000000001
+2024_12_British_Grand_Prix,LEC,3.0,INTERMEDIATE,British Grand Prix,29.0,36.0,8,102.621625
+2024_12_British_Grand_Prix,LEC,4.0,SOFT,British Grand Prix,39.0,51.0,13,90.41946153846153
+2024_12_British_Grand_Prix,MAG,1.0,MEDIUM,British Grand Prix,1.0,26.0,26,94.68884615384614
+2024_12_British_Grand_Prix,MAG,2.0,INTERMEDIATE,British Grand Prix,29.0,36.0,8,104.336
+2024_12_British_Grand_Prix,MAG,3.0,SOFT,British Grand Prix,39.0,52.0,14,91.28721428571428
+2024_12_British_Grand_Prix,NOR,1.0,MEDIUM,British Grand Prix,1.0,26.0,26,93.17534615384616
+2024_12_British_Grand_Prix,NOR,2.0,INTERMEDIATE,British Grand Prix,29.0,38.0,10,101.32570000000001
+2024_12_British_Grand_Prix,NOR,3.0,SOFT,British Grand Prix,41.0,52.0,12,90.12358333333333
+2024_12_British_Grand_Prix,OCO,1.0,SOFT,British Grand Prix,1.0,18.0,18,95.19844444444445
+2024_12_British_Grand_Prix,OCO,3.0,MEDIUM,British Grand Prix,23.0,25.0,3,100.30833333333334
+2024_12_British_Grand_Prix,OCO,4.0,INTERMEDIATE,British Grand Prix,28.0,37.0,10,103.33520000000001
+2024_12_British_Grand_Prix,OCO,5.0,MEDIUM,British Grand Prix,40.0,50.0,11,91.92509090909091
+2024_12_British_Grand_Prix,PER,1.0,HARD,British Grand Prix,2.0,18.0,17,93.04988235294117
+2024_12_British_Grand_Prix,PER,2.0,INTERMEDIATE,British Grand Prix,21.0,27.0,7,107.06814285714286
+2024_12_British_Grand_Prix,PER,3.0,INTERMEDIATE,British Grand Prix,30.0,36.0,7,103.11385714285714
+2024_12_British_Grand_Prix,PER,4.0,MEDIUM,British Grand Prix,39.0,46.0,8,91.0775
+2024_12_British_Grand_Prix,PER,5.0,SOFT,British Grand Prix,49.0,50.0,2,93.5335
+2024_12_British_Grand_Prix,PIA,1.0,MEDIUM,British Grand Prix,1.0,27.0,27,93.81151851851853
+2024_12_British_Grand_Prix,PIA,2.0,INTERMEDIATE,British Grand Prix,30.0,37.0,8,102.316625
+2024_12_British_Grand_Prix,PIA,3.0,MEDIUM,British Grand Prix,40.0,52.0,13,89.39384615384614
+2024_12_British_Grand_Prix,RIC,1.0,MEDIUM,British Grand Prix,1.0,25.0,25,94.90879999999999
+2024_12_British_Grand_Prix,RIC,2.0,INTERMEDIATE,British Grand Prix,28.0,36.0,9,104.15866666666666
+2024_12_British_Grand_Prix,RIC,3.0,SOFT,British Grand Prix,39.0,51.0,13,91.95661538461538
+2024_12_British_Grand_Prix,RUS,1.0,MEDIUM,British Grand Prix,1.0,26.0,26,93.33796153846153
+2024_12_British_Grand_Prix,RUS,2.0,INTERMEDIATE,British Grand Prix,29.0,32.0,4,101.65725
+2024_12_British_Grand_Prix,SAI,1.0,MEDIUM,British Grand Prix,1.0,25.0,25,93.34387999999998
+2024_12_British_Grand_Prix,SAI,2.0,INTERMEDIATE,British Grand Prix,28.0,38.0,11,102.2968181818182
+2024_12_British_Grand_Prix,SAI,3.0,HARD,British Grand Prix,41.0,49.0,9,89.7268888888889
+2024_12_British_Grand_Prix,SAI,4.0,SOFT,British Grand Prix,52.0,52.0,1,88.293
+2024_12_British_Grand_Prix,SAR,1.0,MEDIUM,British Grand Prix,1.0,26.0,26,94.73688461538462
+2024_12_British_Grand_Prix,SAR,2.0,INTERMEDIATE,British Grand Prix,29.0,37.0,9,104.12633333333332
+2024_12_British_Grand_Prix,SAR,3.0,SOFT,British Grand Prix,40.0,52.0,13,90.95607692307694
+2024_12_British_Grand_Prix,STR,1.0,MEDIUM,British Grand Prix,1.0,25.0,25,94.17147999999999
+2024_12_British_Grand_Prix,STR,2.0,INTERMEDIATE,British Grand Prix,28.0,38.0,11,102.95527272727273
+2024_12_British_Grand_Prix,STR,3.0,MEDIUM,British Grand Prix,41.0,52.0,12,90.05391666666667
+2024_12_British_Grand_Prix,TSU,1.0,MEDIUM,British Grand Prix,1.0,26.0,26,94.5501923076923
+2024_12_British_Grand_Prix,TSU,2.0,INTERMEDIATE,British Grand Prix,29.0,37.0,9,103.67055555555555
+2024_12_British_Grand_Prix,TSU,3.0,SOFT,British Grand Prix,40.0,52.0,13,91.24161538461539
+2024_12_British_Grand_Prix,VER,1.0,MEDIUM,British Grand Prix,1.0,25.0,25,93.33124
+2024_12_British_Grand_Prix,VER,2.0,INTERMEDIATE,British Grand Prix,28.0,37.0,10,101.8279
+2024_12_British_Grand_Prix,VER,3.0,HARD,British Grand Prix,40.0,52.0,13,89.38692307692307
+2024_12_British_Grand_Prix,ZHO,1.0,SOFT,British Grand Prix,1.0,11.0,11,95.14145454545455
+2024_12_British_Grand_Prix,ZHO,2.0,MEDIUM,British Grand Prix,14.0,18.0,5,95.57480000000001
+2024_12_British_Grand_Prix,ZHO,3.0,INTERMEDIATE,British Grand Prix,21.0,25.0,5,108.4002
+2024_12_British_Grand_Prix,ZHO,4.0,INTERMEDIATE,British Grand Prix,28.0,36.0,9,103.90833333333333
+2024_12_British_Grand_Prix,ZHO,5.0,SOFT,British Grand Prix,39.0,50.0,12,91.70100000000001
+2024_13_Hungarian_Grand_Prix,ALB,1.0,SOFT,Hungarian Grand Prix,1.0,5.0,5,87.67519999999999
+2024_13_Hungarian_Grand_Prix,ALB,2.0,HARD,Hungarian Grand Prix,8.0,28.0,21,85.40428571428572
+2024_13_Hungarian_Grand_Prix,ALB,3.0,HARD,Hungarian Grand Prix,31.0,69.0,39,84.74184615384615
+2024_13_Hungarian_Grand_Prix,ALO,1.0,SOFT,Hungarian Grand Prix,1.0,6.0,6,87.11833333333334
+2024_13_Hungarian_Grand_Prix,ALO,2.0,MEDIUM,Hungarian Grand Prix,9.0,36.0,28,85.03007142857143
+2024_13_Hungarian_Grand_Prix,ALO,3.0,HARD,Hungarian Grand Prix,39.0,70.0,32,83.85284375
+2024_13_Hungarian_Grand_Prix,BOT,1.0,MEDIUM,Hungarian Grand Prix,1.0,15.0,15,86.22586666666666
+2024_13_Hungarian_Grand_Prix,BOT,2.0,HARD,Hungarian Grand Prix,18.0,44.0,27,85.41196296296296
+2024_13_Hungarian_Grand_Prix,BOT,3.0,HARD,Hungarian Grand Prix,47.0,69.0,23,84.60817391304349
+2024_13_Hungarian_Grand_Prix,GAS,1.0,HARD,Hungarian Grand Prix,2.0,27.0,26,85.86896153846153
+2024_13_Hungarian_Grand_Prix,GAS,2.0,MEDIUM,Hungarian Grand Prix,30.0,32.0,3,83.42333333333333
+2024_13_Hungarian_Grand_Prix,HAM,1.0,MEDIUM,Hungarian Grand Prix,1.0,15.0,15,84.82553333333334
+2024_13_Hungarian_Grand_Prix,HAM,2.0,HARD,Hungarian Grand Prix,18.0,39.0,22,83.81863636363636
+2024_13_Hungarian_Grand_Prix,HAM,3.0,HARD,Hungarian Grand Prix,42.0,70.0,29,82.90217241379311
+2024_13_Hungarian_Grand_Prix,HUL,1.0,MEDIUM,Hungarian Grand Prix,1.0,1.0,1,95.921
+2024_13_Hungarian_Grand_Prix,HUL,2.0,HARD,Hungarian Grand Prix,4.0,28.0,25,85.39399999999999
+2024_13_Hungarian_Grand_Prix,HUL,3.0,HARD,Hungarian Grand Prix,31.0,69.0,39,84.70920512820513
+2024_13_Hungarian_Grand_Prix,LEC,1.0,MEDIUM,Hungarian Grand Prix,1.0,22.0,22,84.86345454545454
+2024_13_Hungarian_Grand_Prix,LEC,2.0,HARD,Hungarian Grand Prix,25.0,39.0,15,83.31686666666666
+2024_13_Hungarian_Grand_Prix,LEC,3.0,MEDIUM,Hungarian Grand Prix,42.0,70.0,29,83.03068965517241
+2024_13_Hungarian_Grand_Prix,MAG,1.0,SOFT,Hungarian Grand Prix,1.0,5.0,5,87.8354
+2024_13_Hungarian_Grand_Prix,MAG,2.0,HARD,Hungarian Grand Prix,8.0,33.0,26,85.49207692307692
+2024_13_Hungarian_Grand_Prix,MAG,3.0,HARD,Hungarian Grand Prix,36.0,69.0,34,84.80338235294118
+2024_13_Hungarian_Grand_Prix,NOR,1.0,MEDIUM,Hungarian Grand Prix,1.0,16.0,16,84.498125
+2024_13_Hungarian_Grand_Prix,NOR,2.0,HARD,Hungarian Grand Prix,19.0,44.0,26,83.67842307692308
+2024_13_Hungarian_Grand_Prix,NOR,3.0,MEDIUM,Hungarian Grand Prix,47.0,70.0,24,82.62291666666667
+2024_13_Hungarian_Grand_Prix,OCO,1.0,MEDIUM,Hungarian Grand Prix,1.0,5.0,5,88.39959999999999
+2024_13_Hungarian_Grand_Prix,OCO,2.0,HARD,Hungarian Grand Prix,8.0,29.0,22,85.47154545454545
+2024_13_Hungarian_Grand_Prix,OCO,3.0,HARD,Hungarian Grand Prix,32.0,63.0,32,84.857
+2024_13_Hungarian_Grand_Prix,OCO,4.0,SOFT,Hungarian Grand Prix,66.0,69.0,4,82.8215
+2024_13_Hungarian_Grand_Prix,PER,1.0,HARD,Hungarian Grand Prix,1.0,27.0,27,85.89670370370371
+2024_13_Hungarian_Grand_Prix,PER,2.0,MEDIUM,Hungarian Grand Prix,30.0,46.0,17,83.14088235294118
+2024_13_Hungarian_Grand_Prix,PER,3.0,MEDIUM,Hungarian Grand Prix,49.0,70.0,22,82.40795454545454
+2024_13_Hungarian_Grand_Prix,PIA,1.0,MEDIUM,Hungarian Grand Prix,1.0,17.0,17,84.27741176470587
+2024_13_Hungarian_Grand_Prix,PIA,2.0,HARD,Hungarian Grand Prix,20.0,46.0,27,83.72125925925927
+2024_13_Hungarian_Grand_Prix,PIA,3.0,MEDIUM,Hungarian Grand Prix,49.0,70.0,22,82.37218181818183
+2024_13_Hungarian_Grand_Prix,RIC,1.0,MEDIUM,Hungarian Grand Prix,1.0,6.0,6,87.56850000000001
+2024_13_Hungarian_Grand_Prix,RIC,2.0,HARD,Hungarian Grand Prix,9.0,27.0,19,85.457
+2024_13_Hungarian_Grand_Prix,RIC,3.0,HARD,Hungarian Grand Prix,30.0,69.0,40,84.3344
+2024_13_Hungarian_Grand_Prix,RUS,1.0,HARD,Hungarian Grand Prix,1.0,32.0,32,85.7805
+2024_13_Hungarian_Grand_Prix,RUS,2.0,MEDIUM,Hungarian Grand Prix,35.0,52.0,18,82.76238888888889
+2024_13_Hungarian_Grand_Prix,RUS,3.0,HARD,Hungarian Grand Prix,55.0,70.0,16,82.3349375
+2024_13_Hungarian_Grand_Prix,SAI,1.0,MEDIUM,Hungarian Grand Prix,1.0,20.0,20,85.14905
+2024_13_Hungarian_Grand_Prix,SAI,2.0,HARD,Hungarian Grand Prix,23.0,46.0,24,83.65004166666667
+2024_13_Hungarian_Grand_Prix,SAI,3.0,MEDIUM,Hungarian Grand Prix,49.0,70.0,22,82.60968181818181
+2024_13_Hungarian_Grand_Prix,SAR,1.0,MEDIUM,Hungarian Grand Prix,1.0,7.0,7,87.75857142857141
+2024_13_Hungarian_Grand_Prix,SAR,2.0,HARD,Hungarian Grand Prix,10.0,32.0,23,85.46491304347826
+2024_13_Hungarian_Grand_Prix,SAR,3.0,HARD,Hungarian Grand Prix,35.0,62.0,28,84.85696428571428
+2024_13_Hungarian_Grand_Prix,SAR,4.0,SOFT,Hungarian Grand Prix,65.0,69.0,5,81.73620000000001
+2024_13_Hungarian_Grand_Prix,STR,1.0,SOFT,Hungarian Grand Prix,1.0,13.0,13,85.93746153846153
+2024_13_Hungarian_Grand_Prix,STR,2.0,MEDIUM,Hungarian Grand Prix,16.0,44.0,29,84.95131034482759
+2024_13_Hungarian_Grand_Prix,STR,3.0,HARD,Hungarian Grand Prix,47.0,70.0,24,83.211375
+2024_13_Hungarian_Grand_Prix,TSU,1.0,MEDIUM,Hungarian Grand Prix,1.0,28.0,28,85.82225000000001
+2024_13_Hungarian_Grand_Prix,TSU,2.0,HARD,Hungarian Grand Prix,31.0,70.0,40,84.1596
+2024_13_Hungarian_Grand_Prix,VER,1.0,MEDIUM,Hungarian Grand Prix,1.0,20.0,20,84.7207
+2024_13_Hungarian_Grand_Prix,VER,2.0,HARD,Hungarian Grand Prix,23.0,48.0,26,83.70849999999999
+2024_13_Hungarian_Grand_Prix,VER,3.0,MEDIUM,Hungarian Grand Prix,51.0,70.0,20,82.8965
+2024_13_Hungarian_Grand_Prix,ZHO,1.0,MEDIUM,Hungarian Grand Prix,1.0,6.0,6,88.39466666666665
+2024_13_Hungarian_Grand_Prix,ZHO,2.0,HARD,Hungarian Grand Prix,9.0,35.0,27,85.801
+2024_13_Hungarian_Grand_Prix,ZHO,3.0,HARD,Hungarian Grand Prix,38.0,69.0,32,84.842375
+2024_14_Belgian_Grand_Prix,ALB,1.0,MEDIUM,Belgian Grand Prix,1.0,7.0,7,111.68142857142857
+2024_14_Belgian_Grand_Prix,ALB,2.0,MEDIUM,Belgian Grand Prix,10.0,22.0,13,110.06061538461539
+2024_14_Belgian_Grand_Prix,ALB,3.0,HARD,Belgian Grand Prix,25.0,44.0,20,108.60595
+2024_14_Belgian_Grand_Prix,ALO,1.0,MEDIUM,Belgian Grand Prix,1.0,12.0,12,111.27358333333332
+2024_14_Belgian_Grand_Prix,ALO,2.0,MEDIUM,Belgian Grand Prix,15.0,44.0,30,109.10243333333332
+2024_14_Belgian_Grand_Prix,BOT,1.0,MEDIUM,Belgian Grand Prix,1.0,10.0,10,111.8252
+2024_14_Belgian_Grand_Prix,BOT,2.0,HARD,Belgian Grand Prix,13.0,34.0,22,109.66445454545455
+2024_14_Belgian_Grand_Prix,BOT,3.0,MEDIUM,Belgian Grand Prix,37.0,44.0,8,107.891875
+2024_14_Belgian_Grand_Prix,GAS,1.0,MEDIUM,Belgian Grand Prix,1.0,8.0,8,111.888375
+2024_14_Belgian_Grand_Prix,GAS,2.0,HARD,Belgian Grand Prix,11.0,27.0,17,109.85747058823529
+2024_14_Belgian_Grand_Prix,GAS,3.0,HARD,Belgian Grand Prix,30.0,44.0,15,108.10866666666668
+2024_14_Belgian_Grand_Prix,HAM,1.0,MEDIUM,Belgian Grand Prix,1.0,10.0,10,109.89200000000001
+2024_14_Belgian_Grand_Prix,HAM,2.0,HARD,Belgian Grand Prix,13.0,25.0,13,108.12076923076923
+2024_14_Belgian_Grand_Prix,HAM,3.0,HARD,Belgian Grand Prix,28.0,44.0,17,107.09464705882353
+2024_14_Belgian_Grand_Prix,HUL,1.0,MEDIUM,Belgian Grand Prix,1.0,6.0,6,112.6915
+2024_14_Belgian_Grand_Prix,HUL,2.0,HARD,Belgian Grand Prix,9.0,19.0,11,110.21118181818183
+2024_14_Belgian_Grand_Prix,HUL,3.0,MEDIUM,Belgian Grand Prix,22.0,44.0,23,109.49608695652174
+2024_14_Belgian_Grand_Prix,LEC,1.0,MEDIUM,Belgian Grand Prix,1.0,11.0,11,110.09018181818182
+2024_14_Belgian_Grand_Prix,LEC,2.0,HARD,Belgian Grand Prix,14.0,24.0,11,108.22145454545453
+2024_14_Belgian_Grand_Prix,LEC,3.0,HARD,Belgian Grand Prix,27.0,44.0,18,107.39294444444445
+2024_14_Belgian_Grand_Prix,MAG,1.0,MEDIUM,Belgian Grand Prix,1.0,16.0,16,111.8458125
+2024_14_Belgian_Grand_Prix,MAG,2.0,HARD,Belgian Grand Prix,19.0,44.0,26,109.04615384615384
+2024_14_Belgian_Grand_Prix,NOR,1.0,MEDIUM,Belgian Grand Prix,1.0,14.0,14,110.49964285714285
+2024_14_Belgian_Grand_Prix,NOR,2.0,HARD,Belgian Grand Prix,17.0,28.0,12,107.99400000000001
+2024_14_Belgian_Grand_Prix,NOR,3.0,HARD,Belgian Grand Prix,31.0,44.0,14,106.87392857142858
+2024_14_Belgian_Grand_Prix,OCO,1.0,MEDIUM,Belgian Grand Prix,1.0,11.0,11,111.55627272727271
+2024_14_Belgian_Grand_Prix,OCO,2.0,HARD,Belgian Grand Prix,14.0,29.0,16,109.191
+2024_14_Belgian_Grand_Prix,OCO,3.0,HARD,Belgian Grand Prix,32.0,44.0,13,107.77938461538461
+2024_14_Belgian_Grand_Prix,PER,1.0,MEDIUM,Belgian Grand Prix,1.0,10.0,10,110.33689999999999
+2024_14_Belgian_Grand_Prix,PER,2.0,MEDIUM,Belgian Grand Prix,13.0,20.0,8,108.672375
+2024_14_Belgian_Grand_Prix,PER,3.0,HARD,Belgian Grand Prix,23.0,41.0,19,107.96505263157896
+2024_14_Belgian_Grand_Prix,PER,4.0,SOFT,Belgian Grand Prix,44.0,44.0,1,104.701
+2024_14_Belgian_Grand_Prix,PIA,1.0,MEDIUM,Belgian Grand Prix,1.0,10.0,10,110.4896
+2024_14_Belgian_Grand_Prix,PIA,2.0,HARD,Belgian Grand Prix,13.0,29.0,17,108.00694117647059
+2024_14_Belgian_Grand_Prix,PIA,3.0,HARD,Belgian Grand Prix,32.0,44.0,13,106.66638461538462
+2024_14_Belgian_Grand_Prix,RIC,1.0,SOFT,Belgian Grand Prix,1.0,7.0,7,112.18442857142857
+2024_14_Belgian_Grand_Prix,RIC,2.0,MEDIUM,Belgian Grand Prix,10.0,20.0,11,109.83263636363635
+2024_14_Belgian_Grand_Prix,RIC,3.0,SOFT,Belgian Grand Prix,23.0,44.0,22,108.22954545454546
+2024_14_Belgian_Grand_Prix,RUS,1.0,MEDIUM,Belgian Grand Prix,1.0,9.0,9,110.65211111111111
+2024_14_Belgian_Grand_Prix,RUS,2.0,HARD,Belgian Grand Prix,12.0,44.0,33,108.0019090909091
+2024_14_Belgian_Grand_Prix,SAI,1.0,HARD,Belgian Grand Prix,1.0,19.0,19,110.05478947368422
+2024_14_Belgian_Grand_Prix,SAI,2.0,MEDIUM,Belgian Grand Prix,22.0,27.0,6,108.08550000000001
+2024_14_Belgian_Grand_Prix,SAI,3.0,HARD,Belgian Grand Prix,30.0,44.0,15,107.11726666666667
+2024_14_Belgian_Grand_Prix,SAR,1.0,MEDIUM,Belgian Grand Prix,1.0,7.0,7,112.95357142857142
+2024_14_Belgian_Grand_Prix,SAR,2.0,MEDIUM,Belgian Grand Prix,10.0,23.0,14,110.83135714285713
+2024_14_Belgian_Grand_Prix,SAR,3.0,HARD,Belgian Grand Prix,26.0,44.0,19,108.5108947368421
+2024_14_Belgian_Grand_Prix,STR,1.0,MEDIUM,Belgian Grand Prix,1.0,11.0,11,111.91409090909092
+2024_14_Belgian_Grand_Prix,STR,2.0,MEDIUM,Belgian Grand Prix,14.0,44.0,31,109.32896774193549
+2024_14_Belgian_Grand_Prix,TSU,1.0,MEDIUM,Belgian Grand Prix,1.0,14.0,14,112.1785
+2024_14_Belgian_Grand_Prix,TSU,2.0,SOFT,Belgian Grand Prix,17.0,44.0,28,109.3582142857143
+2024_14_Belgian_Grand_Prix,VER,1.0,MEDIUM,Belgian Grand Prix,1.0,9.0,9,110.91855555555556
+2024_14_Belgian_Grand_Prix,VER,2.0,HARD,Belgian Grand Prix,12.0,27.0,16,108.39375
+2024_14_Belgian_Grand_Prix,VER,3.0,MEDIUM,Belgian Grand Prix,30.0,44.0,15,106.916
+2024_14_Belgian_Grand_Prix,ZHO,1.0,HARD,Belgian Grand Prix,1.0,4.0,3,115.19866666666667
+2024_15_Dutch_Grand_Prix,ALB,1.0,MEDIUM,Dutch Grand Prix,1.0,11.0,11,78.66409090909092
+2024_15_Dutch_Grand_Prix,ALB,2.0,HARD,Dutch Grand Prix,14.0,53.0,40,76.742425
+2024_15_Dutch_Grand_Prix,ALB,3.0,MEDIUM,Dutch Grand Prix,56.0,71.0,16,75.0684375
+2024_15_Dutch_Grand_Prix,ALO,1.0,MEDIUM,Dutch Grand Prix,1.0,30.0,30,77.57513333333333
+2024_15_Dutch_Grand_Prix,ALO,2.0,HARD,Dutch Grand Prix,33.0,71.0,39,75.74397435897436
+2024_15_Dutch_Grand_Prix,BOT,1.0,SOFT,Dutch Grand Prix,1.0,14.0,14,78.35971428571429
+2024_15_Dutch_Grand_Prix,BOT,2.0,HARD,Dutch Grand Prix,17.0,42.0,26,77.12688461538461
+2024_15_Dutch_Grand_Prix,BOT,3.0,MEDIUM,Dutch Grand Prix,45.0,70.0,26,76.57353846153846
+2024_15_Dutch_Grand_Prix,GAS,1.0,MEDIUM,Dutch Grand Prix,1.0,31.0,31,77.44964516129032
+2024_15_Dutch_Grand_Prix,GAS,2.0,HARD,Dutch Grand Prix,34.0,71.0,38,75.66357894736842
+2024_15_Dutch_Grand_Prix,HAM,1.0,SOFT,Dutch Grand Prix,1.0,22.0,22,77.51290909090909
+2024_15_Dutch_Grand_Prix,HAM,2.0,HARD,Dutch Grand Prix,25.0,47.0,23,75.28934782608695
+2024_15_Dutch_Grand_Prix,HAM,3.0,SOFT,Dutch Grand Prix,50.0,72.0,23,74.4074347826087
+2024_15_Dutch_Grand_Prix,HUL,1.0,MEDIUM,Dutch Grand Prix,1.0,13.0,13,78.04115384615385
+2024_15_Dutch_Grand_Prix,HUL,2.0,HARD,Dutch Grand Prix,16.0,71.0,56,76.31525
+2024_15_Dutch_Grand_Prix,LEC,1.0,MEDIUM,Dutch Grand Prix,1.0,23.0,23,76.8194347826087
+2024_15_Dutch_Grand_Prix,LEC,2.0,HARD,Dutch Grand Prix,26.0,72.0,47,75.12606382978724
+2024_15_Dutch_Grand_Prix,MAG,1.0,HARD,Dutch Grand Prix,2.0,39.0,38,77.51813157894736
+2024_15_Dutch_Grand_Prix,MAG,2.0,MEDIUM,Dutch Grand Prix,42.0,71.0,30,76.52130000000001
+2024_15_Dutch_Grand_Prix,NOR,1.0,MEDIUM,Dutch Grand Prix,1.0,27.0,27,76.26637037037037
+2024_15_Dutch_Grand_Prix,NOR,2.0,HARD,Dutch Grand Prix,30.0,72.0,43,74.69618604651163
+2024_15_Dutch_Grand_Prix,OCO,1.0,MEDIUM,Dutch Grand Prix,1.0,29.0,29,78.13686206896551
+2024_15_Dutch_Grand_Prix,OCO,2.0,HARD,Dutch Grand Prix,32.0,71.0,40,76.241575
+2024_15_Dutch_Grand_Prix,PER,1.0,MEDIUM,Dutch Grand Prix,1.0,28.0,28,76.88782142857143
+2024_15_Dutch_Grand_Prix,PER,2.0,HARD,Dutch Grand Prix,31.0,72.0,42,75.13052380952381
+2024_15_Dutch_Grand_Prix,PIA,1.0,MEDIUM,Dutch Grand Prix,1.0,32.0,32,76.64574999999999
+2024_15_Dutch_Grand_Prix,PIA,2.0,HARD,Dutch Grand Prix,35.0,72.0,38,74.89807894736842
+2024_15_Dutch_Grand_Prix,RIC,1.0,MEDIUM,Dutch Grand Prix,1.0,28.0,28,77.85753571428572
+2024_15_Dutch_Grand_Prix,RIC,2.0,HARD,Dutch Grand Prix,31.0,71.0,41,75.83
+2024_15_Dutch_Grand_Prix,RUS,1.0,MEDIUM,Dutch Grand Prix,1.0,24.0,24,76.76225
+2024_15_Dutch_Grand_Prix,RUS,2.0,HARD,Dutch Grand Prix,27.0,53.0,27,75.42022222222222
+2024_15_Dutch_Grand_Prix,RUS,3.0,SOFT,Dutch Grand Prix,56.0,72.0,17,74.3645294117647
+2024_15_Dutch_Grand_Prix,SAI,1.0,MEDIUM,Dutch Grand Prix,1.0,29.0,29,76.95137931034483
+2024_15_Dutch_Grand_Prix,SAI,2.0,HARD,Dutch Grand Prix,32.0,72.0,41,74.9140243902439
+2024_15_Dutch_Grand_Prix,SAR,1.0,MEDIUM,Dutch Grand Prix,1.0,21.0,21,78.43585714285715
+2024_15_Dutch_Grand_Prix,SAR,2.0,HARD,Dutch Grand Prix,24.0,71.0,48,76.73610416666666
+2024_15_Dutch_Grand_Prix,STR,1.0,MEDIUM,Dutch Grand Prix,1.0,29.0,29,77.74717241379311
+2024_15_Dutch_Grand_Prix,STR,2.0,HARD,Dutch Grand Prix,32.0,71.0,40,75.89655
+2024_15_Dutch_Grand_Prix,TSU,1.0,SOFT,Dutch Grand Prix,1.0,13.0,13,78.12307692307692
+2024_15_Dutch_Grand_Prix,TSU,2.0,MEDIUM,Dutch Grand Prix,16.0,31.0,16,76.7525
+2024_15_Dutch_Grand_Prix,TSU,3.0,HARD,Dutch Grand Prix,34.0,71.0,38,76.69028947368422
+2024_15_Dutch_Grand_Prix,VER,1.0,MEDIUM,Dutch Grand Prix,1.0,26.0,26,76.50392307692307
+2024_15_Dutch_Grand_Prix,VER,2.0,HARD,Dutch Grand Prix,29.0,72.0,44,75.11020454545455
+2024_15_Dutch_Grand_Prix,ZHO,1.0,MEDIUM,Dutch Grand Prix,1.0,17.0,17,78.88970588235294
+2024_15_Dutch_Grand_Prix,ZHO,2.0,HARD,Dutch Grand Prix,20.0,50.0,31,77.60341935483872
+2024_15_Dutch_Grand_Prix,ZHO,3.0,SOFT,Dutch Grand Prix,53.0,70.0,18,76.39622222222222
+2024_16_Italian_Grand_Prix,ALB,1.0,MEDIUM,Italian Grand Prix,1.0,16.0,16,86.43075
+2024_16_Italian_Grand_Prix,ALB,2.0,HARD,Italian Grand Prix,19.0,53.0,35,84.79491428571428
+2024_16_Italian_Grand_Prix,ALO,1.0,MEDIUM,Italian Grand Prix,1.0,11.0,11,86.709
+2024_16_Italian_Grand_Prix,ALO,2.0,HARD,Italian Grand Prix,14.0,34.0,21,85.02957142857143
+2024_16_Italian_Grand_Prix,ALO,3.0,HARD,Italian Grand Prix,37.0,53.0,17,83.55982352941177
+2024_16_Italian_Grand_Prix,BOT,1.0,HARD,Italian Grand Prix,1.0,32.0,32,86.9743125
+2024_16_Italian_Grand_Prix,BOT,2.0,MEDIUM,Italian Grand Prix,35.0,52.0,18,84.90966666666667
+2024_16_Italian_Grand_Prix,COL,1.0,MEDIUM,Italian Grand Prix,1.0,15.0,15,87.26566666666666
+2024_16_Italian_Grand_Prix,COL,2.0,HARD,Italian Grand Prix,18.0,53.0,36,84.87522222222222
+2024_16_Italian_Grand_Prix,GAS,1.0,MEDIUM,Italian Grand Prix,1.0,9.0,9,87.3728888888889
+2024_16_Italian_Grand_Prix,GAS,2.0,HARD,Italian Grand Prix,12.0,29.0,18,85.60127777777778
+2024_16_Italian_Grand_Prix,GAS,3.0,HARD,Italian Grand Prix,32.0,52.0,21,84.66280952380951
+2024_16_Italian_Grand_Prix,HAM,1.0,MEDIUM,Italian Grand Prix,1.0,14.0,14,85.55678571428572
+2024_16_Italian_Grand_Prix,HAM,2.0,HARD,Italian Grand Prix,17.0,36.0,20,83.93
+2024_16_Italian_Grand_Prix,HAM,3.0,HARD,Italian Grand Prix,39.0,53.0,15,82.68986666666666
+2024_16_Italian_Grand_Prix,HUL,1.0,MEDIUM,Italian Grand Prix,1.0,4.0,4,89.0015
+2024_16_Italian_Grand_Prix,HUL,2.0,HARD,Italian Grand Prix,7.0,31.0,25,85.48844
+2024_16_Italian_Grand_Prix,HUL,3.0,HARD,Italian Grand Prix,34.0,52.0,19,84.21136842105264
+2024_16_Italian_Grand_Prix,LEC,1.0,MEDIUM,Italian Grand Prix,1.0,14.0,14,85.10885714285713
+2024_16_Italian_Grand_Prix,LEC,2.0,HARD,Italian Grand Prix,17.0,53.0,37,83.62494594594595
+2024_16_Italian_Grand_Prix,MAG,1.0,MEDIUM,Italian Grand Prix,1.0,13.0,13,86.76784615384615
+2024_16_Italian_Grand_Prix,MAG,2.0,HARD,Italian Grand Prix,16.0,53.0,38,84.58107894736843
+2024_16_Italian_Grand_Prix,NOR,1.0,MEDIUM,Italian Grand Prix,1.0,13.0,13,85.14392307692309
+2024_16_Italian_Grand_Prix,NOR,2.0,HARD,Italian Grand Prix,16.0,31.0,16,83.828625
+2024_16_Italian_Grand_Prix,NOR,3.0,HARD,Italian Grand Prix,34.0,53.0,20,82.70035
+2024_16_Italian_Grand_Prix,OCO,1.0,HARD,Italian Grand Prix,1.0,30.0,30,86.63449999999999
+2024_16_Italian_Grand_Prix,OCO,2.0,MEDIUM,Italian Grand Prix,33.0,52.0,20,84.9442
+2024_16_Italian_Grand_Prix,PER,1.0,HARD,Italian Grand Prix,1.0,22.0,22,85.70881818181819
+2024_16_Italian_Grand_Prix,PER,2.0,HARD,Italian Grand Prix,25.0,34.0,10,83.8789
+2024_16_Italian_Grand_Prix,PER,3.0,MEDIUM,Italian Grand Prix,37.0,53.0,17,83.72217647058824
+2024_16_Italian_Grand_Prix,PIA,1.0,MEDIUM,Italian Grand Prix,1.0,15.0,15,84.88513333333334
+2024_16_Italian_Grand_Prix,PIA,2.0,HARD,Italian Grand Prix,18.0,37.0,20,83.49725
+2024_16_Italian_Grand_Prix,PIA,3.0,HARD,Italian Grand Prix,40.0,53.0,14,82.45835714285714
+2024_16_Italian_Grand_Prix,RIC,1.0,MEDIUM,Italian Grand Prix,1.0,10.0,10,86.9139
+2024_16_Italian_Grand_Prix,RIC,2.0,HARD,Italian Grand Prix,13.0,53.0,41,85.02170731707317
+2024_16_Italian_Grand_Prix,RUS,1.0,MEDIUM,Italian Grand Prix,1.0,10.0,10,86.05019999999999
+2024_16_Italian_Grand_Prix,RUS,2.0,HARD,Italian Grand Prix,13.0,32.0,20,84.38175
+2024_16_Italian_Grand_Prix,RUS,3.0,HARD,Italian Grand Prix,35.0,53.0,19,82.8732105263158
+2024_16_Italian_Grand_Prix,SAI,1.0,MEDIUM,Italian Grand Prix,1.0,18.0,18,85.37883333333333
+2024_16_Italian_Grand_Prix,SAI,2.0,HARD,Italian Grand Prix,21.0,53.0,33,83.76757575757576
+2024_16_Italian_Grand_Prix,STR,1.0,HARD,Italian Grand Prix,1.0,18.0,18,86.97172222222223
+2024_16_Italian_Grand_Prix,STR,2.0,HARD,Italian Grand Prix,21.0,35.0,15,84.9282
+2024_16_Italian_Grand_Prix,STR,3.0,MEDIUM,Italian Grand Prix,38.0,49.0,12,84.27733333333333
+2024_16_Italian_Grand_Prix,STR,4.0,SOFT,Italian Grand Prix,52.0,52.0,1,82.232
+2024_16_Italian_Grand_Prix,TSU,1.0,HARD,Italian Grand Prix,1.0,6.0,6,89.39166666666667
+2024_16_Italian_Grand_Prix,VER,1.0,HARD,Italian Grand Prix,1.0,21.0,21,85.56028571428571
+2024_16_Italian_Grand_Prix,VER,2.0,HARD,Italian Grand Prix,24.0,40.0,17,83.58823529411765
+2024_16_Italian_Grand_Prix,VER,3.0,MEDIUM,Italian Grand Prix,43.0,53.0,11,82.778
+2024_16_Italian_Grand_Prix,ZHO,1.0,MEDIUM,Italian Grand Prix,1.0,14.0,14,87.55992857142857
+2024_16_Italian_Grand_Prix,ZHO,2.0,HARD,Italian Grand Prix,17.0,52.0,36,85.93797222222221
+2024_17_Azerbaijan_Grand_Prix,ALB,1.0,HARD,Azerbaijan Grand Prix,1.0,30.0,30,109.76703333333333
+2024_17_Azerbaijan_Grand_Prix,ALB,2.0,MEDIUM,Azerbaijan Grand Prix,33.0,50.0,18,110.07077777777778
+2024_17_Azerbaijan_Grand_Prix,ALO,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,10.0,10,110.49600000000001
+2024_17_Azerbaijan_Grand_Prix,ALO,2.0,HARD,Azerbaijan Grand Prix,13.0,50.0,38,109.6631052631579
+2024_17_Azerbaijan_Grand_Prix,BEA,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,13.0,13,111.21884615384616
+2024_17_Azerbaijan_Grand_Prix,BEA,2.0,HARD,Azerbaijan Grand Prix,16.0,50.0,35,109.44628571428571
+2024_17_Azerbaijan_Grand_Prix,BOT,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,10.0,10,113.4248
+2024_17_Azerbaijan_Grand_Prix,BOT,2.0,HARD,Azerbaijan Grand Prix,13.0,49.0,37,110.05762162162162
+2024_17_Azerbaijan_Grand_Prix,COL,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,9.0,9,110.78666666666668
+2024_17_Azerbaijan_Grand_Prix,COL,2.0,HARD,Azerbaijan Grand Prix,12.0,50.0,39,109.68779487179486
+2024_17_Azerbaijan_Grand_Prix,GAS,1.0,HARD,Azerbaijan Grand Prix,1.0,49.0,49,109.89279591836736
+2024_17_Azerbaijan_Grand_Prix,HAM,1.0,MEDIUM,Azerbaijan Grand Prix,2.0,11.0,10,110.37840000000001
+2024_17_Azerbaijan_Grand_Prix,HAM,2.0,HARD,Azerbaijan Grand Prix,14.0,50.0,37,109.327
+2024_17_Azerbaijan_Grand_Prix,HUL,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,14.0,14,110.93857142857144
+2024_17_Azerbaijan_Grand_Prix,HUL,2.0,HARD,Azerbaijan Grand Prix,17.0,50.0,34,109.56182352941175
+2024_17_Azerbaijan_Grand_Prix,LEC,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,15.0,15,108.66493333333332
+2024_17_Azerbaijan_Grand_Prix,LEC,2.0,HARD,Azerbaijan Grand Prix,18.0,50.0,33,108.00009090909091
+2024_17_Azerbaijan_Grand_Prix,NOR,1.0,HARD,Azerbaijan Grand Prix,1.0,36.0,36,109.46511111111111
+2024_17_Azerbaijan_Grand_Prix,NOR,2.0,MEDIUM,Azerbaijan Grand Prix,39.0,50.0,12,107.30825
+2024_17_Azerbaijan_Grand_Prix,OCO,1.0,HARD,Azerbaijan Grand Prix,2.0,48.0,47,110.4485744680851
+2024_17_Azerbaijan_Grand_Prix,PER,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,12.0,12,109.09808333333335
+2024_17_Azerbaijan_Grand_Prix,PER,2.0,HARD,Azerbaijan Grand Prix,15.0,49.0,35,107.82168571428572
+2024_17_Azerbaijan_Grand_Prix,PIA,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,14.0,14,108.99178571428571
+2024_17_Azerbaijan_Grand_Prix,PIA,2.0,HARD,Azerbaijan Grand Prix,17.0,50.0,34,107.70658823529412
+2024_17_Azerbaijan_Grand_Prix,RIC,1.0,HARD,Azerbaijan Grand Prix,1.0,48.0,48,110.20168749999999
+2024_17_Azerbaijan_Grand_Prix,RUS,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,11.0,11,110.08027272727273
+2024_17_Azerbaijan_Grand_Prix,RUS,2.0,HARD,Azerbaijan Grand Prix,14.0,50.0,37,108.29091891891892
+2024_17_Azerbaijan_Grand_Prix,SAI,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,16.0,16,109.25031249999999
+2024_17_Azerbaijan_Grand_Prix,SAI,2.0,HARD,Azerbaijan Grand Prix,19.0,49.0,31,107.56316129032258
+2024_17_Azerbaijan_Grand_Prix,STR,2.0,HARD,Azerbaijan Grand Prix,3.0,21.0,19,110.17647368421053
+2024_17_Azerbaijan_Grand_Prix,STR,3.0,HARD,Azerbaijan Grand Prix,24.0,44.0,21,108.82376190476191
+2024_17_Azerbaijan_Grand_Prix,TSU,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,11.0,11,113.04618181818182
+2024_17_Azerbaijan_Grand_Prix,VER,1.0,MEDIUM,Azerbaijan Grand Prix,1.0,11.0,11,109.71645454545455
+2024_17_Azerbaijan_Grand_Prix,VER,2.0,HARD,Azerbaijan Grand Prix,14.0,48.0,35,108.11977142857143
+2024_17_Azerbaijan_Grand_Prix,ZHO,1.0,HARD,Azerbaijan Grand Prix,1.0,33.0,33,111.18754545454544
+2024_17_Azerbaijan_Grand_Prix,ZHO,2.0,MEDIUM,Azerbaijan Grand Prix,36.0,49.0,14,108.11614285714286
+2024_18_Singapore_Grand_Prix,ALB,1.0,MEDIUM,Singapore Grand Prix,1.0,10.0,10,100.7105
+2024_18_Singapore_Grand_Prix,ALB,2.0,HARD,Singapore Grand Prix,13.0,14.0,2,97.814
+2024_18_Singapore_Grand_Prix,ALO,1.0,MEDIUM,Singapore Grand Prix,1.0,24.0,24,99.306625
+2024_18_Singapore_Grand_Prix,ALO,2.0,HARD,Singapore Grand Prix,27.0,61.0,35,98.36257142857143
+2024_18_Singapore_Grand_Prix,BOT,1.0,HARD,Singapore Grand Prix,1.0,32.0,32,100.774
+2024_18_Singapore_Grand_Prix,BOT,2.0,MEDIUM,Singapore Grand Prix,35.0,61.0,27,98.42288888888889
+2024_18_Singapore_Grand_Prix,COL,1.0,MEDIUM,Singapore Grand Prix,1.0,28.0,28,99.46160714285715
+2024_18_Singapore_Grand_Prix,COL,2.0,HARD,Singapore Grand Prix,31.0,61.0,31,98.1936129032258
+2024_18_Singapore_Grand_Prix,GAS,1.0,MEDIUM,Singapore Grand Prix,1.0,36.0,36,100.6425
+2024_18_Singapore_Grand_Prix,GAS,2.0,SOFT,Singapore Grand Prix,39.0,61.0,23,98.02573913043479
+2024_18_Singapore_Grand_Prix,HAM,1.0,SOFT,Singapore Grand Prix,1.0,16.0,16,98.6819375
+2024_18_Singapore_Grand_Prix,HAM,2.0,HARD,Singapore Grand Prix,19.0,62.0,44,98.48495454545454
+2024_18_Singapore_Grand_Prix,HUL,1.0,MEDIUM,Singapore Grand Prix,1.0,28.0,28,99.37835714285714
+2024_18_Singapore_Grand_Prix,HUL,2.0,HARD,Singapore Grand Prix,31.0,61.0,31,98.15890322580645
+2024_18_Singapore_Grand_Prix,LEC,1.0,MEDIUM,Singapore Grand Prix,1.0,35.0,35,99.23671428571429
+2024_18_Singapore_Grand_Prix,LEC,2.0,HARD,Singapore Grand Prix,38.0,62.0,25,96.69856
+2024_18_Singapore_Grand_Prix,MAG,1.0,HARD,Singapore Grand Prix,1.0,27.0,27,100.32422222222222
+2024_18_Singapore_Grand_Prix,MAG,2.0,MEDIUM,Singapore Grand Prix,30.0,48.0,19,98.65552631578947
+2024_18_Singapore_Grand_Prix,MAG,3.0,SOFT,Singapore Grand Prix,51.0,56.0,6,97.55983333333334
+2024_18_Singapore_Grand_Prix,NOR,1.0,MEDIUM,Singapore Grand Prix,1.0,29.0,29,97.54431034482758
+2024_18_Singapore_Grand_Prix,NOR,2.0,HARD,Singapore Grand Prix,32.0,62.0,31,96.71951612903226
+2024_18_Singapore_Grand_Prix,OCO,1.0,MEDIUM,Singapore Grand Prix,1.0,28.0,28,100.12039285714286
+2024_18_Singapore_Grand_Prix,OCO,2.0,HARD,Singapore Grand Prix,31.0,61.0,31,98.79145161290322
+2024_18_Singapore_Grand_Prix,PER,1.0,MEDIUM,Singapore Grand Prix,1.0,27.0,27,99.61944444444444
+2024_18_Singapore_Grand_Prix,PER,2.0,HARD,Singapore Grand Prix,30.0,61.0,32,98.213
+2024_18_Singapore_Grand_Prix,PIA,1.0,MEDIUM,Singapore Grand Prix,1.0,37.0,37,98.56710810810812
+2024_18_Singapore_Grand_Prix,PIA,2.0,HARD,Singapore Grand Prix,40.0,62.0,23,96.67239130434783
+2024_18_Singapore_Grand_Prix,RIC,1.0,SOFT,Singapore Grand Prix,1.0,9.0,9,101.05411111111111
+2024_18_Singapore_Grand_Prix,RIC,2.0,MEDIUM,Singapore Grand Prix,12.0,45.0,34,99.45658823529412
+2024_18_Singapore_Grand_Prix,RIC,3.0,SOFT,Singapore Grand Prix,48.0,57.0,10,97.5294
+2024_18_Singapore_Grand_Prix,RIC,4.0,SOFT,Singapore Grand Prix,60.0,61.0,2,97.018
+2024_18_Singapore_Grand_Prix,RUS,1.0,MEDIUM,Singapore Grand Prix,1.0,26.0,26,98.69265384615385
+2024_18_Singapore_Grand_Prix,RUS,2.0,HARD,Singapore Grand Prix,29.0,62.0,34,97.7540588235294
+2024_18_Singapore_Grand_Prix,SAI,1.0,MEDIUM,Singapore Grand Prix,1.0,12.0,12,100.09683333333334
+2024_18_Singapore_Grand_Prix,SAI,2.0,HARD,Singapore Grand Prix,15.0,62.0,48,98.40435416666666
+2024_18_Singapore_Grand_Prix,STR,1.0,HARD,Singapore Grand Prix,1.0,25.0,25,100.54896000000001
+2024_18_Singapore_Grand_Prix,STR,2.0,MEDIUM,Singapore Grand Prix,28.0,61.0,34,98.74082352941177
+2024_18_Singapore_Grand_Prix,TSU,1.0,MEDIUM,Singapore Grand Prix,1.0,32.0,32,99.9125625
+2024_18_Singapore_Grand_Prix,TSU,2.0,SOFT,Singapore Grand Prix,35.0,61.0,27,97.59611111111111
+2024_18_Singapore_Grand_Prix,VER,1.0,MEDIUM,Singapore Grand Prix,1.0,28.0,28,98.27207142857142
+2024_18_Singapore_Grand_Prix,VER,2.0,HARD,Singapore Grand Prix,31.0,62.0,32,96.719875
+2024_18_Singapore_Grand_Prix,ZHO,1.0,HARD,Singapore Grand Prix,1.0,33.0,33,100.71003030303031
+2024_18_Singapore_Grand_Prix,ZHO,2.0,MEDIUM,Singapore Grand Prix,36.0,61.0,26,98.38157692307692
+2024_19_United_States_Grand_Prix,ALB,1.0,MEDIUM,United States Grand Prix,1.0,2.0,2,107.9065
+2024_19_United_States_Grand_Prix,ALB,2.0,MEDIUM,United States Grand Prix,5.0,32.0,28,103.57196428571429
+2024_19_United_States_Grand_Prix,ALB,3.0,HARD,United States Grand Prix,35.0,55.0,21,99.80071428571429
+2024_19_United_States_Grand_Prix,ALO,1.0,MEDIUM,United States Grand Prix,1.0,25.0,24,105.46166666666666
+2024_19_United_States_Grand_Prix,ALO,2.0,HARD,United States Grand Prix,28.0,55.0,28,100.09703571428572
+2024_19_United_States_Grand_Prix,BOT,1.0,MEDIUM,United States Grand Prix,1.0,14.0,13,109.15976923076923
+2024_19_United_States_Grand_Prix,BOT,2.0,HARD,United States Grand Prix,17.0,55.0,39,101.28684615384616
+2024_19_United_States_Grand_Prix,COL,1.0,HARD,United States Grand Prix,1.0,38.0,37,103.72313513513514
+2024_19_United_States_Grand_Prix,COL,2.0,MEDIUM,United States Grand Prix,41.0,56.0,16,98.326875
+2024_19_United_States_Grand_Prix,GAS,1.0,MEDIUM,United States Grand Prix,1.0,17.0,16,106.3143125
+2024_19_United_States_Grand_Prix,GAS,2.0,HARD,United States Grand Prix,20.0,56.0,37,100.19191891891892
+2024_19_United_States_Grand_Prix,HAM,1.0,HARD,United States Grand Prix,1.0,1.0,1,108.064
+2024_19_United_States_Grand_Prix,HUL,1.0,MEDIUM,United States Grand Prix,1.0,26.0,25,104.7516
+2024_19_United_States_Grand_Prix,HUL,2.0,HARD,United States Grand Prix,29.0,56.0,28,99.16946428571428
+2024_19_United_States_Grand_Prix,LAW,1.0,HARD,United States Grand Prix,1.0,35.0,33,102.49906060606061
+2024_19_United_States_Grand_Prix,LAW,2.0,MEDIUM,United States Grand Prix,38.0,56.0,19,98.71563157894737
+2024_19_United_States_Grand_Prix,LEC,1.0,MEDIUM,United States Grand Prix,1.0,25.0,23,100.57595652173913
+2024_19_United_States_Grand_Prix,LEC,2.0,HARD,United States Grand Prix,28.0,56.0,29,98.50586206896551
+2024_19_United_States_Grand_Prix,MAG,1.0,MEDIUM,United States Grand Prix,1.0,16.0,14,103.67157142857143
+2024_19_United_States_Grand_Prix,MAG,2.0,HARD,United States Grand Prix,19.0,37.0,19,100.4388947368421
+2024_19_United_States_Grand_Prix,MAG,3.0,MEDIUM,United States Grand Prix,40.0,56.0,17,98.79029411764705
+2024_19_United_States_Grand_Prix,NOR,1.0,MEDIUM,United States Grand Prix,1.0,30.0,28,100.98575000000001
+2024_19_United_States_Grand_Prix,NOR,2.0,HARD,United States Grand Prix,33.0,56.0,24,98.32829166666666
+2024_19_United_States_Grand_Prix,OCO,1.0,MEDIUM,United States Grand Prix,1.0,30.0,29,105.03258620689655
+2024_19_United_States_Grand_Prix,OCO,2.0,HARD,United States Grand Prix,33.0,50.0,18,100.11338888888889
+2024_19_United_States_Grand_Prix,OCO,3.0,SOFT,United States Grand Prix,53.0,55.0,3,99.10733333333333
+2024_19_United_States_Grand_Prix,PER,1.0,MEDIUM,United States Grand Prix,1.0,25.0,23,102.74513043478261
+2024_19_United_States_Grand_Prix,PER,2.0,HARD,United States Grand Prix,28.0,56.0,29,99.26903448275863
+2024_19_United_States_Grand_Prix,PIA,1.0,MEDIUM,United States Grand Prix,1.0,31.0,30,102.84946666666666
+2024_19_United_States_Grand_Prix,PIA,2.0,HARD,United States Grand Prix,34.0,56.0,23,98.32047826086956
+2024_19_United_States_Grand_Prix,RUS,1.0,HARD,United States Grand Prix,2.0,39.0,37,102.88589189189189
+2024_19_United_States_Grand_Prix,RUS,2.0,MEDIUM,United States Grand Prix,42.0,56.0,15,98.16893333333334
+2024_19_United_States_Grand_Prix,SAI,1.0,MEDIUM,United States Grand Prix,1.0,20.0,18,101.49777777777778
+2024_19_United_States_Grand_Prix,SAI,2.0,HARD,United States Grand Prix,23.0,56.0,34,98.65673529411765
+2024_19_United_States_Grand_Prix,STR,1.0,HARD,United States Grand Prix,1.0,26.0,24,103.91320833333333
+2024_19_United_States_Grand_Prix,STR,2.0,MEDIUM,United States Grand Prix,29.0,55.0,27,100.17625925925925
+2024_19_United_States_Grand_Prix,TSU,1.0,MEDIUM,United States Grand Prix,1.0,17.0,15,103.9206
+2024_19_United_States_Grand_Prix,TSU,2.0,HARD,United States Grand Prix,20.0,55.0,36,100.60383333333333
+2024_19_United_States_Grand_Prix,VER,1.0,MEDIUM,United States Grand Prix,1.0,24.0,22,101.1460909090909
+2024_19_United_States_Grand_Prix,VER,2.0,HARD,United States Grand Prix,27.0,56.0,30,98.81269999999999
+2024_19_United_States_Grand_Prix,ZHO,1.0,MEDIUM,United States Grand Prix,1.0,12.0,12,114.41866666666665
+2024_19_United_States_Grand_Prix,ZHO,2.0,MEDIUM,United States Grand Prix,15.0,34.0,20,101.602
+2024_19_United_States_Grand_Prix,ZHO,3.0,HARD,United States Grand Prix,37.0,55.0,19,100.03563157894736
+2024_20_Mexico_City_Grand_Prix,ALO,1.0,MEDIUM,Mexico City Grand Prix,1.0,14.0,14,102.70128571428572
+2024_20_Mexico_City_Grand_Prix,BOT,1.0,HARD,Mexico City Grand Prix,1.0,48.0,48,89.13462499999999
+2024_20_Mexico_City_Grand_Prix,BOT,2.0,MEDIUM,Mexico City Grand Prix,51.0,70.0,20,81.59025
+2024_20_Mexico_City_Grand_Prix,COL,1.0,HARD,Mexico City Grand Prix,1.0,46.0,46,89.20202173913043
+2024_20_Mexico_City_Grand_Prix,COL,2.0,MEDIUM,Mexico City Grand Prix,49.0,70.0,22,81.36977272727273
+2024_20_Mexico_City_Grand_Prix,GAS,1.0,MEDIUM,Mexico City Grand Prix,1.0,27.0,27,93.21714814814814
+2024_20_Mexico_City_Grand_Prix,GAS,2.0,HARD,Mexico City Grand Prix,30.0,70.0,41,82.14463414634146
+2024_20_Mexico_City_Grand_Prix,HAM,1.0,MEDIUM,Mexico City Grand Prix,1.0,27.0,27,92.74155555555555
+2024_20_Mexico_City_Grand_Prix,HAM,2.0,HARD,Mexico City Grand Prix,30.0,71.0,42,81.13814285714287
+2024_20_Mexico_City_Grand_Prix,HUL,1.0,MEDIUM,Mexico City Grand Prix,1.0,28.0,28,92.75939285714286
+2024_20_Mexico_City_Grand_Prix,HUL,2.0,HARD,Mexico City Grand Prix,31.0,70.0,40,81.825375
+2024_20_Mexico_City_Grand_Prix,LAW,1.0,HARD,Mexico City Grand Prix,1.0,38.0,38,90.44807894736842
+2024_20_Mexico_City_Grand_Prix,LAW,2.0,MEDIUM,Mexico City Grand Prix,41.0,64.0,24,81.88095833333334
+2024_20_Mexico_City_Grand_Prix,LAW,3.0,SOFT,Mexico City Grand Prix,67.0,70.0,4,81.98
+2024_20_Mexico_City_Grand_Prix,LEC,1.0,MEDIUM,Mexico City Grand Prix,1.0,30.0,30,91.09166666666667
+2024_20_Mexico_City_Grand_Prix,LEC,2.0,HARD,Mexico City Grand Prix,33.0,68.0,36,80.79302777777778
+2024_20_Mexico_City_Grand_Prix,LEC,3.0,SOFT,Mexico City Grand Prix,71.0,71.0,1,78.336
+2024_20_Mexico_City_Grand_Prix,MAG,1.0,MEDIUM,Mexico City Grand Prix,1.0,29.0,29,92.33244827586208
+2024_20_Mexico_City_Grand_Prix,MAG,2.0,HARD,Mexico City Grand Prix,32.0,71.0,40,81.31185
+2024_20_Mexico_City_Grand_Prix,NOR,1.0,MEDIUM,Mexico City Grand Prix,1.0,29.0,29,91.62596551724137
+2024_20_Mexico_City_Grand_Prix,NOR,2.0,HARD,Mexico City Grand Prix,32.0,71.0,40,80.43505
+2024_20_Mexico_City_Grand_Prix,OCO,1.0,HARD,Mexico City Grand Prix,2.0,47.0,46,88.35047826086956
+2024_20_Mexico_City_Grand_Prix,OCO,2.0,MEDIUM,Mexico City Grand Prix,50.0,70.0,21,81.30338095238096
+2024_20_Mexico_City_Grand_Prix,PER,1.0,HARD,Mexico City Grand Prix,1.0,19.0,19,97.55326315789473
+2024_20_Mexico_City_Grand_Prix,PER,2.0,MEDIUM,Mexico City Grand Prix,22.0,42.0,21,83.11871428571428
+2024_20_Mexico_City_Grand_Prix,PER,3.0,MEDIUM,Mexico City Grand Prix,45.0,67.0,23,81.8025652173913
+2024_20_Mexico_City_Grand_Prix,PER,4.0,SOFT,Mexico City Grand Prix,70.0,70.0,1,79.209
+2024_20_Mexico_City_Grand_Prix,PIA,1.0,MEDIUM,Mexico City Grand Prix,1.0,38.0,38,90.33144736842105
+2024_20_Mexico_City_Grand_Prix,PIA,2.0,HARD,Mexico City Grand Prix,41.0,71.0,31,80.75309677419355
+2024_20_Mexico_City_Grand_Prix,RUS,1.0,MEDIUM,Mexico City Grand Prix,1.0,30.0,30,91.5622
+2024_20_Mexico_City_Grand_Prix,RUS,2.0,HARD,Mexico City Grand Prix,33.0,71.0,39,81.265
+2024_20_Mexico_City_Grand_Prix,SAI,1.0,MEDIUM,Mexico City Grand Prix,1.0,31.0,31,90.53580645161291
+2024_20_Mexico_City_Grand_Prix,SAI,2.0,HARD,Mexico City Grand Prix,34.0,71.0,38,80.63865789473684
+2024_20_Mexico_City_Grand_Prix,STR,1.0,MEDIUM,Mexico City Grand Prix,1.0,25.0,25,94.31436
+2024_20_Mexico_City_Grand_Prix,STR,2.0,HARD,Mexico City Grand Prix,28.0,70.0,43,82.18816279069767
+2024_20_Mexico_City_Grand_Prix,VER,1.0,MEDIUM,Mexico City Grand Prix,1.0,25.0,25,93.046
+2024_20_Mexico_City_Grand_Prix,VER,2.0,HARD,Mexico City Grand Prix,28.0,71.0,44,81.40336363636364
+2024_20_Mexico_City_Grand_Prix,ZHO,1.0,HARD,Mexico City Grand Prix,1.0,42.0,42,90.2509761904762
+2024_20_Mexico_City_Grand_Prix,ZHO,2.0,MEDIUM,Mexico City Grand Prix,45.0,70.0,26,82.17657692307692
+2024_21_São_Paulo_Grand_Prix,ALO,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,26.0,26,85.71611538461539
+2024_21_São_Paulo_Grand_Prix,ALO,2.0,INTERMEDIATE,São Paulo Grand Prix,29.0,31.0,3,113.70333333333333
+2024_21_São_Paulo_Grand_Prix,ALO,3.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,89.07102777777777
+2024_21_São_Paulo_Grand_Prix,BEA,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,26.0,26,86.15596153846153
+2024_21_São_Paulo_Grand_Prix,BEA,2.0,INTERMEDIATE,São Paulo Grand Prix,29.0,31.0,3,114.71
+2024_21_São_Paulo_Grand_Prix,BEA,3.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,88.16022222222222
+2024_21_São_Paulo_Grand_Prix,BOT,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,31.0,31,90.61916129032258
+2024_21_São_Paulo_Grand_Prix,BOT,2.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,88.59783333333333
+2024_21_São_Paulo_Grand_Prix,COL,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,25.0,25,86.36352000000001
+2024_21_São_Paulo_Grand_Prix,COL,2.0,INTERMEDIATE,São Paulo Grand Prix,28.0,29.0,2,103.1365
+2024_21_São_Paulo_Grand_Prix,GAS,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,31.0,31,89.40835483870968
+2024_21_São_Paulo_Grand_Prix,GAS,2.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,87.61097222222222
+2024_21_São_Paulo_Grand_Prix,HAM,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,26.0,26,86.18523076923076
+2024_21_São_Paulo_Grand_Prix,HAM,2.0,INTERMEDIATE,São Paulo Grand Prix,29.0,31.0,3,111.117
+2024_21_São_Paulo_Grand_Prix,HAM,3.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,88.26802777777777
+2024_21_São_Paulo_Grand_Prix,HUL,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,24.0,24,85.821625
+2024_21_São_Paulo_Grand_Prix,LAW,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,27.0,27,86.2254814814815
+2024_21_São_Paulo_Grand_Prix,LAW,2.0,WET,São Paulo Grand Prix,30.0,31.0,2,113.4915
+2024_21_São_Paulo_Grand_Prix,LAW,3.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,88.28516666666667
+2024_21_São_Paulo_Grand_Prix,LEC,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,23.0,23,85.35052173913043
+2024_21_São_Paulo_Grand_Prix,LEC,2.0,INTERMEDIATE,São Paulo Grand Prix,26.0,31.0,6,103.76799999999999
+2024_21_São_Paulo_Grand_Prix,LEC,3.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,87.77558333333333
+2024_21_São_Paulo_Grand_Prix,NOR,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,27.0,27,84.88214814814816
+2024_21_São_Paulo_Grand_Prix,NOR,2.0,INTERMEDIATE,São Paulo Grand Prix,30.0,31.0,2,122.1
+2024_21_São_Paulo_Grand_Prix,NOR,3.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,87.84622222222222
+2024_21_São_Paulo_Grand_Prix,OCO,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,31.0,31,89.21841935483872
+2024_21_São_Paulo_Grand_Prix,OCO,2.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,87.55783333333333
+2024_21_São_Paulo_Grand_Prix,PER,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,26.0,26,86.46353846153846
+2024_21_São_Paulo_Grand_Prix,PER,2.0,WET,São Paulo Grand Prix,29.0,31.0,3,113.71666666666668
+2024_21_São_Paulo_Grand_Prix,PER,3.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,88.23888888888888
+2024_21_São_Paulo_Grand_Prix,PIA,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,26.0,26,85.64403846153846
+2024_21_São_Paulo_Grand_Prix,PIA,2.0,INTERMEDIATE,São Paulo Grand Prix,29.0,31.0,3,112.673
+2024_21_São_Paulo_Grand_Prix,PIA,3.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,87.9011111111111
+2024_21_São_Paulo_Grand_Prix,RUS,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,27.0,27,84.85477777777777
+2024_21_São_Paulo_Grand_Prix,RUS,2.0,INTERMEDIATE,São Paulo Grand Prix,30.0,31.0,2,123.783
+2024_21_São_Paulo_Grand_Prix,RUS,3.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,87.60977777777777
+2024_21_São_Paulo_Grand_Prix,SAI,1.0,INTERMEDIATE,São Paulo Grand Prix,2.0,26.0,25,85.70255999999999
+2024_21_São_Paulo_Grand_Prix,SAI,2.0,INTERMEDIATE,São Paulo Grand Prix,29.0,31.0,3,113.61833333333334
+2024_21_São_Paulo_Grand_Prix,SAI,3.0,INTERMEDIATE,São Paulo Grand Prix,34.0,38.0,5,90.97
+2024_21_São_Paulo_Grand_Prix,TSU,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,27.0,27,85.38644444444445
+2024_21_São_Paulo_Grand_Prix,TSU,2.0,WET,São Paulo Grand Prix,30.0,31.0,2,119.9975
+2024_21_São_Paulo_Grand_Prix,TSU,3.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,88.10622222222223
+2024_21_São_Paulo_Grand_Prix,VER,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,31.0,31,89.26922580645162
+2024_21_São_Paulo_Grand_Prix,VER,2.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,87.00125
+2024_21_São_Paulo_Grand_Prix,ZHO,1.0,INTERMEDIATE,São Paulo Grand Prix,1.0,26.0,26,87.29157692307693
+2024_21_São_Paulo_Grand_Prix,ZHO,3.0,WET,São Paulo Grand Prix,30.0,30.0,1,125.363
+2024_21_São_Paulo_Grand_Prix,ZHO,5.0,INTERMEDIATE,São Paulo Grand Prix,34.0,69.0,36,88.86330555555556
+2024_22_Las_Vegas_Grand_Prix,ALB,1.0,MEDIUM,Las Vegas Grand Prix,1.0,8.0,8,101.8075
+2024_22_Las_Vegas_Grand_Prix,ALB,2.0,HARD,Las Vegas Grand Prix,11.0,24.0,14,99.05714285714285
+2024_22_Las_Vegas_Grand_Prix,ALO,1.0,SOFT,Las Vegas Grand Prix,1.0,3.0,3,104.52666666666666
+2024_22_Las_Vegas_Grand_Prix,ALO,2.0,HARD,Las Vegas Grand Prix,6.0,23.0,18,99.62494444444445
+2024_22_Las_Vegas_Grand_Prix,ALO,3.0,HARD,Las Vegas Grand Prix,26.0,50.0,25,97.94148
+2024_22_Las_Vegas_Grand_Prix,BOT,1.0,HARD,Las Vegas Grand Prix,1.0,16.0,16,101.8545
+2024_22_Las_Vegas_Grand_Prix,BOT,2.0,MEDIUM,Las Vegas Grand Prix,19.0,34.0,16,99.434625
+2024_22_Las_Vegas_Grand_Prix,BOT,3.0,HARD,Las Vegas Grand Prix,37.0,49.0,13,97.58076923076922
+2024_22_Las_Vegas_Grand_Prix,COL,1.0,HARD,Las Vegas Grand Prix,2.0,15.0,14,100.81414285714285
+2024_22_Las_Vegas_Grand_Prix,COL,2.0,MEDIUM,Las Vegas Grand Prix,18.0,25.0,8,98.299875
+2024_22_Las_Vegas_Grand_Prix,COL,3.0,HARD,Las Vegas Grand Prix,28.0,50.0,23,97.86252173913044
+2024_22_Las_Vegas_Grand_Prix,GAS,1.0,MEDIUM,Las Vegas Grand Prix,1.0,9.0,9,100.62122222222223
+2024_22_Las_Vegas_Grand_Prix,GAS,2.0,HARD,Las Vegas Grand Prix,12.0,14.0,3,99.06099999999999
+2024_22_Las_Vegas_Grand_Prix,HAM,1.0,MEDIUM,Las Vegas Grand Prix,1.0,12.0,12,100.34208333333333
+2024_22_Las_Vegas_Grand_Prix,HAM,2.0,HARD,Las Vegas Grand Prix,15.0,26.0,12,97.62108333333333
+2024_22_Las_Vegas_Grand_Prix,HAM,3.0,HARD,Las Vegas Grand Prix,29.0,50.0,22,96.49427272727272
+2024_22_Las_Vegas_Grand_Prix,HUL,1.0,MEDIUM,Las Vegas Grand Prix,1.0,13.0,13,100.94953846153847
+2024_22_Las_Vegas_Grand_Prix,HUL,2.0,HARD,Las Vegas Grand Prix,16.0,32.0,17,98.52552941176471
+2024_22_Las_Vegas_Grand_Prix,HUL,3.0,HARD,Las Vegas Grand Prix,35.0,50.0,16,97.371375
+2024_22_Las_Vegas_Grand_Prix,LAW,1.0,MEDIUM,Las Vegas Grand Prix,1.0,10.0,10,101.375
+2024_22_Las_Vegas_Grand_Prix,LAW,2.0,HARD,Las Vegas Grand Prix,13.0,37.0,25,99.55492
+2024_22_Las_Vegas_Grand_Prix,LAW,3.0,HARD,Las Vegas Grand Prix,40.0,50.0,11,97.31354545454546
+2024_22_Las_Vegas_Grand_Prix,LEC,1.0,MEDIUM,Las Vegas Grand Prix,1.0,8.0,8,99.965125
+2024_22_Las_Vegas_Grand_Prix,LEC,2.0,HARD,Las Vegas Grand Prix,11.0,30.0,20,98.2298
+2024_22_Las_Vegas_Grand_Prix,LEC,3.0,HARD,Las Vegas Grand Prix,33.0,50.0,18,96.45044444444444
+2024_22_Las_Vegas_Grand_Prix,MAG,1.0,MEDIUM,Las Vegas Grand Prix,1.0,16.0,16,101.70043749999999
+2024_22_Las_Vegas_Grand_Prix,MAG,2.0,HARD,Las Vegas Grand Prix,19.0,50.0,32,98.23475
+2024_22_Las_Vegas_Grand_Prix,NOR,1.0,MEDIUM,Las Vegas Grand Prix,1.0,8.0,8,100.452125
+2024_22_Las_Vegas_Grand_Prix,NOR,2.0,HARD,Las Vegas Grand Prix,11.0,29.0,19,98.74378947368422
+2024_22_Las_Vegas_Grand_Prix,NOR,3.0,HARD,Las Vegas Grand Prix,32.0,47.0,16,96.5076875
+2024_22_Las_Vegas_Grand_Prix,NOR,4.0,SOFT,Las Vegas Grand Prix,50.0,50.0,1,94.876
+2024_22_Las_Vegas_Grand_Prix,OCO,1.0,MEDIUM,Las Vegas Grand Prix,1.0,10.0,10,101.0418
+2024_22_Las_Vegas_Grand_Prix,OCO,3.0,HARD,Las Vegas Grand Prix,14.0,44.0,31,99.1032258064516
+2024_22_Las_Vegas_Grand_Prix,OCO,4.0,SOFT,Las Vegas Grand Prix,47.0,49.0,3,96.90766666666667
+2024_22_Las_Vegas_Grand_Prix,PER,1.0,HARD,Las Vegas Grand Prix,1.0,16.0,16,100.9544375
+2024_22_Las_Vegas_Grand_Prix,PER,2.0,MEDIUM,Las Vegas Grand Prix,19.0,31.0,13,98.32623076923076
+2024_22_Las_Vegas_Grand_Prix,PER,3.0,HARD,Las Vegas Grand Prix,34.0,50.0,17,97.2105294117647
+2024_22_Las_Vegas_Grand_Prix,PIA,1.0,MEDIUM,Las Vegas Grand Prix,1.0,9.0,9,100.87333333333333
+2024_22_Las_Vegas_Grand_Prix,PIA,2.0,HARD,Las Vegas Grand Prix,12.0,24.0,13,98.68061538461538
+2024_22_Las_Vegas_Grand_Prix,PIA,3.0,HARD,Las Vegas Grand Prix,27.0,50.0,24,97.587625
+2024_22_Las_Vegas_Grand_Prix,RUS,1.0,MEDIUM,Las Vegas Grand Prix,1.0,11.0,11,99.03581818181819
+2024_22_Las_Vegas_Grand_Prix,RUS,2.0,HARD,Las Vegas Grand Prix,14.0,31.0,18,97.77372222222222
+2024_22_Las_Vegas_Grand_Prix,RUS,3.0,HARD,Las Vegas Grand Prix,34.0,50.0,17,96.61411764705883
+2024_22_Las_Vegas_Grand_Prix,SAI,1.0,MEDIUM,Las Vegas Grand Prix,1.0,9.0,9,99.73733333333332
+2024_22_Las_Vegas_Grand_Prix,SAI,2.0,HARD,Las Vegas Grand Prix,12.0,27.0,16,98.458875
+2024_22_Las_Vegas_Grand_Prix,SAI,3.0,HARD,Las Vegas Grand Prix,30.0,50.0,21,96.52061904761905
+2024_22_Las_Vegas_Grand_Prix,STR,1.0,MEDIUM,Las Vegas Grand Prix,1.0,8.0,8,101.92337500000001
+2024_22_Las_Vegas_Grand_Prix,STR,2.0,HARD,Las Vegas Grand Prix,11.0,27.0,17,98.97970588235295
+2024_22_Las_Vegas_Grand_Prix,STR,3.0,HARD,Las Vegas Grand Prix,30.0,50.0,21,97.89742857142858
+2024_22_Las_Vegas_Grand_Prix,TSU,1.0,MEDIUM,Las Vegas Grand Prix,1.0,9.0,9,100.72622222222223
+2024_22_Las_Vegas_Grand_Prix,TSU,2.0,HARD,Las Vegas Grand Prix,12.0,28.0,17,99.06676470588235
+2024_22_Las_Vegas_Grand_Prix,TSU,3.0,HARD,Las Vegas Grand Prix,31.0,50.0,20,97.817
+2024_22_Las_Vegas_Grand_Prix,VER,1.0,MEDIUM,Las Vegas Grand Prix,1.0,10.0,10,99.8776
+2024_22_Las_Vegas_Grand_Prix,VER,2.0,HARD,Las Vegas Grand Prix,13.0,26.0,14,98.02264285714286
+2024_22_Las_Vegas_Grand_Prix,VER,3.0,HARD,Las Vegas Grand Prix,29.0,50.0,22,97.01068181818182
+2024_22_Las_Vegas_Grand_Prix,ZHO,1.0,MEDIUM,Las Vegas Grand Prix,1.0,10.0,10,101.1096
+2024_22_Las_Vegas_Grand_Prix,ZHO,2.0,HARD,Las Vegas Grand Prix,13.0,33.0,21,99.39680952380952
+2024_22_Las_Vegas_Grand_Prix,ZHO,3.0,HARD,Las Vegas Grand Prix,36.0,50.0,15,97.09086666666667
+2024_23_Qatar_Grand_Prix,ALB,1.0,MEDIUM,Qatar Grand Prix,1.0,34.0,34,93.39170588235294
+2024_23_Qatar_Grand_Prix,ALB,4.0,SOFT,Qatar Grand Prix,39.0,54.0,16,97.353
+2024_23_Qatar_Grand_Prix,ALO,1.0,MEDIUM,Qatar Grand Prix,1.0,34.0,34,92.86161764705882
+2024_23_Qatar_Grand_Prix,ALO,4.0,MEDIUM,Qatar Grand Prix,39.0,57.0,19,94.02231578947368
+2024_23_Qatar_Grand_Prix,BOT,1.0,MEDIUM,Qatar Grand Prix,1.0,23.0,23,96.40886956521739
+2024_23_Qatar_Grand_Prix,BOT,2.0,HARD,Qatar Grand Prix,26.0,34.0,9,88.60855555555555
+2024_23_Qatar_Grand_Prix,BOT,4.0,MEDIUM,Qatar Grand Prix,38.0,57.0,20,92.87129999999999
+2024_23_Qatar_Grand_Prix,GAS,1.0,MEDIUM,Qatar Grand Prix,1.0,34.0,34,92.65926470588235
+2024_23_Qatar_Grand_Prix,GAS,4.0,HARD,Qatar Grand Prix,39.0,57.0,19,94.21794736842105
+2024_23_Qatar_Grand_Prix,HAM,1.0,MEDIUM,Qatar Grand Prix,1.0,33.0,33,92.45763636363635
+2024_23_Qatar_Grand_Prix,HAM,4.0,HARD,Qatar Grand Prix,38.0,46.0,9,101.054
+2024_23_Qatar_Grand_Prix,HAM,5.0,HARD,Qatar Grand Prix,49.0,57.0,9,84.78888888888889
+2024_23_Qatar_Grand_Prix,HUL,2.0,HARD,Qatar Grand Prix,3.0,30.0,28,90.59271428571428
+2024_23_Qatar_Grand_Prix,HUL,3.0,MEDIUM,Qatar Grand Prix,33.0,35.0,3,99.74833333333333
+2024_23_Qatar_Grand_Prix,HUL,5.0,MEDIUM,Qatar Grand Prix,39.0,39.0,1,127.982
+2024_23_Qatar_Grand_Prix,LAW,1.0,MEDIUM,Qatar Grand Prix,1.0,34.0,34,93.43185294117647
+2024_23_Qatar_Grand_Prix,LAW,4.0,HARD,Qatar Grand Prix,39.0,39.0,1,125.703
+2024_23_Qatar_Grand_Prix,LAW,5.0,SOFT,Qatar Grand Prix,42.0,57.0,16,89.77199999999999
+2024_23_Qatar_Grand_Prix,LEC,1.0,MEDIUM,Qatar Grand Prix,1.0,34.0,34,91.65785294117647
+2024_23_Qatar_Grand_Prix,LEC,4.0,HARD,Qatar Grand Prix,39.0,57.0,19,93.86494736842106
+2024_23_Qatar_Grand_Prix,MAG,1.0,MEDIUM,Qatar Grand Prix,1.0,26.0,26,94.821
+2024_23_Qatar_Grand_Prix,MAG,2.0,HARD,Qatar Grand Prix,29.0,35.0,7,90.69085714285714
+2024_23_Qatar_Grand_Prix,MAG,4.0,HARD,Qatar Grand Prix,39.0,57.0,19,94.52836842105263
+2024_23_Qatar_Grand_Prix,NOR,1.0,MEDIUM,Qatar Grand Prix,1.0,34.0,33,89.52090909090909
+2024_23_Qatar_Grand_Prix,NOR,4.0,HARD,Qatar Grand Prix,39.0,44.0,6,116.2595
+2024_23_Qatar_Grand_Prix,NOR,5.0,HARD,Qatar Grand Prix,47.0,57.0,11,83.40218181818182
+2024_23_Qatar_Grand_Prix,PER,1.0,MEDIUM,Qatar Grand Prix,1.0,34.0,34,92.1925294117647
+2024_23_Qatar_Grand_Prix,PIA,1.0,MEDIUM,Qatar Grand Prix,1.0,33.0,33,91.82187878787879
+2024_23_Qatar_Grand_Prix,PIA,4.0,HARD,Qatar Grand Prix,39.0,57.0,19,93.84715789473684
+2024_23_Qatar_Grand_Prix,RUS,1.0,MEDIUM,Qatar Grand Prix,1.0,22.0,22,95.22504545454545
+2024_23_Qatar_Grand_Prix,RUS,2.0,HARD,Qatar Grand Prix,25.0,34.0,10,85.8434
+2024_23_Qatar_Grand_Prix,RUS,5.0,HARD,Qatar Grand Prix,39.0,57.0,19,93.68700000000001
+2024_23_Qatar_Grand_Prix,SAI,1.0,MEDIUM,Qatar Grand Prix,1.0,33.0,33,92.01139393939394
+2024_23_Qatar_Grand_Prix,SAI,4.0,HARD,Qatar Grand Prix,39.0,57.0,19,94.04852631578947
+2024_23_Qatar_Grand_Prix,STR,2.0,HARD,Qatar Grand Prix,3.0,6.0,4,112.61949999999999
+2024_23_Qatar_Grand_Prix,TSU,1.0,MEDIUM,Qatar Grand Prix,1.0,34.0,34,93.32914705882352
+2024_23_Qatar_Grand_Prix,TSU,4.0,HARD,Qatar Grand Prix,39.0,39.0,1,129.747
+2024_23_Qatar_Grand_Prix,TSU,5.0,SOFT,Qatar Grand Prix,42.0,57.0,16,89.899
+2024_23_Qatar_Grand_Prix,VER,1.0,MEDIUM,Qatar Grand Prix,1.0,34.0,33,89.38121212121212
+2024_23_Qatar_Grand_Prix,VER,4.0,HARD,Qatar Grand Prix,39.0,57.0,19,93.7611052631579
+2024_23_Qatar_Grand_Prix,ZHO,1.0,MEDIUM,Qatar Grand Prix,1.0,34.0,34,92.90511764705882
+2024_23_Qatar_Grand_Prix,ZHO,4.0,HARD,Qatar Grand Prix,39.0,57.0,19,94.39636842105263
+2024_24_Abu_Dhabi_Grand_Prix,ALB,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,11.0,11,94.67254545454544
+2024_24_Abu_Dhabi_Grand_Prix,ALB,2.0,HARD,Abu Dhabi Grand Prix,14.0,57.0,44,90.02204545454546
+2024_24_Abu_Dhabi_Grand_Prix,ALO,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,12.0,12,93.53566666666666
+2024_24_Abu_Dhabi_Grand_Prix,ALO,2.0,HARD,Abu Dhabi Grand Prix,15.0,36.0,22,89.88222727272728
+2024_24_Abu_Dhabi_Grand_Prix,ALO,3.0,HARD,Abu Dhabi Grand Prix,39.0,58.0,20,88.45815
+2024_24_Abu_Dhabi_Grand_Prix,BOT,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,5.0,5,99.2492
+2024_24_Abu_Dhabi_Grand_Prix,BOT,2.0,HARD,Abu Dhabi Grand Prix,8.0,29.0,22,90.18
+2024_24_Abu_Dhabi_Grand_Prix,COL,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,2.0,2,112.267
+2024_24_Abu_Dhabi_Grand_Prix,COL,2.0,HARD,Abu Dhabi Grand Prix,5.0,25.0,21,90.45361904761906
+2024_24_Abu_Dhabi_Grand_Prix,DOO,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,21.0,21,93.11738095238096
+2024_24_Abu_Dhabi_Grand_Prix,DOO,2.0,HARD,Abu Dhabi Grand Prix,24.0,57.0,34,90.01029411764705
+2024_24_Abu_Dhabi_Grand_Prix,GAS,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,13.0,13,92.71269230769232
+2024_24_Abu_Dhabi_Grand_Prix,GAS,2.0,HARD,Abu Dhabi Grand Prix,16.0,58.0,43,89.73397674418605
+2024_24_Abu_Dhabi_Grand_Prix,HAM,1.0,HARD,Abu Dhabi Grand Prix,1.0,33.0,33,91.27796969696969
+2024_24_Abu_Dhabi_Grand_Prix,HAM,2.0,MEDIUM,Abu Dhabi Grand Prix,36.0,58.0,23,87.69943478260869
+2024_24_Abu_Dhabi_Grand_Prix,HUL,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,12.0,12,93.28483333333334
+2024_24_Abu_Dhabi_Grand_Prix,HUL,2.0,HARD,Abu Dhabi Grand Prix,15.0,58.0,44,89.71109090909091
+2024_24_Abu_Dhabi_Grand_Prix,LAW,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,22.0,22,92.55354545454544
+2024_24_Abu_Dhabi_Grand_Prix,LAW,3.0,HARD,Abu Dhabi Grand Prix,26.0,28.0,3,89.61099999999999
+2024_24_Abu_Dhabi_Grand_Prix,LAW,4.0,HARD,Abu Dhabi Grand Prix,31.0,55.0,25,89.38828
+2024_24_Abu_Dhabi_Grand_Prix,LEC,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,19.0,19,91.93115789473684
+2024_24_Abu_Dhabi_Grand_Prix,LEC,2.0,HARD,Abu Dhabi Grand Prix,22.0,58.0,37,88.58583783783783
+2024_24_Abu_Dhabi_Grand_Prix,MAG,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,11.0,11,93.94772727272726
+2024_24_Abu_Dhabi_Grand_Prix,MAG,2.0,HARD,Abu Dhabi Grand Prix,14.0,28.0,15,90.21813333333333
+2024_24_Abu_Dhabi_Grand_Prix,MAG,4.0,SOFT,Abu Dhabi Grand Prix,32.0,54.0,23,89.60726086956522
+2024_24_Abu_Dhabi_Grand_Prix,MAG,5.0,SOFT,Abu Dhabi Grand Prix,57.0,57.0,1,85.637
+2024_24_Abu_Dhabi_Grand_Prix,NOR,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,25.0,25,90.55059999999999
+2024_24_Abu_Dhabi_Grand_Prix,NOR,2.0,HARD,Abu Dhabi Grand Prix,28.0,58.0,31,88.07890322580644
+2024_24_Abu_Dhabi_Grand_Prix,PIA,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,3.0,3,106.84433333333334
+2024_24_Abu_Dhabi_Grand_Prix,PIA,2.0,HARD,Abu Dhabi Grand Prix,6.0,31.0,26,89.73484615384615
+2024_24_Abu_Dhabi_Grand_Prix,PIA,3.0,HARD,Abu Dhabi Grand Prix,34.0,58.0,25,88.33239999999999
+2024_24_Abu_Dhabi_Grand_Prix,RUS,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,25.0,25,91.43603999999999
+2024_24_Abu_Dhabi_Grand_Prix,RUS,2.0,HARD,Abu Dhabi Grand Prix,28.0,58.0,31,88.51670967741936
+2024_24_Abu_Dhabi_Grand_Prix,SAI,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,24.0,24,90.76508333333334
+2024_24_Abu_Dhabi_Grand_Prix,SAI,2.0,HARD,Abu Dhabi Grand Prix,27.0,58.0,32,88.1988125
+2024_24_Abu_Dhabi_Grand_Prix,STR,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,10.0,10,94.4057
+2024_24_Abu_Dhabi_Grand_Prix,STR,2.0,HARD,Abu Dhabi Grand Prix,13.0,31.0,19,90.19610526315789
+2024_24_Abu_Dhabi_Grand_Prix,STR,3.0,HARD,Abu Dhabi Grand Prix,34.0,57.0,24,89.25695833333333
+2024_24_Abu_Dhabi_Grand_Prix,TSU,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,21.0,21,93.03880952380953
+2024_24_Abu_Dhabi_Grand_Prix,TSU,2.0,HARD,Abu Dhabi Grand Prix,24.0,57.0,34,89.74394117647059
+2024_24_Abu_Dhabi_Grand_Prix,VER,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,28.0,28,91.46421428571429
+2024_24_Abu_Dhabi_Grand_Prix,VER,2.0,HARD,Abu Dhabi Grand Prix,31.0,58.0,28,88.24242857142858
+2024_24_Abu_Dhabi_Grand_Prix,ZHO,1.0,MEDIUM,Abu Dhabi Grand Prix,1.0,11.0,11,94.49127272727273
+2024_24_Abu_Dhabi_Grand_Prix,ZHO,2.0,HARD,Abu Dhabi Grand Prix,14.0,38.0,25,90.07388
+2024_24_Abu_Dhabi_Grand_Prix,ZHO,3.0,HARD,Abu Dhabi Grand Prix,41.0,57.0,17,88.58270588235294

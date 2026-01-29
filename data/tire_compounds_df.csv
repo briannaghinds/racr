@@ -1,0 +1,6 @@
+compound,base_grip,deg_rate,cliff_lap
+SOFT,1.05,0.025,15
+MEDIUM,1.0,0.018,25
+HARD,0.97,0.012,35
+INTERMEDIATE,0.95,0.01,40
+WET,0.93,0.008,45
