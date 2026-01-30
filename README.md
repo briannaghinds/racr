@@ -29,7 +29,8 @@
 The F1 data will come from the Python library `FastF1`.
 
 ### Different Models
-- (1) Lap Time Model: XGBoost (inputs: track, compound, tire age, temp, etc) <- FIGURE OUT THE FEATURES (feature engineering)
+- (1) Lap Time Model: XGBoost (inputs: track, compound, tire age, temp, etc)
+      - MVP1: Streamlit application that has the user choices (track, compound, etc.) and based on changed inputs will have a delta time (red=slower/green=faster) the base time will be the average time calculated by F1Laps (https://www.f1laps.com/f1-25/average-lap-times/). I won't use the model for base case because the model's purpose is to predict strategy. This helps with preventing overfitting and the outward reasoning makes sense to a non-technical person.
 - (2) Pit Stop Simulation: fixed pit loss (track-specific), when someone changes tires that resets the degradation
       - deterministic pit loos
       - tire reset logic
@@ -42,4 +43,6 @@ This is the nitty gritty of what I am doing.
 Define the strategies as paramterized objects (like a Grid Search), first do visualizations per model (seaborn pairplot, etc.)
 
 ### Dashboard
-Each track (dropdown) will be visualized in streamlit and the strategy inputs will be something like radio buttons. 
+Each track (dropdown) will be visualized in streamlit and the strategy inputs will be something like radio buttons, dropdowns, etc.
+
+MVP1 -> Lap Time Predictor
