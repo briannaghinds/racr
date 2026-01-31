@@ -1,4 +1,4 @@
-track,avg_laptime,median_laptime,std,fastest_lap
+track,avg_lap_time,median_laptime,std,fastest_lap
 Abu Dhabi Grand Prix,90.35,89.71,4.11,85.64
 Australian Grand Prix,83.7,82.71,5.56,79.81
 Austrian Grand Prix,71.42,71.15,2.18,67.69

@@ -20,6 +20,7 @@ def initialize_data(year: int) -> pd.DataFrame:
     # NOTE: i don't think 2025 is fully on the fastf1 databases so I am pulling all of 2024
     # fastf1.Cache.enable_cache("cache/fastf1")
     all_laps = []
+    all_tracks = []
     schedule = fastf1.get_event_schedule(year)
 
     for _, event in schedule.iterrows():
@@ -31,8 +32,42 @@ def initialize_data(year: int) -> pd.DataFrame:
             session.load(laps=True, weather=True)
 
             laps = session.laps.copy()
-            weather = session.weather_data.copy()
+            
+            # get circuit info
+            fast_lap = session.laps.pick_fastest()  # used in pos variable
+            pos = fast_lap.get_pos_data()
+            circuit_info = session.get_circuit_info()
 
+            race_id = f"{year}_{round_no:02d}_{race_name.replace(' ', '_')}"
+
+            # track line
+            pos_df = (pos[["X", "Y"]].dropna().reset_index(drop=True))
+            pos_df["seq"] = pos_df.index
+            pos_df["type"] = "track"
+
+            # corners
+            corners_df = circuit_info.corners.copy()
+            corners_df["corner"] = (
+                corners_df["Number"].astype(str) +
+                corners_df["Letter"].fillna("")
+            )
+            corners_df = corners_df.rename(columns={"Angle": "angle"})
+            corners_df = corners_df[["X", "Y", "corner", "angle"]]
+            corners_df["type"] = "corner"
+            corners_df["seq"] = None
+
+            # metadata
+            for df in (pos_df, corners_df):
+                df["race_id"] = race_id
+                df["year"] = year
+                df["round"] = round_no
+                df["track"] = race_name
+
+            track_df = pd.concat([pos_df, corners_df], ignore_index=True)
+            all_tracks.append(track_df)
+
+            # pull weather data and merge
+            weather = session.weather_data.copy()
             weather = weather.sort_values("Time")
             laps = laps.sort_values("LapStartTime")
 
@@ -49,7 +84,7 @@ def initialize_data(year: int) -> pd.DataFrame:
             laps["year"] = year
             laps["round"] = round_no
             laps["track"] = race_name
-            laps["race_id"] = f"{year}_{round_no:02d}_{race_name.replace(' ', '_')}"
+            laps["race_id"] = race_id
 
             all_laps.append(laps)
             print(f"Loaded {race_name}")
@@ -58,7 +93,9 @@ def initialize_data(year: int) -> pd.DataFrame:
             print(f"Failed {race_name}: {e}")
 
     laps = pd.concat(all_laps, ignore_index=True)
-    return laps
+    track_info = pd.concat(all_tracks, ignore_index=True)
+
+    return laps, track_info
 
 
 def lap_times_data(laps: pd.DataFrame) -> pd.DataFrame:
@@ -222,8 +259,7 @@ def track_data() -> pd.DataFrame:
 ## MAIN
 if __name__ == "__main__":
     # initialize data from api
-    laps = initialize_data(2024)  # 2025 seems to have no data or either incomplete data
-    print(laps.columns)
+    laps, circuit_info = initialize_data(2024)  # 2025 seems to have no data or either incomplete data
 
     ## DATAFRAME CREATIONS ##
     # create lap information
@@ -261,6 +297,7 @@ if __name__ == "__main__":
 
 ## CSV CREATIONS ##
 laps.to_csv("../data/concatenated_laps_df.csv", index=False)
+circuit_info.to_csv("circuit_info.csv", index=False)
 lap_times_df.to_csv("../data/lap_time_df.csv", index=False)
 races_df.to_csv("../data/races_df.csv", index=False)
 stint_df.to_csv("../data/stint_df.csv", index=False)

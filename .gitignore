@@ -1,1 +1,3 @@
 /cache
+/streamlit_app/__pycache__
+/models/lap_time_predictor.json
