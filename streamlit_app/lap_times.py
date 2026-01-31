@@ -13,6 +13,14 @@ import pandas as pd
 # - figure out what metrics I want to be changed by the user
 # """
 
+@st.cache_resource
+def load_model():
+    model = xgb.XGBRegressor()
+    model.load_model("../models/lap_time_predictor.json")
+    return model
+
+model = load_model()
+
 def intialize_window():
     """
     Setup the basic metadata of the page.
@@ -32,7 +40,7 @@ def data_cleaning(user_choices):
     # make sure input is in order the model expects
     user_choices = user_choices[INPUT_COLS]
 
-    # input_df = xgb.DMatrix(user_choices)
+    # SANITY PRINTS
     print(user_choices)
     st.dataframe(user_choices)
 
@@ -47,13 +55,8 @@ def lap_time_prediction(track_choice, user_choices):
     X = data_cleaning(user_choices)
 
     # predict new time based on user values
-    # load model
-    model = xgb.XGBRegressor()
-    model.load_model("../models/lap_time_predictor.json")
-
     time_prediction = float(model.predict(X))
-    # time_prediction = time.strftime("%M:%S", time.gmtime(time_prediction))
-    print(time_prediction)
+    print(time_prediction)  # SANITY PRINT
 
     # # i want to return: baseline, predicted
     return baseline_val, time_prediction
@@ -110,7 +113,7 @@ def build_ui_structure():
     # st.write("Pick a track, pick a tire, and see ...")
 
     # create a dropdown for each track
-    track_choice = st.selectbox("Select a track:", TRACKS, index=None, placeholder="Select track...")
+    track_choice = st.selectbox("Select a track:", TRACKS, index=0, placeholder="Select track...")
     show_corners = st.checkbox("Show corner labels", value=True)
 
     # split a column (col1 = track visual, col2 = parameters user will change)
@@ -131,7 +134,7 @@ def build_ui_structure():
         tire_age_sqrt = tire_age ** 2
 
         # weather (rain/no rain)
-        is_rain = st.toggle("Rain", value=False)
+        is_rain = st.checkbox("Rain", value=False)
         is_rain = int(is_rain)  
 
     # display delta changes based on user input
@@ -146,17 +149,19 @@ def build_ui_structure():
 
     base, pred = lap_time_prediction(track_choice, user_choice_df)
     delta_val = base - pred
+    # delta_val_sec = abs(delta_val)
+    delta_val_sec = f"+{delta_val:.2f} sec" if delta_val < 0 else f"-{delta_val:.2f} sec"
 
     # convert to a time format
     base = time.strftime("%M:%S", time.gmtime(base))
     pred = time.strftime("%M:%S", time.gmtime(pred))
-    delta = time.strftime("%S", time.gmtime(delta_val))
-    delta = f"{delta} seconds"
 
-    st.write("after predictions", base, pred)
+    st.write("after predictions", base, pred)  # SANITY PRINT
 
     # write metric object to show change
-    st.metric("Lap Time Change", value=base, delta=delta, border=True, delta_color="inverse")
+    col1, col2 = st.columns(2)
+    col1.metric("Lap Time Change", value=base, delta=delta_val_sec, border=True, delta_color="inverse")
+    col2.metric("Predicted Lap Time", value=pred, delta=delta_val_sec, delta_color="inverse", border=True)
 
 
 
