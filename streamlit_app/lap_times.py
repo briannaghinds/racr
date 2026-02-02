@@ -1,5 +1,6 @@
 import streamlit as st
-from constants import TRACKS, INPUT_COLS, DEFAULT_VALS
+from helpers import data_cleaning
+from constants import TRACKS, PIT_STOP_LOSS
 import matplotlib.pyplot as plt
 import time
 import xgboost as xgb
@@ -30,21 +31,6 @@ def intialize_window():
         page_icon=":racing_car:",
         layout="wide"
     )
-
-def data_cleaning(user_choices):
-    cols_missing = [i for i in INPUT_COLS if i not in user_choices]
-
-    for cols in cols_missing:
-        user_choices[cols] = DEFAULT_VALS.get(cols, 0)
-
-    # make sure input is in order the model expects
-    user_choices = user_choices[INPUT_COLS]
-
-    # SANITY PRINTS
-    print(user_choices)
-    st.dataframe(user_choices)
-
-    return user_choices
 
 def lap_time_prediction(track_choice, user_choices):
     baseline_df = pd.read_csv("../data/baseline_references.csv")
@@ -102,6 +88,51 @@ def plot_circuit(track_choice, show_corners=True):
     fig.update_traces(showlegend=False)
 
     return fig
+
+def simulate_race(strategy, track, track_length, total_laps, model):
+    """
+    Simulates a sequence of lap predictions based on different decisions and resets.
+
+    Args:
+        strategy: a list of (lap to pit, tire compound) tuples
+        track: circuit
+        total_laps: total laps of the specified Grand Prix
+        model: trained lap-time predictor
+    """
+    # intialize simulator variables
+    current_compound = strategy[0][1]
+    next_pit_index = 1  # pointer in the strategy list
+    tire_age = 0
+    race_time = 0
+    lap_times = []
+
+    for lap in range(1, total_laps+1):
+        tire_age += 1  # age of tire goes up with lap 1:1
+
+        # check if current lap needs a pit
+        if next_pit_index < len(strategy) and lap == strategy[next_pit_index][0]:
+            current_compound = strategy[next_pit_index][1]  # next pit index = 1 (at this point)
+            race_time += PIT_STOP_LOSS  # NOTE: add a pit loss (either generated or static)
+            next_pit_index += 1  # move the pointer
+
+        # build feature inputs
+        new_feature_vals = pd.DataFrame(data={
+            "track": [track],
+            f"compound_{current_compound}": [1],
+            "tire_age": [tire_age],
+            "tire_age_squared": [tire_age**2],
+            "circuit_length(km)": [track_length]
+        })
+
+        features = data_cleaning(new_feature_vals)
+        print(features)
+
+        # predict lap time
+        lap_time = model.predict(features)[0]
+        lap_times.append(lap_time)
+        race_time += lap_time
+
+    return race_time, lap_times
 
 def build_ui_structure():
     """

@@ -1,3 +1,5 @@
+PIT_STOP_LOSS = 0.0
+
 TRACKS = ['Bahrain Grand Prix', 'Saudi Arabian Grand Prix',
        'Australian Grand Prix', 'Japanese Grand Prix',
        'Chinese Grand Prix', 'Miami Grand Prix',
