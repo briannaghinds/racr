@@ -128,11 +128,7 @@ def lap_times_data(laps: pd.DataFrame) -> pd.DataFrame:
     lap_times_df = lap_times_df.drop(columns=["lap_time", "PitInTime", "PitOutTime"])
 
     # ML sanity filter
-    lap_times_df = lap_times_df[
-        (lap_times_df["lap_time_sec"].notna())
-        & (~lap_times_df["is_inlap"])
-        & (~lap_times_df["is_outlap"])
-    ]
+    lap_times_df = lap_times_df[(lap_times_df["lap_time_sec"].notna())]
 
     return lap_times_df 
 
