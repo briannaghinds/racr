@@ -11,7 +11,8 @@ TRACKS = ['Bahrain Grand Prix', 'Saudi Arabian Grand Prix',
        'Mexico City Grand Prix', 'São Paulo Grand Prix',
        'Las Vegas Grand Prix', 'Qatar Grand Prix', 'Abu Dhabi Grand Prix']
 
-INPUT_COLS = ["tire_age_squared", "fuel_effect", "temp_delta", "race_lap", "tire_age", "stint", "track_temp", "air_temp", "is_rain", "track_te", "compound_HARD", "compound_INTERMEDIATE", "compound_MEDIUM", "compound_SOFT", "compound_WET", "circuit_length(km)"]
+# added is_inlap and is_outlap
+INPUT_COLS = ["fuel_effect", "temp_delta", "is_inlap", "is_outlap","race_lap", "tire_age", "tire_age_squared", "stint", "track_temp", "air_temp", "is_rain", "track_te", "circuit_length(km)", "compound_HARD", "compound_INTERMEDIATE", "compound_MEDIUM", "compound_SOFT", "compound_WET"]
 
 DEFAULT_VALS = {
     "tire_age_squared": 1,  # assume tire age is 1
@@ -23,7 +24,7 @@ DEFAULT_VALS = {
     "track_temp": 30.0,  # average track temp 
     "air_temp": 25.0,  # average air temp 
     "is_rain": 0, 
-    "track_te": 90.32207334648365,  # global track mean 
+    "track_te": 92.72733323225049,  # global track mean 
     "compound_HARD": 0,  # compound value gets pulled from user
     "compound_INTERMEDIATE": 0,  
     "compound_MEDIUM": 0, 

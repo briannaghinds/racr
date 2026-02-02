@@ -20,8 +20,8 @@ def data_cleaning(user_choices, pull_default=True):
 
 def baseline_value(track_choice, total_laps):
     baseline_df = pd.read_csv("../data/baseline_references.csv")
-    baseline_val = baseline_df.loc[baseline_df["track"] == track_choice, "avg_lap_time"]
-    baseline_val = baseline_val.values[0] * total_laps # access the first thing in the Series
+    baseline_val = baseline_df.loc[baseline_df["track"] == track_choice, "median_lap_time"]
+    baseline_val = baseline_val.values[0] * total_laps  # access the first thing in the Series
 
     return baseline_val
 

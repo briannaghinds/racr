@@ -16,7 +16,7 @@ import pandas as pd
 @st.cache_resource
 def load_model():
     model = xgb.XGBRegressor()
-    model.load_model("../models/lap_time_predictor.json")
+    model.load_model("../models/UPDATED_lap_time_predictor.json")
     return model
 
 model = load_model()
