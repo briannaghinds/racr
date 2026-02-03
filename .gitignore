@@ -1,4 +1,4 @@
 /cache
-/streamlit_app/__pycache__
+/application/__pycache__
 /models/lap_time_predictor.json
 /models/UPDATED_lap_time_predictor.json
