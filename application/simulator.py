@@ -27,7 +27,7 @@ def initialize_window():
     """
     st.set_page_config(
         page_title="F1 Race Strategy Simulator",
-        page_icon="🏎️",
+        # page_icon="🏎️",
         layout="wide",
         initial_sidebar_state="collapsed"
     )
@@ -140,7 +140,7 @@ def build_ui_structure():
         # build strategy first to pass to animation
         compounds_used = []
         with col2:
-            st.markdown("### ⚙️ STRATEGY CONFIGURATION")
+            st.markdown("### STRATEGY CONFIGURATION")
             
             # number of stints
             num_stints = st.number_input(
