@@ -6,7 +6,6 @@
 
 
 ## MODEL RELATED
-- do the work for sudais
 - look at model logic
 - add tire degradation into xgboost logic
 - see if there are other features that can be engineered
