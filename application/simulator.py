@@ -357,7 +357,6 @@ def build_ui_structure():
         lap_compounds=lap_compounds,
         telem_series=telem_series,
         strategy=strategy,
-        time_steps=300,
     )
     st.plotly_chart(
         fig_wall,

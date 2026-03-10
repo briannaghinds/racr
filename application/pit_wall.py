@@ -169,7 +169,7 @@ def build_pit_wall_figure(
     lap_compounds: list[str],
     telem_series: dict[str, list],
     strategy: list[dict],
-    time_steps: int = 1000,
+    time_steps: int = 1250,
 ) -> go.Figure:
     """
     Build the unified pit-wall figure.
@@ -573,7 +573,7 @@ def build_pit_wall_figure(
             label=str(lap_i + 1),
             args=[
                 [str(target_step)],
-                {"frame": {"duration": 0, "redraw": True},
+                {"frame": {"duration": 0, "redraw": False},
                  "mode": "immediate",
                  "transition": {"duration": 0}},
             ],
@@ -592,8 +592,8 @@ def build_pit_wall_figure(
         tickcolor=DIM,
         font=dict(family="Rajdhani", size=9, color=TXT),
         steps=slider_steps,
-        len=0.88,
-        x=0.06,
+        len=0.50,
+        x=0.50,
         y=0.0,
     )]
 
@@ -606,9 +606,10 @@ def build_pit_wall_figure(
         margin=dict(l=20, r=20, t=55, b=80),
         showlegend=True,
         legend=dict(
-            x=0.0, y=-0.08,
-            orientation="h",
+            x=0.02, y=0.02,
+            # orientation="h",
             bgcolor="rgba(0,0,0,0)",
+            bordercolor=ACC, borderwidth=2,
             font=dict(family="Rajdhani", size=10, color=TXT),
         ),
         annotations=init_annotations + panel_titles,
@@ -617,10 +618,10 @@ def build_pit_wall_figure(
         # play / pause buttons
         updatemenus=[dict(
             type="buttons",
-            direction="left",
-            x=0.06, y=-0.07,
-            xanchor="left",
-            font=dict(family="Orbitron", size=10, color="#669bbc"),
+            direction="right",
+            x=0.1, y=-0.05,
+            xanchor="center",
+            font=dict(family="Orbitron", color="#669bbc"),
             bgcolor="#1a1a1a",
             bordercolor=GRID,
             buttons=[
@@ -629,9 +630,9 @@ def build_pit_wall_figure(
                     method="animate",
                     args=[
                         None,
-                        {"frame":      {"duration": 50, "redraw": True},
+                        {"frame":      {"duration": 75, "redraw": False},
                          "fromcurrent": True,
-                         "transition":  {"duration": 50, "easing": "linear"}},
+                         "transition":  {"duration": 75, "easing": "linear"}},
                     ],
                 ),
                 dict(
