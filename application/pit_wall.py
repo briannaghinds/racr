@@ -54,7 +54,6 @@ Annotations (updated per frame via layout.annotations)
 """
 
 import os
-import math
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
@@ -630,7 +629,7 @@ def build_pit_wall_figure(
                     method="animate",
                     args=[
                         None,
-                        {"frame":      {"duration": 75, "redraw": False},
+                        {"frame":      {"duration": 75, "redraw": True},
                          "fromcurrent": True,
                          "transition":  {"duration": 75, "easing": "linear"}},
                     ],

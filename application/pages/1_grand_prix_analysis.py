@@ -1,0 +1,1 @@
+# this file will be like a blog of the analysis of all grand prix tracks and how they affect pit stops strategy

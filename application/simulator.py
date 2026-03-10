@@ -2,7 +2,7 @@
 @author: Brianna Hinds
 Description: Race Strategy Simulator (main page)
 """
-from helpers import data_cleaning, build_baseline_lap_times, load_telemetry_profiles, load_track_encoding, build_telemetry_series, plot_circuit_animated, race_explain_visualizer, _lookup_profile
+from helpers import data_cleaning, build_baseline_lap_times, load_telemetry_profiles, load_track_encoding, build_telemetry_series, _lookup_profile
 from constants import APP_UI, PIT_WALL_UI, TRACKS, PIT_STOP_LOSS, TIRE_COLORS
 from pit_wall import build_pit_wall_figure
 
@@ -364,112 +364,6 @@ def build_ui_structure():
         config={"displayModeBar": False},
     )
     st.markdown("</div>", unsafe_allow_html=True)
-    # # CENTER PANEL: animated track
-    # with col_track_vis:
-    #     st.markdown('<div class="panel"><div class="panel-header">🗺 Track Visualisation</div>', unsafe_allow_html=True)
-
-    #     # Display animated track with both cars
-    #     fig = plot_circuit_animated(
-    #         track_choice,
-    #         lap_times_strategy=lap_times_strategy,
-    #         lap_times_baseline=lap_times_baseline,
-    #         total_laps=total_laps,
-    #         laps_pit=laps_pit,
-    #         tire_strategy=lap_compounds,
-    #         tel_profiles=profiles,
-    #         lap_compounds=lap_compounds,
-    #         strategy=strategy
-    #     )
-
-    #     st.plotly_chart(
-    #         fig,
-    #         width="stretch",
-    #         config={"displayModeBar": False}
-    #     )
-    #     st.markdown("</div>", unsafe_allow_html=True)
-
-    # # RIGHT PANEL: telemetry metrics
-    # with col_telem:
-    #     delta_val = baseline_time - race_time
-    #     is_faster = delta_val > 0
-
-    #     def fmt_time(secs):
-    #         h = int(secs // 3600)
-    #         m = int((secs % 3600) // 60)
-    #         s = secs % 60
-    #         return f"{h}:{m:02d}:{s:05.2f}" if h else f"{m}:{s:05.2f}"
-
-    #     delta_cls  = "good" if is_faster else "bad"
-    #     delta_sign = f"-{abs(delta_val):.2f}s" if is_faster else f"+{abs(delta_val):.2f}s"
-
-    #     st.markdown('<div class="panel"><div class="panel-header">⚡ Race Metrics</div>',
-    #                 unsafe_allow_html=True)
-    #     st.markdown(f"""
-    #     <div class="telem-row">
-    #         <div class="telem-tile">
-    #             <div class="label">Predicted</div>
-    #             <div class="value">{fmt_time(race_time)}</div>
-    #         </div>
-    #         <div class="telem-tile">
-    #             <div class="label">Baseline</div>
-    #             <div class="value">{fmt_time(baseline_time)}</div>
-    #         </div>
-    #         <div class="telem-tile">
-    #             <div class="label">Delta</div>
-    #             <div class="value {delta_cls}">{delta_sign}</div>
-    #         </div>
-    #     </div>
-    #     <div class="telem-row">
-    #         <div class="telem-tile">
-    #             <div class="label">Pit Stops</div>
-    #             <div class="value warn">{len(laps_pit)}</div>
-    #         </div>
-    #         <div class="telem-tile">
-    #             <div class="label">Pit Laps</div>
-    #             <div class="value" style="font-size:0.95rem">
-    #                 {", ".join(map(str, laps_pit)) if laps_pit else "—"}
-    #             </div>
-    #         </div>
-    #         <div class="telem-tile">
-    #             <div class="label">Compounds</div>
-    #             <div class="value" style="font-size:0.95rem">
-    #                 {" · ".join(sorted(set(compounds_used)))}
-    #             </div>
-    #         </div>
-    #     </div>""", unsafe_allow_html=True)
-
-    #     verdict_cls = "faster" if is_faster else "slower"
-    #     verdict_txt = (f"FASTER BY {abs(delta_val):.2f}s — Excellent strategy!"
-    #                    if is_faster else
-    #                    f"SLOWER BY {abs(delta_val):.2f}s — Adjust your strategy")
-    #     st.markdown(f'<div class="verdict {verdict_cls}">{verdict_txt}</div>', unsafe_allow_html=True)
-    #     st.markdown("</div>", unsafe_allow_html=True)
-
-    # # telemetry dashboard
-    # st.markdown('<div class="divider"></div', unsafe_allow_html=True)
-    # src_label = "REAL DATA" if profiles is not None else "SIMULATED"
-    # st.markdown(
-    #     f'<div class="panel"><div class="panel-header">'
-    #     f' Pit Wall Telemetry Dashboard  '
-    #     f'<span class="data-badge {"real" if profiles is not None else "sim"}">'
-    #     f'{src_label}</span></div>',
-    #     unsafe_allow_html=True,
-    # )
-
-    # fig_telem = race_explain_visualizer(
-    #     lap_times=lap_times_strategy,
-    #     pits=laps_pit,
-    #     lap_times_baseline=lap_times_baseline,
-    #     strategy=strategy,
-    #     lap_compounds=lap_compounds,
-    #     track=track_choice,
-    #     tel_profiles=profiles
-    # )
-    # st.pyplot(fig_telem, use_container_width=True)
-    # st.markdown("</div>", unsafe_allow_html=True)
-
-
-
 
 ## MAIN ##
 initialize_window()
