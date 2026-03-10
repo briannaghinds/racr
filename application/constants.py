@@ -198,7 +198,84 @@ APP_UI = """
         </style>
     """
 
-PIT_STOP_LOSS = 0.0
+PIT_WALL_UI = """
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap');
+
+    html, body, [class*="css"] {
+        background-color: #080808 !important;
+        color: #dddddd;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .pit-banner {
+        background: linear-gradient(90deg, #0d0d0d 0%, #1a0000 50%, #0d0d0d 100%);
+        border-bottom: 2px solid #e10600;
+        padding: 12px 24px;
+        display: flex; align-items: center; gap: 16px;
+        margin-bottom: 16px;
+    }
+    .pit-banner h1 {
+        font-family: 'Orbitron', monospace; font-size: 1.6rem;
+        font-weight: 900; color: #ffffff; letter-spacing: 4px; margin: 0;
+    }
+    .pit-banner .sub {
+        color: #e10600; font-size: 0.75rem;
+        letter-spacing: 6px; font-family: 'Orbitron', monospace;
+    }
+    .panel {
+        background: #0f0f0f; border: 1px solid #222;
+        border-radius: 4px; padding: 14px 16px; margin-bottom: 12px;
+    }
+    .panel-header {
+        font-family: 'Orbitron', monospace; font-size: 0.7rem;
+        letter-spacing: 3px; color: #e10600; text-transform: uppercase;
+        border-bottom: 1px solid #1e1e1e; padding-bottom: 6px; margin-bottom: 10px;
+    }
+    .stint-badge {
+        display: inline-block; background: #e10600; color: #fff;
+        font-family: 'Orbitron', monospace; font-size: 0.65rem;
+        font-weight: 700; letter-spacing: 2px;
+        padding: 2px 8px; border-radius: 2px; margin-bottom: 6px;
+    }
+    .telem-row   { display: flex; gap: 10px; margin: 8px 0; }
+    .telem-tile  {
+        flex: 1; background: #141414; border: 1px solid #222;
+        border-radius: 4px; padding: 8px 12px; text-align: center;
+    }
+    .telem-tile .label {
+        font-size: 0.6rem; letter-spacing: 2px; color: #666;
+        font-family: 'Orbitron', monospace; text-transform: uppercase;
+    }
+    .telem-tile .value {
+        font-size: 1.4rem; font-weight: 700;
+        font-family: 'Orbitron', monospace; color: #fff; margin-top: 2px;
+    }
+    .telem-tile .value.good { color: #44ff88; }
+    .telem-tile .value.bad  { color: #ff4444; }
+    .telem-tile .value.warn { color: #ffd700; }
+    .tire-dot {
+        display: inline-block; width: 12px; height: 12px;
+        border-radius: 50%; margin-right: 6px; vertical-align: middle;
+    }
+    .verdict {
+        padding: 10px 16px; border-radius: 4px;
+        font-family: 'Orbitron', monospace; font-size: 0.85rem;
+        font-weight: 700; letter-spacing: 2px; margin-top: 8px;
+    }
+    .verdict.faster { background: #0d2b1a; border: 1px solid #44ff88; color: #44ff88; }
+    .verdict.slower { background: #2b0d0d; border: 1px solid #ff4444; color: #ff4444; }
+    .data-badge {
+        display: inline-block; font-family: 'Orbitron', monospace;
+        font-size: 0.6rem; letter-spacing: 2px; padding: 2px 8px;
+        border-radius: 2px; margin-left: 8px; vertical-align: middle;
+    }
+    .data-badge.real { background: #0d2b1a; border: 1px solid #44ff88; color: #44ff88; }
+    .data-badge.sim  { background: #1a1000; border: 1px solid #ffaa00; color: #ffaa00; }
+    .divider { height: 1px; background: linear-gradient(90deg, transparent, #333, transparent); margin: 16px 0; }
+    </style>
+    """
+
+PIT_STOP_LOSS = 22.0
 
 TRACKS = ['Bahrain Grand Prix', 'Saudi Arabian Grand Prix',
        'Australian Grand Prix', 'Japanese Grand Prix',
@@ -212,31 +289,83 @@ TRACKS = ['Bahrain Grand Prix', 'Saudi Arabian Grand Prix',
        'Las Vegas Grand Prix', 'Qatar Grand Prix', 'Abu Dhabi Grand Prix']
 
 # added is_inlap and is_outlap
-INPUT_COLS = ["fuel_effect", "temp_delta", "is_inlap", "is_outlap","race_lap", "tire_age", "tire_age_squared", "stint", "track_temp", "air_temp", "is_rain", "track_te", "circuit_length(km)", "compound_HARD", "compound_INTERMEDIATE", "compound_MEDIUM", "compound_SOFT", "compound_WET"]
+INPUT_COLS = ["fuel_effect", "temp_delta", "race_lap", "tire_age", "tire_age_squared", "stint", "track_temp", "air_temp", "is_rain", "track_te", "circuit_length(km)", "compound_HARD", "compound_INTERMEDIATE", "compound_MEDIUM", "compound_SOFT", "compound_WET", "avg_speed_kmh", "min_speed_kmh", "braking_percent", "throttle_percent", "avg_gear", "gear_changes"]
 
 DEFAULT_VALS = {
-    "tire_age_squared": 1,  # assume tire age is 1
     "fuel_effect": 0.0,  # assume neutral fuel load 
     "temp_delta": 0.0,  # no temp difference (perfect conditions) 
     "race_lap": 1, 
     "tire_age": 1, 
+    "tire_age_squared": 1,  # assume tire age is 1
     "stint": 1,  # first stint
     "track_temp": 30.0,  # average track temp 
     "air_temp": 25.0,  # average air temp 
     "is_rain": 0, 
     "track_te": 92.72733323225049,  # global track mean 
+    "circuit_length(km)": 0,  # will pull from dataset
     "compound_HARD": 0,  # compound value gets pulled from user
     "compound_INTERMEDIATE": 0,  
     "compound_MEDIUM": 0, 
     "compound_SOFT": 0, 
     "compound_WET": 0, 
-    "circuit_length(km)": 0  # will pull from dataset
+    "avg_speed_kmh": 200.94,  # real median value 
+    "min_speed_kmh": 67.0,   # braking zones
+    # "max_speed_kmh": 310.0,
+    "throttle_percent": 0.49, 
+    "braking_percent": 0.21,
+    # "coasting_percent": 0.05, 
+    "avg_gear": 5.19, 
+    "gear_changes": 38
 }
+# X = final_df[["fuel_effect", 
+#               "temp_delta", 
+#               "is_inlap", 
+#               "is_outlap",
+#               "race_lap", 
+#               "tire_age", 
+#               "tire_age_squared", 
+#               "post_cliff", 
+#               "stint", 
+#               "track_temp", 
+#               "air_temp", 
+#               "is_rain", 
+#               "track_te", 
+#               "circuit_length(km)", 
+#               "compound_HARD", 
+#               "compound_INTERMEDIATE", 
+#               "compound_MEDIUM", 
+#               "compound_SOFT", 
+#               "compound_WET", 
+#               "avg_speed_kmh", 
+#               "min_speed_kmh",
+#               "max_speed_kmh", 
+#               "braking_percent", 
+#               "throttle_percent", 
+#               "coasting_percent", 
+#               "avg_gear", 
+#               "gear_changes"]]
+
 
 TIRE_COLORS = {
     "SOFT": "#c1121f",
     "MEDIUM": "#ffd60a",
     "HARD": "#ffffff",
     "WET": "#219ebc",
-    "INTERMEDIATE": "#6a994e"
+    "INTERMEDIATE": "#6a994e",
+}
+
+TIRE_DEGRAD = {
+    "SOFT": 0.12,
+    "MEDIUM": 0.07,
+    "HARD": 0.04,
+    "INTERMEDIATE": 0.05,
+    "WET": 0.03
+}
+
+CLIFF_LAP = {
+    "SOFT": 15,
+    "MEDIUM": 25,
+    "HARD": 35,
+    "INTERMEDIATE": 40,
+    "WET": 45
 }
