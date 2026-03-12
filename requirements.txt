@@ -1,6 +1,6 @@
 streamlit
 xgboost
-sklearn
+scikit-learn
 matplotlib
 plotly
 numpy
