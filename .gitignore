@@ -2,5 +2,3 @@
 /application/__pycache__
 /models/lap_time_predictor.json
 /models/UPDATED_lap_time_predictor.json
-/models/0.99_lap_time_predictor.json
-/models/0.997_lap_time_predictor.json
