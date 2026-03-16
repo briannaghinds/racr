@@ -275,7 +275,33 @@ PIT_WALL_UI = """
     </style>
     """
 
-PIT_STOP_LOSS = 22.0
+# these are from F1 website (all times include a 2.5s stationary)
+PIT_STOP_MAP = {
+    "Bahrain Grand Prix": 22.9,
+    "Saudi Arabian Grand Prix": 19.2,
+    "Australian Grand Prix": 19.30,
+    "Japanese Grand Prix": 20.0,
+    "Chinese Grand Prix": 23.67,
+    "Miami Grand Prix": 19.9,
+    "Emilia Romagna Grand Prix": 28.2,
+    "Monaco Grand Prix": 19.4,
+    "Canadian Grand Prix": 18.4,
+    "Spanish Grand Prix": 22.2,
+    "Austrian Grand Prix": 20.3,
+    "British Grand Prix": 19.9,
+    "Hungarian Grand Prix": 20.6,
+    "Belgian Grand Prix": 18.8,
+    "Dutch Grand Prix": 23,
+    "Italian Grand Prix": 24.3,
+    "Azerbaijan Grand Prix": 19.7,
+    "Singapore Grand Prix": 29.1,
+    "United States Grand Prix": 20.8,
+    "Mexico City Grand Prix": 21.9,
+    "São Paulo Grand Prix": 20.8,
+    "Las Vegas Grand Prix": 20,
+    "Qatar Grand Prix": 26.3,
+    "Abu Dhabi Grand Prix": 21
+}
 
 TRACKS = ['Bahrain Grand Prix', 'Saudi Arabian Grand Prix',
        'Australian Grand Prix', 'Japanese Grand Prix',
