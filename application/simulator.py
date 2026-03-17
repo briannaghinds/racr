@@ -261,11 +261,24 @@ def build_ui_structure():
             </div>""", unsafe_allow_html=True)
         st.markdown("</div>", unsafe_allow_html=True) 
 
+        # ── Display override ──────────────────────────────────────────────
+        # Auto-detected from User-Agent but user can flip it manually.
+        auto_mobile = _detect_mobile()
+        mobile_view = st.toggle(
+            "📱 Mobile Layout",
+            value=auto_mobile,
+            help="Auto-detected from your device. Switch on for a tall stacked layout, off for the wide desktop layout.",
+            key="mobile_override",
+        )
 
     # run simulation
     race_time, lap_times_strategy, laps_pit, lap_compounds = simulate_race(
         strategy, track_choice, track_length, total_laps, model, profiles
     )    
+    # # run simulation
+    # race_time, lap_times_strategy, laps_pit, lap_compounds = simulate_race(
+    #     strategy, track_choice, track_length, total_laps, model, profiles
+    # )    
 
     # NOTE: fix to have a baseline for the different compounds passed
     lap_times_baseline = build_baseline_lap_times(track_choice, total_laps)
@@ -357,6 +370,7 @@ def build_ui_structure():
         lap_compounds=lap_compounds,
         telem_series=telem_series,
         strategy=strategy,
+        mobile=mobile_view
     )
     st.plotly_chart(
         fig_wall,
@@ -365,52 +379,34 @@ def build_ui_structure():
     )
     st.markdown("</div>", unsafe_allow_html=True)
 
-## SCREEN WIDTH DETECTION ##
-def _detect_screen_width():
+## MOBILE DETECTION ##
+def _detect_mobile() -> bool:
     """
-    Injects a tiny JS snippet that reads window.innerWidth once and sends
-    it back to Streamlit via postMessage.  Result is stored in
-    st.session_state["screen_width"] and st.session_state["mobile"].
+    Detect phone-sized screens without any extra packages.
  
-    Why a JS component?  Python has no access to browser dimensions.
-    This is the standard pattern for Streamlit screen-size detection.
-    The iframe height=0 means it takes up no visible space.
+    Primary:  st.context.headers["User-Agent"] — available in Streamlit
+              1.35+.  "Mobile" appears in the UA of every real phone
+              browser (Android Chrome, iOS Safari, Samsung Internet).
+              We exclude iPad because its 768px+ screen fits the desktop
+              layout fine.
+ 
+    Override: a toggle in session_state lets the user force either layout
+              regardless of UA.  Set in build_ui_structure().
     """
-    import streamlit.components.v1 as components
+    # Manual override takes priority (set by the toggle in the UI)
+    if "mobile_override" in st.session_state:
+        return st.session_state["mobile_override"]
  
-    # Only run once per session — avoid re-injecting on every rerun
-    if "screen_width" not in st.session_state:
-        st.session_state["screen_width"] = 1024   # safe default
-        st.session_state["mobile"] = False
- 
-    components.html(
-        """
-        <script>
-          // Send screen width to Streamlit once on load
-          const w = window.innerWidth;
-          window.parent.postMessage(
-            {type: "streamlit:setComponentValue", value: w},
-            "*"
-          );
-        </script>
-        """,
-        height=0,
-    )
-    # Streamlit re-runs when the component returns a value — capture it
-    # The component value comes back as the return of components.html,
-    # but since html() doesn't return values we use a query-param trick:
-    # on first run we get the default; on second run (after JS fires) we
-    # get the real width.  For simplicity, check URL params as fallback.
-    params = st.query_params
-    if "sw" in params:
-        try:
-            w = int(params["sw"])
-            st.session_state["screen_width"] = w
-            st.session_state["mobile"] = w < 768
-        except (ValueError, TypeError):
-            pass
+    # Auto-detect via User-Agent
+    try:
+        ua = st.context.headers.get("User-Agent", "")
+        # "Mobile" is present in Android Chrome + iOS Safari phone UA strings.
+        # Deliberately excludes "iPad" — tablet gets the desktop layout.
+        return "Mobile" in ua
+    except AttributeError:
+        # st.context not available (Streamlit < 1.35) — default to desktop
+        return False
 
 ## MAIN ##
 initialize_window()
-_detect_screen_width()
 build_ui_structure()
