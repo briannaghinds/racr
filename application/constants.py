@@ -1,279 +1,721 @@
-APP_UI = """
-        <style>
-        /* Import F1-style font */
-        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;900&display=swap');
+# APP_UI = """
+#         <style>
+#         /* Import F1-style font */
+#         @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;900&display=swap');
         
-        /* Global styles */
-        .stApp {
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-            font-family: 'Rajdhani', sans-serif;
-        }
+#         /* Global styles */
+#         .stApp {
+#             background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+#             font-family: 'Rajdhani', sans-serif;
+#         }
         
-        /* Main title styling */
-        h1 {
-            font-family: 'Orbitron', monospace;
-            font-weight: 900;
-            font-size: 3.5rem !important;
-            background: linear-gradient(90deg, #e10600 0%, #ff1e00 50%, #e10600 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            text-align: center;
-            margin-bottom: 0.5rem !important;
-            text-shadow: 0 0 30px rgba(225, 6, 0, 0.3);
-        }
+#         /* Main title styling */
+#         h1 {
+#             font-family: 'Orbitron', monospace;
+#             font-weight: 900;
+#             font-size: 3.5rem !important;
+#             background: linear-gradient(90deg, #e10600 0%, #ff1e00 50%, #e10600 100%);
+#             -webkit-background-clip: text;
+#             -webkit-text-fill-color: transparent;
+#             text-transform: uppercase;
+#             letter-spacing: 4px;
+#             text-align: center;
+#             margin-bottom: 0.5rem !important;
+#             text-shadow: 0 0 30px rgba(225, 6, 0, 0.3);
+#         }
         
-        /* Subtitle */
-        .subtitle {
-            font-family: 'Rajdhani', sans-serif;
-            font-size: 1.2rem;
-            color: #888;
-            text-align: center;
-            letter-spacing: 2px;
-            margin-bottom: 2rem;
-            text-transform: uppercase;
-        }
+#         /* Subtitle */
+#         .subtitle {
+#             font-family: 'Rajdhani', sans-serif;
+#             font-size: 1.2rem;
+#             color: #888;
+#             text-align: center;
+#             letter-spacing: 2px;
+#             margin-bottom: 2rem;
+#             text-transform: uppercase;
+#         }
         
-        /* Section headers */
-        h2, h3 {
-            font-family: 'Orbitron', monospace;
-            color: #e10600;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-weight: 700;
-        }
+#         /* Section headers */
+#         h2, h3 {
+#             font-family: 'Orbitron', monospace;
+#             color: #e10600;
+#             text-transform: uppercase;
+#             letter-spacing: 2px;
+#             font-weight: 700;
+#         }
         
-        /* Dashboard panels */
-        .dashboard-panel {
-            background: rgba(20, 20, 20, 0.8);
-            border: 2px solid #333;
-            border-left: 4px solid #e10600;
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin: 1rem 0;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-        }
+#         /* Dashboard panels */
+#         .dashboard-panel {
+#             background: rgba(20, 20, 20, 0.8);
+#             border: 2px solid #333;
+#             border-left: 4px solid #e10600;
+#             border-radius: 8px;
+#             padding: 1.5rem;
+#             margin: 1rem 0;
+#             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+#         }
         
-        /* Metric cards */
-        div[data-testid="metric-container"] {
-            background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
-            border: 2px solid #333;
-            border-radius: 8px;
-            padding: 1.5rem;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-        }
+#         /* Metric cards */
+#         div[data-testid="metric-container"] {
+#             background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
+#             border: 2px solid #333;
+#             border-radius: 8px;
+#             padding: 1.5rem;
+#             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+#         }
         
-        div[data-testid="metric-container"] > label {
-            font-family: 'Orbitron', monospace;
-            font-size: 0.9rem !important;
-            color: #888 !important;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+#         div[data-testid="metric-container"] > label {
+#             font-family: 'Orbitron', monospace;
+#             font-size: 0.9rem !important;
+#             color: #888 !important;
+#             text-transform: uppercase;
+#             letter-spacing: 1px;
+#         }
         
-        div[data-testid="metric-container"] > div {
-            font-family: 'Orbitron', monospace;
-            font-size: 2.5rem !important;
-            font-weight: 700 !important;
-            color: #e10600 !important;
-        }
+#         div[data-testid="metric-container"] > div {
+#             font-family: 'Orbitron', monospace;
+#             font-size: 2.5rem !important;
+#             font-weight: 700 !important;
+#             color: #e10600 !important;
+#         }
         
-        /* Selectbox and inputs */
-        .stSelectbox, .stNumberInput, .stSlider {
-            font-family: 'Rajdhani', sans-serif;
-        }
+#         /* Selectbox and inputs */
+#         .stSelectbox, .stNumberInput, .stSlider {
+#             font-family: 'Rajdhani', sans-serif;
+#         }
         
-        .stSelectbox label, .stNumberInput label, .stSlider label {
-            font-family: 'Orbitron', monospace;
-            color: #e10600 !important;
-            font-weight: 600;
-            text-transform: uppercase;
-            font-size: 0.85rem;
-            letter-spacing: 1px;
-        }
+#         .stSelectbox label, .stNumberInput label, .stSlider label {
+#             font-family: 'Orbitron', monospace;
+#             color: #e10600 !important;
+#             font-weight: 600;
+#             text-transform: uppercase;
+#             font-size: 0.85rem;
+#             letter-spacing: 1px;
+#         }
         
-        /* Buttons */
-        .stButton button {
-            font-family: 'Orbitron', monospace;
-            background: linear-gradient(135deg, #e10600 0%, #ff1e00 100%);
-            color: white;
-            border: none;
-            border-radius: 6px;
-            padding: 0.75rem 2rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(225, 6, 0, 0.3);
-        }
+#         /* Buttons */
+#         .stButton button {
+#             font-family: 'Orbitron', monospace;
+#             background: linear-gradient(135deg, #e10600 0%, #ff1e00 100%);
+#             color: white;
+#             border: none;
+#             border-radius: 6px;
+#             padding: 0.75rem 2rem;
+#             font-weight: 700;
+#             text-transform: uppercase;
+#             letter-spacing: 2px;
+#             transition: all 0.3s ease;
+#             box-shadow: 0 4px 15px rgba(225, 6, 0, 0.3);
+#         }
         
-        .stButton button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(225, 6, 0, 0.5);
-        }
+#         .stButton button:hover {
+#             transform: translateY(-2px);
+#             box-shadow: 0 6px 20px rgba(225, 6, 0, 0.5);
+#         }
         
-        /* Checkbox */
-        .stCheckbox label {
-            font-family: 'Rajdhani', sans-serif;
-            color: #ccc;
-            font-size: 1rem;
-        }
+#         /* Checkbox */
+#         .stCheckbox label {
+#             font-family: 'Rajdhani', sans-serif;
+#             color: #ccc;
+#             font-size: 1rem;
+#         }
         
-        /* Toggle */
-        .stToggle label {
-            font-family: 'Orbitron', monospace;
-            color: #e10600 !important;
-            font-weight: 600;
-            text-transform: uppercase;
-        }
+#         /* Toggle */
+#         .stToggle label {
+#             font-family: 'Orbitron', monospace;
+#             color: #e10600 !important;
+#             font-weight: 600;
+#             text-transform: uppercase;
+#         }
         
-        /* Telemetry bar */
-        .telemetry-bar {
-            background: #0a0a0a;
-            border: 2px solid #333;
-            border-radius: 8px;
-            padding: 1rem;
-            margin: 1rem 0;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
+#         /* Telemetry bar */
+#         .telemetry-bar {
+#             background: #0a0a0a;
+#             border: 2px solid #333;
+#             border-radius: 8px;
+#             padding: 1rem;
+#             margin: 1rem 0;
+#             display: flex;
+#             justify-content: space-around;
+#             align-items: center;
+#         }
         
-        .telemetry-item {
-            text-align: center;
-        }
+#         .telemetry-item {
+#             text-align: center;
+#         }
         
-        .telemetry-label {
-            font-family: 'Rajdhani', sans-serif;
-            color: #888;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+#         .telemetry-label {
+#             font-family: 'Rajdhani', sans-serif;
+#             color: #888;
+#             font-size: 0.8rem;
+#             text-transform: uppercase;
+#             letter-spacing: 1px;
+#         }
         
-        .telemetry-value {
-            font-family: 'Orbitron', monospace;
-            color: #e10600;
-            font-size: 1.8rem;
-            font-weight: 700;
-        }
+#         .telemetry-value {
+#             font-family: 'Orbitron', monospace;
+#             color: #e10600;
+#             font-size: 1.8rem;
+#             font-weight: 700;
+#         }
         
-        /* Track status indicator */
-        .status-indicator {
-            display: inline-block;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: #00ff00;
-            box-shadow: 0 0 10px #00ff00;
-            animation: pulse 2s infinite;
-        }
+#         /* Track status indicator */
+#         .status-indicator {
+#             display: inline-block;
+#             width: 12px;
+#             height: 12px;
+#             border-radius: 50%;
+#             background: #00ff00;
+#             box-shadow: 0 0 10px #00ff00;
+#             animation: pulse 2s infinite;
+#         }
         
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
-        }
+#         @keyframes pulse {
+#             0%, 100% { opacity: 1; }
+#             50% { opacity: 0.5; }
+#         }
         
-        /* Warning text */
-        .warning-text {
-            color: #ffaa00;
-            font-family: 'Rajdhani', sans-serif;
-            font-weight: 600;
-        }
+#         /* Warning text */
+#         .warning-text {
+#             color: #ffaa00;
+#             font-family: 'Rajdhani', sans-serif;
+#             font-weight: 600;
+#         }
         
-        /* Stint badge */
-        .stint-badge {
-            display: inline-block;
-            background: #e10600;
-            color: white;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-family: 'Orbitron', monospace;
-            font-size: 0.75rem;
-            font-weight: 700;
-            letter-spacing: 1px;
-            margin-right: 0.5rem;
-        }
-        </style>
-    """
+#         /* Stint badge */
+#         .stint-badge {
+#             display: inline-block;
+#             background: #e10600;
+#             color: white;
+#             padding: 0.3rem 0.8rem;
+#             border-radius: 20px;
+#             font-family: 'Orbitron', monospace;
+#             font-size: 0.75rem;
+#             font-weight: 700;
+#             letter-spacing: 1px;
+#             margin-right: 0.5rem;
+#         }
+#         </style>
+#     """
 
+# PIT_WALL_UI = """
+#     <style>
+#     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap');
+
+#     html, body, [class*="css"] {
+#         background-color: #080808 !important;
+#         color: #dddddd;
+#         font-family: 'Rajdhani', sans-serif;
+#     }
+#     .pit-banner {
+#         background: linear-gradient(90deg, #0d0d0d 0%, #1a0000 50%, #0d0d0d 100%);
+#         border-bottom: 2px solid #e10600;
+#         padding: 12px 24px;
+#         display: flex; align-items: center; gap: 16px;
+#         margin-bottom: 16px;
+#     }
+#     .pit-banner h1 {
+#         font-family: 'Orbitron', monospace; font-size: 1.6rem;
+#         font-weight: 900; color: #ffffff; letter-spacing: 4px; margin: 0;
+#     }
+#     .pit-banner .sub {
+#         color: #e10600; font-size: 0.75rem;
+#         letter-spacing: 6px; font-family: 'Orbitron', monospace;
+#     }
+#     .panel {
+#         background: #0f0f0f; border: 1px solid #222;
+#         border-radius: 4px; padding: 14px 16px; margin-bottom: 12px;
+#     }
+#     .panel-header {
+#         font-family: 'Orbitron', monospace; font-size: 0.7rem;
+#         letter-spacing: 3px; color: #e10600; text-transform: uppercase;
+#         border-bottom: 1px solid #1e1e1e; padding-bottom: 6px; margin-bottom: 10px;
+#     }
+#     .stint-badge {
+#         display: inline-block; background: #e10600; color: #fff;
+#         font-family: 'Orbitron', monospace; font-size: 0.65rem;
+#         font-weight: 700; letter-spacing: 2px;
+#         padding: 2px 8px; border-radius: 2px; margin-bottom: 6px;
+#     }
+#     .telem-row   { display: flex; gap: 10px; margin: 8px 0; }
+#     .telem-tile  {
+#         flex: 1; background: #141414; border: 1px solid #222;
+#         border-radius: 4px; padding: 8px 12px; text-align: center;
+#     }
+#     .telem-tile .label {
+#         font-size: 0.6rem; letter-spacing: 2px; color: #666;
+#         font-family: 'Orbitron', monospace; text-transform: uppercase;
+#     }
+#     .telem-tile .value {
+#         font-size: 1.4rem; font-weight: 700;
+#         font-family: 'Orbitron', monospace; color: #fff; margin-top: 2px;
+#     }
+#     .telem-tile .value.good { color: #44ff88; }
+#     .telem-tile .value.bad  { color: #ff4444; }
+#     .telem-tile .value.warn { color: #ffd700; }
+#     .tire-dot {
+#         display: inline-block; width: 12px; height: 12px;
+#         border-radius: 50%; margin-right: 6px; vertical-align: middle;
+#     }
+#     .verdict {
+#         padding: 10px 16px; border-radius: 4px;
+#         font-family: 'Orbitron', monospace; font-size: 0.85rem;
+#         font-weight: 700; letter-spacing: 2px; margin-top: 8px;
+#     }
+#     .verdict.faster { background: #0d2b1a; border: 1px solid #44ff88; color: #44ff88; }
+#     .verdict.slower { background: #2b0d0d; border: 1px solid #ff4444; color: #ff4444; }
+#     .data-badge {
+#         display: inline-block; font-family: 'Orbitron', monospace;
+#         font-size: 0.6rem; letter-spacing: 2px; padding: 2px 8px;
+#         border-radius: 2px; margin-left: 8px; vertical-align: middle;
+#     }
+#     .data-badge.real { background: #0d2b1a; border: 1px solid #44ff88; color: #44ff88; }
+#     .data-badge.sim  { background: #1a1000; border: 1px solid #ffaa00; color: #ffaa00; }
+#     .divider { height: 1px; background: linear-gradient(90deg, transparent, #333, transparent); margin: 16px 0; }
+#     </style>
+#     """
+APP_UI = """
+    <style>
+    /* ── Fonts ─────────────────────────────────────────────────────────── */
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;900&display=swap');
+ 
+    /* ── Global ─────────────────────────────────────────────────────────── */
+    .stApp {
+        background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+        font-family: 'Rajdhani', sans-serif;
+    }
+ 
+    /* ── Main title ──────────────────────────────────────────────────────── */
+    h1 {
+        font-family: 'Orbitron', monospace;
+        font-weight: 900;
+        /* clamp(min, preferred, max) — scales from 1.8rem on small phones to 3.5rem on desktop */
+        font-size: clamp(1.8rem, 5vw, 3.5rem) !important;
+        background: linear-gradient(90deg, #e10600 0%, #ff1e00 50%, #e10600 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-transform: uppercase;
+        letter-spacing: clamp(1px, 0.8vw, 4px);
+        text-align: center;
+        margin-bottom: 0.5rem !important;
+    }
+ 
+    /* ── Subtitle ────────────────────────────────────────────────────────── */
+    .subtitle {
+        font-family: 'Rajdhani', sans-serif;
+        font-size: clamp(0.75rem, 2vw, 1.2rem);
+        color: #888;
+        text-align: center;
+        letter-spacing: clamp(1px, 0.5vw, 2px);
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+    }
+ 
+    /* ── Section headers ─────────────────────────────────────────────────── */
+    h2, h3 {
+        font-family: 'Orbitron', monospace;
+        color: #e10600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+        font-size: clamp(0.85rem, 2.5vw, 1.4rem) !important;
+    }
+ 
+    /* ── Dashboard panels ────────────────────────────────────────────────── */
+    .dashboard-panel {
+        background: rgba(20, 20, 20, 0.8);
+        border: 2px solid #333;
+        border-left: 4px solid #e10600;
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin: 1rem 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+ 
+    /* ── Metric cards ────────────────────────────────────────────────────── */
+    div[data-testid="metric-container"] {
+        background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
+        border: 2px solid #333;
+        border-radius: 8px;
+        padding: 1rem;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+ 
+    div[data-testid="metric-container"] > label {
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(0.6rem, 1.5vw, 0.9rem) !important;
+        color: #888 !important;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+ 
+    div[data-testid="metric-container"] > div {
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(1.2rem, 3.5vw, 2.5rem) !important;
+        font-weight: 700 !important;
+        color: #e10600 !important;
+    }
+ 
+    /* ── Form inputs ─────────────────────────────────────────────────────── */
+    .stSelectbox, .stNumberInput, .stSlider {
+        font-family: 'Rajdhani', sans-serif;
+    }
+ 
+    .stSelectbox label, .stNumberInput label, .stSlider label {
+        font-family: 'Orbitron', monospace;
+        color: #e10600 !important;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: clamp(0.65rem, 1.5vw, 0.85rem);
+        letter-spacing: 1px;
+    }
+ 
+    /* ── Buttons ─────────────────────────────────────────────────────────── */
+    .stButton button {
+        font-family: 'Orbitron', monospace;
+        background: linear-gradient(135deg, #e10600 0%, #ff1e00 100%);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding: 0.75rem 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(225, 6, 0, 0.3);
+        width: 100%;
+    }
+ 
+    .stButton button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(225, 6, 0, 0.5);
+    }
+ 
+    /* ── Checkbox / Toggle ───────────────────────────────────────────────── */
+    .stCheckbox label {
+        font-family: 'Rajdhani', sans-serif;
+        color: #ccc;
+        font-size: 1rem;
+    }
+ 
+    .stToggle label {
+        font-family: 'Orbitron', monospace;
+        color: #e10600 !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+ 
+    /* ── Telemetry bar ───────────────────────────────────────────────────── */
+    .telemetry-bar {
+        background: #0a0a0a;
+        border: 2px solid #333;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 1rem 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;          /* ← wraps items on narrow screens */
+        gap: 0.75rem;             /* ← gap between wrapped items */
+    }
+ 
+    .telemetry-item {
+        text-align: center;
+        min-width: 80px;          /* ← prevents items from collapsing too narrow */
+    }
+ 
+    .telemetry-label {
+        font-family: 'Rajdhani', sans-serif;
+        color: #888;
+        font-size: clamp(0.65rem, 1.5vw, 0.8rem);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+ 
+    .telemetry-value {
+        font-family: 'Orbitron', monospace;
+        color: #e10600;
+        font-size: clamp(1rem, 3vw, 1.8rem);
+        font-weight: 700;
+    }
+ 
+    /* ── Status pulse ────────────────────────────────────────────────────── */
+    .status-indicator {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #00ff00;
+        box-shadow: 0 0 8px #00ff00;
+        animation: pulse 2s infinite;
+    }
+ 
+    @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0.4; }
+    }
+ 
+    /* ── Misc ────────────────────────────────────────────────────────────── */
+    .warning-text {
+        color: #ffaa00;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+    }
+ 
+    .stint-badge {
+        display: inline-block;
+        background: #e10600;
+        color: white;
+        padding: 0.25rem 0.7rem;
+        border-radius: 20px;
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(0.6rem, 1.5vw, 0.75rem);
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-right: 0.5rem;
+    }
+ 
+    /* ══════════════════════════════════════════════════════════════════════
+       MOBILE OVERRIDES  (≤ 768px — covers all portrait phones + small tablets)
+       Streamlit renders st.columns as a CSS flex row. Setting flex-direction
+       to column here forces them to stack vertically on mobile.
+    ══════════════════════════════════════════════════════════════════════ */
+    @media (max-width: 768px) {
+ 
+        /* Stack ALL Streamlit column rows vertically */
+        [data-testid="stHorizontalBlock"] {
+            flex-direction: column !important;
+        }
+ 
+        /* Make every column full-width when stacked */
+        [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+            width: 100% !important;
+            min-width: 100% !important;
+            flex: 1 1 100% !important;
+        }
+ 
+        /* Tighten the telemetry bar to 2-per-row on mobile */
+        .telemetry-bar {
+            justify-content: flex-start;
+            gap: 0.5rem;
+        }
+ 
+        .telemetry-item {
+            flex: 0 0 calc(50% - 0.5rem);  /* 2 columns on narrow screens */
+            min-width: 0;
+        }
+ 
+        /* Reduce padding on panels */
+        .dashboard-panel {
+            padding: 0.75rem;
+            margin: 0.5rem 0;
+        }
+ 
+        /* Tighter section headers */
+        h2, h3 {
+            letter-spacing: 1px;
+            margin-top: 0.75rem !important;
+        }
+    }
+ 
+    /* Very small phones (≤ 480px) */
+    @media (max-width: 480px) {
+        h1 {
+            font-size: clamp(1.4rem, 7vw, 1.9rem) !important;
+            letter-spacing: 1px;
+        }
+ 
+        .telemetry-item {
+            flex: 0 0 100%;   /* single column on very small screens */
+        }
+    }
+    </style>
+"""
+ 
+ 
 PIT_WALL_UI = """
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap');
-
+ 
     html, body, [class*="css"] {
         background-color: #080808 !important;
         color: #dddddd;
         font-family: 'Rajdhani', sans-serif;
     }
+ 
+    /* ── Pit banner ──────────────────────────────────────────────────────── */
     .pit-banner {
         background: linear-gradient(90deg, #0d0d0d 0%, #1a0000 50%, #0d0d0d 100%);
         border-bottom: 2px solid #e10600;
-        padding: 12px 24px;
-        display: flex; align-items: center; gap: 16px;
-        margin-bottom: 16px;
+        padding: 10px 16px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;          /* ← wraps on narrow screens */
+        margin-bottom: 12px;
     }
+ 
     .pit-banner h1 {
-        font-family: 'Orbitron', monospace; font-size: 1.6rem;
-        font-weight: 900; color: #ffffff; letter-spacing: 4px; margin: 0;
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(1rem, 3.5vw, 1.6rem);
+        font-weight: 900;
+        color: #ffffff;
+        letter-spacing: clamp(1px, 0.8vw, 4px);
+        margin: 0;
     }
+ 
     .pit-banner .sub {
-        color: #e10600; font-size: 0.75rem;
-        letter-spacing: 6px; font-family: 'Orbitron', monospace;
+        color: #e10600;
+        font-size: clamp(0.55rem, 1.5vw, 0.75rem);
+        letter-spacing: clamp(2px, 1vw, 6px);
+        font-family: 'Orbitron', monospace;
     }
+ 
+    /* ── Panel ───────────────────────────────────────────────────────────── */
     .panel {
-        background: #0f0f0f; border: 1px solid #222;
-        border-radius: 4px; padding: 14px 16px; margin-bottom: 12px;
+        background: #0f0f0f;
+        border: 1px solid #222;
+        border-radius: 4px;
+        padding: 10px 12px;
+        margin-bottom: 10px;
     }
+ 
     .panel-header {
-        font-family: 'Orbitron', monospace; font-size: 0.7rem;
-        letter-spacing: 3px; color: #e10600; text-transform: uppercase;
-        border-bottom: 1px solid #1e1e1e; padding-bottom: 6px; margin-bottom: 10px;
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(0.55rem, 1.5vw, 0.7rem);
+        letter-spacing: 2px;
+        color: #e10600;
+        text-transform: uppercase;
+        border-bottom: 1px solid #1e1e1e;
+        padding-bottom: 5px;
+        margin-bottom: 8px;
     }
+ 
     .stint-badge {
-        display: inline-block; background: #e10600; color: #fff;
-        font-family: 'Orbitron', monospace; font-size: 0.65rem;
-        font-weight: 700; letter-spacing: 2px;
-        padding: 2px 8px; border-radius: 2px; margin-bottom: 6px;
+        display: inline-block;
+        background: #e10600;
+        color: #fff;
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(0.5rem, 1.5vw, 0.65rem);
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding: 2px 8px;
+        border-radius: 2px;
+        margin-bottom: 6px;
     }
-    .telem-row   { display: flex; gap: 10px; margin: 8px 0; }
-    .telem-tile  {
-        flex: 1; background: #141414; border: 1px solid #222;
-        border-radius: 4px; padding: 8px 12px; text-align: center;
+ 
+    /* ── Telemetry tiles ─────────────────────────────────────────────────── */
+    .telem-row {
+        display: flex;
+        gap: 8px;
+        margin: 6px 0;
+        flex-wrap: wrap;          /* ← wraps on narrow screens */
     }
+ 
+    .telem-tile {
+        flex: 1 1 80px;           /* ← minimum 80px before wrapping */
+        background: #141414;
+        border: 1px solid #222;
+        border-radius: 4px;
+        padding: 6px 10px;
+        text-align: center;
+        min-width: 0;
+    }
+ 
     .telem-tile .label {
-        font-size: 0.6rem; letter-spacing: 2px; color: #666;
-        font-family: 'Orbitron', monospace; text-transform: uppercase;
+        font-size: clamp(0.5rem, 1.5vw, 0.6rem);
+        letter-spacing: 1px;
+        color: #666;
+        font-family: 'Orbitron', monospace;
+        text-transform: uppercase;
     }
+ 
     .telem-tile .value {
-        font-size: 1.4rem; font-weight: 700;
-        font-family: 'Orbitron', monospace; color: #fff; margin-top: 2px;
+        font-size: clamp(1rem, 3vw, 1.4rem);
+        font-weight: 700;
+        font-family: 'Orbitron', monospace;
+        color: #fff;
+        margin-top: 2px;
     }
+ 
     .telem-tile .value.good { color: #44ff88; }
     .telem-tile .value.bad  { color: #ff4444; }
     .telem-tile .value.warn { color: #ffd700; }
+ 
     .tire-dot {
-        display: inline-block; width: 12px; height: 12px;
-        border-radius: 50%; margin-right: 6px; vertical-align: middle;
+        display: inline-block;
+        width: 10px; height: 10px;
+        border-radius: 50%;
+        margin-right: 5px;
+        vertical-align: middle;
     }
+ 
+    /* ── Verdict ─────────────────────────────────────────────────────────── */
     .verdict {
-        padding: 10px 16px; border-radius: 4px;
-        font-family: 'Orbitron', monospace; font-size: 0.85rem;
-        font-weight: 700; letter-spacing: 2px; margin-top: 8px;
+        padding: 8px 12px;
+        border-radius: 4px;
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(0.65rem, 2vw, 0.85rem);
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 8px;
     }
+ 
     .verdict.faster { background: #0d2b1a; border: 1px solid #44ff88; color: #44ff88; }
     .verdict.slower { background: #2b0d0d; border: 1px solid #ff4444; color: #ff4444; }
+ 
     .data-badge {
-        display: inline-block; font-family: 'Orbitron', monospace;
-        font-size: 0.6rem; letter-spacing: 2px; padding: 2px 8px;
-        border-radius: 2px; margin-left: 8px; vertical-align: middle;
+        display: inline-block;
+        font-family: 'Orbitron', monospace;
+        font-size: clamp(0.45rem, 1.2vw, 0.6rem);
+        letter-spacing: 1px;
+        padding: 2px 6px;
+        border-radius: 2px;
+        margin-left: 6px;
+        vertical-align: middle;
     }
+ 
     .data-badge.real { background: #0d2b1a; border: 1px solid #44ff88; color: #44ff88; }
     .data-badge.sim  { background: #1a1000; border: 1px solid #ffaa00; color: #ffaa00; }
-    .divider { height: 1px; background: linear-gradient(90deg, transparent, #333, transparent); margin: 16px 0; }
+ 
+    .divider {
+        height: 1px;
+        background: linear-gradient(90deg, transparent, #333, transparent);
+        margin: 12px 0;
+    }
+ 
+    /* ══════════════════════════════════════════════════════════════════════
+       MOBILE OVERRIDES
+    ══════════════════════════════════════════════════════════════════════ */
+    @media (max-width: 768px) {
+ 
+        [data-testid="stHorizontalBlock"] {
+            flex-direction: column !important;
+        }
+ 
+        [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+            width: 100% !important;
+            min-width: 100% !important;
+            flex: 1 1 100% !important;
+        }
+ 
+        .telem-tile {
+            flex: 0 0 calc(50% - 4px);   /* 2-per-row on mobile */
+        }
+ 
+        .panel {
+            padding: 8px 10px;
+        }
+    }
+ 
+    @media (max-width: 480px) {
+        .telem-tile {
+            flex: 0 0 100%;   /* single column on very small phones */
+        }
+    }
     </style>
-    """
+"""
 
 # these are from F1 website (all times include a 2.5s stationary)
 PIT_STOP_MAP = {

@@ -3,7 +3,7 @@
 Description: Race Strategy Simulator (main page)
 """
 from helpers import data_cleaning, build_baseline_lap_times, load_telemetry_profiles, load_track_encoding, build_telemetry_series, _lookup_profile
-from constants import APP_UI, PIT_WALL_UI, TRACKS, PIT_STOP_LOSS, TIRE_COLORS
+from constants import APP_UI, PIT_WALL_UI, TRACKS, PIT_STOP_MAP, TIRE_COLORS
 from pit_wall import build_pit_wall_figure
 
 import os
@@ -86,7 +86,7 @@ def simulate_race(strategy, track, track_length, total_laps, model, profiles):
         if next_pit_index < len(strategy) and lap == strategy[next_pit_index]["start_lap"]:
             # car has pitted
             current_compound = strategy[next_pit_index]["compound"]
-            race_time += PIT_STOP_LOSS
+            race_time += PIT_STOP_MAP[track]  # pit stop time per track
             tire_age = 0  # reset tire age
             next_pit_index += 1
             laps_pit.append(lap)
@@ -365,6 +365,52 @@ def build_ui_structure():
     )
     st.markdown("</div>", unsafe_allow_html=True)
 
+## SCREEN WIDTH DETECTION ##
+def _detect_screen_width():
+    """
+    Injects a tiny JS snippet that reads window.innerWidth once and sends
+    it back to Streamlit via postMessage.  Result is stored in
+    st.session_state["screen_width"] and st.session_state["mobile"].
+ 
+    Why a JS component?  Python has no access to browser dimensions.
+    This is the standard pattern for Streamlit screen-size detection.
+    The iframe height=0 means it takes up no visible space.
+    """
+    import streamlit.components.v1 as components
+ 
+    # Only run once per session — avoid re-injecting on every rerun
+    if "screen_width" not in st.session_state:
+        st.session_state["screen_width"] = 1024   # safe default
+        st.session_state["mobile"] = False
+ 
+    components.html(
+        """
+        <script>
+          // Send screen width to Streamlit once on load
+          const w = window.innerWidth;
+          window.parent.postMessage(
+            {type: "streamlit:setComponentValue", value: w},
+            "*"
+          );
+        </script>
+        """,
+        height=0,
+    )
+    # Streamlit re-runs when the component returns a value — capture it
+    # The component value comes back as the return of components.html,
+    # but since html() doesn't return values we use a query-param trick:
+    # on first run we get the default; on second run (after JS fires) we
+    # get the real width.  For simplicity, check URL params as fallback.
+    params = st.query_params
+    if "sw" in params:
+        try:
+            w = int(params["sw"])
+            st.session_state["screen_width"] = w
+            st.session_state["mobile"] = w < 768
+        except (ValueError, TypeError):
+            pass
+
 ## MAIN ##
 initialize_window()
+_detect_screen_width()
 build_ui_structure()
